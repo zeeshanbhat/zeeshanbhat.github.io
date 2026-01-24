@@ -20,7 +20,7 @@ My research focuses on the **seismic performance of masonry-infilled reinforced 
 <h3 style="text-align:center;">Research Workflow</h3>
 
 <p align="center">
-  <img src="/images/research_workflow.png" alt="Research workflow" style="max-width:100%;">
+  <img src="/images/research_workflow.png" alt="Research workflow" style="max-width:88%;">
 </p>
 
 
