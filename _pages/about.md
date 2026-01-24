@@ -22,8 +22,7 @@ My research focuses on the **seismic performance of masonry-infilled reinforced 
   <img src="/images/iitr_logo.png" alt="IIT Roorkee Logo" style="width:70px; height:70px;">
   <div style="flex:1;">
     <strong>Ph.D. in Structural and Earthquake Engineering</strong><br>
-    Indian Institute of Technology Roorkee, India<br>
-    <em>Thesis:</em> Seismic Performance of Masonry Infilled RC Frame Buildings Designed for Modern Codes
+    Indian Institute of Technology Roorkee, India
   </div>
   <div style="font-weight:600; color:#c55a11;">
     Jul 2018 – Mar 2025
@@ -33,9 +32,7 @@ My research focuses on the **seismic performance of masonry-infilled reinforced 
 <div style="display:flex; align-items:center; gap:20px; margin-bottom:25px;">
   <img src="/images/nit_srinagar_logo.png" alt="NIT Srinagar Logo" style="width:70px; height:70px;">
   <div style="flex:1;">
-    <strong>M.Tech. in Structural Engineering</strong><br>
-    National Institute of Technology Srinagar, India<br>
-    <em>Thesis:</em> An Experimental Investigation into the Behavior of Steel–Timber Composite Beams
+    <strong>M.Tech. in Structural Engineering</strong>
   </div>
   <div style="font-weight:600; color:#c55a11;">
     Jul 2016 – Jul 2018
