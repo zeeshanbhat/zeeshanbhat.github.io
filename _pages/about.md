@@ -14,7 +14,44 @@ My research focuses on the **seismic performance of masonry-infilled reinforced 
 - Nonlinear structural modelling  
 - Seismic hazard, risk & vulnerability assessment  
 - Performance-based earthquake engineering  
-- Resilience-based seismic design  
+- Resilience-based seismic design
+
+### Education
+
+<div style="display:flex; align-items:center; gap:20px; margin-bottom:25px;">
+  <img src="/images/iitr_logo.png" alt="IIT Roorkee Logo" style="width:70px; height:70px;">
+  <div style="flex:1;">
+    <strong>Ph.D. in Structural and Earthquake Engineering</strong><br>
+    Indian Institute of Technology Roorkee, India<br>
+    <em>Thesis:</em> Seismic Performance of Masonry Infilled RC Frame Buildings Designed for Modern Codes
+  </div>
+  <div style="font-weight:600; color:#c55a11;">
+    Jul 2018 – Mar 2025
+  </div>
+</div>
+
+<div style="display:flex; align-items:center; gap:20px; margin-bottom:25px;">
+  <img src="/images/nit_srinagar_logo.png" alt="NIT Srinagar Logo" style="width:70px; height:70px;">
+  <div style="flex:1;">
+    <strong>M.Tech. in Structural Engineering</strong><br>
+    National Institute of Technology Srinagar, India<br>
+    <em>Thesis:</em> An Experimental Investigation into the Behavior of Steel–Timber Composite Beams
+  </div>
+  <div style="font-weight:600; color:#c55a11;">
+    Jul 2016 – Jul 2018
+  </div>
+</div>
+
+<div style="display:flex; align-items:center; gap:20px;">
+  <img src="/images/nit_srinagar_logo.png" alt="NIT Srinagar Logo" style="width:70px; height:70px;">
+  <div style="flex:1;">
+    <strong>B.Tech. in Civil Engineering</strong><br>
+    National Institute of Technology Srinagar, India
+  </div>
+  <div style="font-weight:600; color:#c55a11;">
+    Jul 2012 – Jun 2016
+  </div>
+</div>
 
 ### Contact
 📧 <a href="mailto:zbhat@eq.iitr.ac.in"><strong>zbhat@eq.iitr.ac.in</strong></a>
