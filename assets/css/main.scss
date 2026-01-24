@@ -58,12 +58,13 @@
 .page__content h1.page__title {
   color: #005E7A  !important;
 }
-/* Hide page titles only on Research, Publications, Teaching */
-body.page-research h1.page__title,
-body.page-publications h1.page__title,
-body.page-teaching h1.page__title {
+/* Hide page titles only on Research, Publications, Teaching (alternative) */
+body.layout--single.page-research .page__title,
+body.layout--single.page-publications .page__title,
+body.layout--single.page-teaching .page__title {
   display: none !important;
 }
+
 
 
 
