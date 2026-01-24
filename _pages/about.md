@@ -19,11 +19,10 @@ My research focuses on the **seismic performance of masonry-infilled reinforced 
 
 <h3 style="text-align:center;">Research Workflow</h3>
 
-<img 
-  src="/images/research_workflow.png" 
-  alt="Research workflow"
-  style="display:block; margin:0 auto; max-width:100%;"
->
+<p align="center">
+  <img src="/images/research_workflow.png" alt="Research workflow" style="max-width:100%;">
+</p>
+
 
 ### Education
 
