@@ -52,11 +52,13 @@
   object-fit: cover !important;
   border-radius: 50% !important;
 }
-/* Change main page title (your name) color */
-h1.page__title,
-.page__title {
+/* Force title color override */
+.layout--single h1.page__title,
+.page__inner-wrap h1.page__title,
+.page__content h1.page__title {
   color: #c55a11 !important;
 }
+
 
 
 
