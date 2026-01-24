@@ -26,8 +26,8 @@ author:
   name             : "Zeeshan Manzoor Bhat"
   pronouns         : # example: "she/her"  
   bio              : "Research Associate, Department of Earthquake Engineering, IIT Roorkee."
-  location         : "Roorkee, Uttarakhand, India"
-  employer         : "Indian Institute of Technology Roorkee"
+  location         : 
+  employer         : 
   uri              : # URL
   email            : "zbhat@eq.iitr.ac.in" 
 
