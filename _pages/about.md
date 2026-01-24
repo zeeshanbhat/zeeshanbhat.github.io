@@ -17,24 +17,13 @@ My research focuses on the **seismic performance of masonry-infilled reinforced 
 - Performance-based earthquake engineering  
 - Resilience-based seismic design
 
-### Research Focus
+<h3 style="text-align:center;">Research Workflow</h3>
 
 <img 
   src="/images/research_workflow.png" 
-  alt="Research workflow" 
-  style="
-    width: 100%;
-    max-width: 900px;
-    display: block;
-    margin: auto;
-    background: #fff;
-    border-radius: 0;
-    box-shadow: none;
-    padding: 0;
-    border: none;
-  "
-/>
-
+  alt="Research workflow"
+  style="display:block; margin:0 auto; max-width:100%;"
+>
 
 ### Education
 
