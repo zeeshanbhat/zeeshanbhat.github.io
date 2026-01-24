@@ -58,15 +58,13 @@
 .page__content h1.page__title {
   color: #005E7A  !important;
 }
-.page__content h1:first-of-type {
+/* Hide page titles only on Research, Publications, Teaching */
+body.page-research h1.page__title,
+body.page-publications h1.page__title,
+body.page-teaching h1.page__title {
   display: none !important;
 }
-.page__content h1:first-of-type + p {
-  display: none !important;
-}
-.page__content h2:nth-of-type(1) {
-  color: #006B8F !important;
-}
+
 
 
 
