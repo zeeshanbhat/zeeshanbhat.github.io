@@ -3,7 +3,6 @@ title: "Seismic risk assessment of fly ash brick and AAC block masonry infilled 
 collection: publications
 category: manuscripts
 permalink: /publication/2025-seismic-risk-assessment-fly-ash-aac
-excerpt:
 date: 2025-01-01
 venue: "Journal of Earthquake Engineering"
 paperurl: "https://doi.org/10.1080/13632469.2025.2523852"
