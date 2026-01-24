@@ -1,21 +1,29 @@
 {% include base_path %}
 
-{% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
+<footer class="custom-footer">
+  <div class="custom-footer__icons">
     {% if site.author.github %}
-      <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+      <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noreferrer">
+        <i class="fab fa-github"></i>
+      </a>
     {% endif %}
-    {% if site.author.bitbucket %}
-      <li><a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+
+    {% if site.author.linkedin %}
+      <a href="{{ site.author.linkedin }}" target="_blank" rel="noreferrer">
+        <i class="fab fa-linkedin"></i>
+      </a>
     {% endif %}
-    {% if site.atom_feed.hide != true %}
-    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+
+    {% if site.author.researchgate %}
+      <a href="{{ site.author.researchgate }}" target="_blank" rel="noreferrer">
+        <i class="fab fa-researchgate"></i>
+      </a>
     {% endif %}
-  </ul>
-</div>
-{% endif %}
+  </div>
+
+  <div class="custom-footer__copy">
+    &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
+  </div>
+</footer>
+
 
