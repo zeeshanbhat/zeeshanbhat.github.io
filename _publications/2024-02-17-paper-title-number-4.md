@@ -1,13 +1,13 @@
 ---
-title: "Paper Title Number 4"
+title: "Characterization of mechanical behavior of different types of masonry with a detailed investigation of full-field strain using digital image correlation"
 collection: publications
-category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+category: manuscripts
+permalink: /publication/2023-characterization-mechanical-behavior-masonry-dic
+excerpt: "Characterization of mechanical behavior of different types of masonry with a detailed investigation of full-field strain using digital image correlation."
+date: 2023-01-01
+venue: "Construction and Building Materials"
+paperurl: "https://doi.org/10.1016/j.conbuildmat.2023.133502"
+citation: 'Bhat, Z. M., Singh, Y., & Agarwal, P. (2023). &quot;Characterization of mechanical behavior of different types of masonry with a detailed investigation of full-field strain using digital image correlation.&quot; <i>Construction and Building Materials</i>, 407, 133502.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This article presents an experimental study on the mechanical characterization of three different types of masonry: burnt clay bricks, fly ash bricks, and autoclaved aerated concrete (AAC) blocks, with a detailed focus on strain distribution and failure mechanism. The specimens were subjected to direct and diagonal compression loading, and the stress–strain curves and failure modes were studied. Digital image correlation (DIC) was used to obtain full-field strain data, allowing for detailed analysis of failure mechanisms, tracking of crack propagation, and examination of other intricate details. The DIC analysis showed that in burnt clay brick and fly ash brick masonry, failure under compression was initiated by the tensile splitting of the brick, while in AAC block masonry, it was initiated by the tensile splitting of the mortar. Additionally, the study identified that the failure modes under diagonal compression were different for each type of masonry, with bed joint sliding being the dominant failure mode in fly ash brick and AAC block masonry. In contrast, the failure mode in burnt clay brick masonry was due to vertical splitting along the loaded diagonal. In the diagonal compression test, the shear strain along both diagonals was negligible, and principal strain directions were observed to be aligned along the two diagonals.
