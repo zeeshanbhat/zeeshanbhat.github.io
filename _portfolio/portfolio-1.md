@@ -1,7 +1,12 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Damage Assessment in Masonry Using Digital Image Correlation (DIC)"
+excerpt: "Experimental study to quantify crack initiation and propagation in masonry using full-field strain measurements from DIC.<br/><img src='/images/Paper1.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+I worked on **damage assessment in masonry** using **Digital Image Correlation (DIC)** to obtain full-field displacement and strain measurements during loading.
+
+**Key contributions:**
+- Tracked **crack initiation and propagation** using DIC strain maps  
+- Identified **damage localization zones** and their evolution with increasing load  
+- Supported experimental interpretation using **full-field deformation measurements**
