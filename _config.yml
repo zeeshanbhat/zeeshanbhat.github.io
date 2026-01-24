@@ -29,7 +29,7 @@ author:
   location         : 
   employer         : 
   uri              : # URL
-  email            : "zbhat@eq.iitr.ac.in" 
+  email            : 
 
   # Academic websites
   academia         : # URL
@@ -40,7 +40,7 @@ author:
   orcid            : "https://orcid.org/0000-0003-2838-1151"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   researchgate     : "https://www.researchgate.net/profile/Zeeshan-Manzoor-Bhat-2"
   scopus           : # URL
   zotero           : # URL
@@ -56,7 +56,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : 
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
