@@ -24,7 +24,7 @@ My research focuses on the **seismic performance of masonry-infilled reinforced 
     <strong>Ph.D. in Structural and Earthquake Engineering</strong><br>
     Indian Institute of Technology Roorkee, India
   </div>
-  <div style="font-weight:600; color:#c55a11;">
+  <div style="font-weight:600; color:#005E7A ;">
     Jul 2018 – Mar 2025
   </div>
 </div>
@@ -35,7 +35,7 @@ My research focuses on the **seismic performance of masonry-infilled reinforced 
     <strong>M.Tech. in Structural Engineering</strong><br>
     National Institute of Technology Srinagar, India
   </div>
-  <div style="font-weight:600; color:#c55a11;">
+  <div style="font-weight:600; color:#005E7A ;">
     Jul 2016 – Jul 2018
   </div>
 </div>
@@ -46,7 +46,7 @@ My research focuses on the **seismic performance of masonry-infilled reinforced 
     <strong>B.Tech. in Civil Engineering</strong><br>
     National Institute of Technology Srinagar, India
   </div>
-  <div style="font-weight:600; color:#c55a11;">
+  <div style="font-weight:600; color:#005E7A ;">
     Jul 2012 – Jun 2016
   </div>
 </div>
