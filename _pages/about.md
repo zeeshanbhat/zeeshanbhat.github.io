@@ -19,9 +19,12 @@ My research focuses on the **seismic performance of masonry-infilled reinforced 
 
 <h3 style="text-align:center;">Research Workflow</h3>
 
-<p align="center">
-  <img src="/images/research_workflow.png" alt="Research workflow" style="max-width:88%;">
-</p>
+<div style="position:relative;">
+  <img src="/images/research_workflow.png" alt="Research workflow" style="max-width:100%; display:block;">
+
+  <!-- hides the right black line only here -->
+  <div style="position:absolute; top:0; right:0; width:6px; height:100%; background:white;"></div>
+</div>
 
 
 ### Education
