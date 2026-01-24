@@ -17,7 +17,7 @@ main:
   #- title: "Talks"
    # url: /talks/   
 
-     - title: "Experience"
+  - title: "Experience"
     url: /cv/
 
   - title: "Teaching"
