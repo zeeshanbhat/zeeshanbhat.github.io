@@ -1,15 +1,10 @@
 ---
 layout: archive
-title: "Experience"
+title: 
 permalink: /experience/
 author_profile: true
-redirect_from:
-  - /cv/
-  - /resume
 ---
 {% include base_path %}
-
-### Research Experience
 
 <div style="display:flex; align-items:center; gap:20px; margin-bottom:25px; flex-wrap:wrap;">
   <img src="/images/iitr_logo.png" alt="IIT Roorkee Logo" style="width:70px; height:70px;">
