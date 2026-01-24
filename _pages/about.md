@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About"
+title: "ZEESHAN MANZOOR BHAT"
 excerpt: "Structural & Earthquake Engineering | IIT Roorkee"
 author_profile: true
 ---
