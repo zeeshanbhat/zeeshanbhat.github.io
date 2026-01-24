@@ -1,64 +1,30 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "Experience"
+permalink: /experience/
 author_profile: true
 redirect_from:
+  - /cv/
   - /resume
 ---
-
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+### Research Experience
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+<div style="display:flex; align-items:center; gap:20px; margin-bottom:25px; flex-wrap:wrap;">
+  <img src="/images/iitr_logo.png" alt="IIT Roorkee Logo" style="width:70px; height:70px;">
+  <div style="flex:1; min-width:240px;">
+    <strong>Research Associate</strong><br>
+    Indian Institute of Technology Roorkee, India<br>
+    <em>Supervisor:</em> Prof. Yogendra Singh<br>
+    <em>Project:</em> Enhancing Sustainability of RC Frame Buildings through Seismic Safety and Design Life Elongation Using GFRP Reinforcement
+  </div>
+  <div style="font-weight:600; color:#004A43; white-space:nowrap;">
+    Jun 2025 – Present
+  </div>
+</div>
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+<strong>Duties</strong>
+- Large-scale experimental testing and instrumentation for masonry/RC structural systems  
+- Nonlinear modelling and analysis (e.g., OpenSees/STKO) for performance and vulnerability assessment  
+- Seismic risk and vulnerability assessment workflows; documentation and reporting
