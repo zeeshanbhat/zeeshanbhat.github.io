@@ -32,7 +32,7 @@ My research focuses on the **seismic performance of masonry-infilled reinforced 
 <div style="display:flex; align-items:center; gap:20px; margin-bottom:25px;">
   <img src="/images/nit_srinagar_logo.png" alt="NIT Srinagar Logo" style="width:70px; height:70px;">
   <div style="flex:1;">
-    <strong>M.Tech. in Structural Engineering</strong>
+    <strong>M.Tech. in Structural Engineering</strong><br>
   </div>
   <div style="font-weight:600; color:#c55a11;">
     Jul 2016 – Jul 2018
