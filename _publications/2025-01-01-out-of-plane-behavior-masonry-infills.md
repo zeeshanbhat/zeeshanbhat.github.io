@@ -3,11 +3,11 @@ title: "Out-of-plane behavior of masonry infills of different types and slendern
 collection: publications
 category: manuscripts
 permalink: /publication/2025-out-of-plane-behavior-masonry-infills
-excerpt: "Out-of-plane behavior of masonry infills of different types and slenderness ratios under reversed cyclic loading."
 date: 2025-01-01
 venue: "Journal of Structural Engineering"
 paperurl: "https://doi.org/10.1061/JSENDH.STENG-13761"
-citation: 'Bhat, Z. M., & Singh, Y. (2025). &quot;Out-of-plane behavior of masonry infills of different types and slenderness ratios under reversed cyclic loading.&quot; <i>Journal of Structural Engineering</i>, 151(6), 04025056.'
+citation: 'Bhat, Z. M., & Singh, Y. (2025). &quot; Out-of-plane behavior of masonry infills of different types and slenderness ratios under reversed cyclic loading.&quot; <i>Journal of Structural Engineering</i>, 151(6), 04025056.'
+excerpt: ""
 ---
 
 
