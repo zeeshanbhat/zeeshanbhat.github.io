@@ -27,5 +27,5 @@ Some of my favuorite books
 </div>
 
 ## ✍️ Writing
-I enjoy writing occasionally, mainly personal reflections, which I prefer to keep private.
+I enjoy writing occasionally, mainly personal reflections.
 
