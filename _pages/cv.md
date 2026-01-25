@@ -20,6 +20,7 @@ author_profile: true
 </div>
 
 <strong>Duties</strong>
-- Large-scale experimental testing and instrumentation for masonry/RC structural systems  
-- Nonlinear modelling and analysis (e.g., OpenSees/STKO) for performance and vulnerability assessment  
-- Seismic risk and vulnerability assessment workflows; documentation and reporting
+- Conducting large-scale experimental testing of GFRP-reinforced members  
+- Developing phenomenological models to simulate the nonlinear response of GFRP-reinforced concrete columns  
+- Performing seismic risk and vulnerability assessment of GFRP-reinforced structures  
+
