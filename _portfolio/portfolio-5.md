@@ -4,7 +4,7 @@ excerpt: "Applied Digital Image Correlation (DIC) for full-field deformation mea
 collection: portfolio
 ---
 
-I used **Digital Image Correlation (DIC)** during **large-scale experimental testing** to obtain **full-field displacement and strain measurements**, enabling detailed interpretation of **crack initiation, propagation, and damage localization**. :contentReference[oaicite:0]{index=0}
+I used **Digital Image Correlation (DIC)** during **large-scale experimental testing** to obtain **full-field displacement and strain measurements**, enabling detailed interpretation of **crack initiation, propagation, and damage localization**. 
 
 **Key contributions:**
 - Set up DIC imaging to capture **full-field deformation response** during cyclic loading  
