@@ -13,12 +13,7 @@
 
     "themes",
     "theme/{{ site.site_theme | default: 'default' | append: '_light' }}";
- // "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}"; // uncomment if dark also needed
-
-/* Hide day/night toggle icon */
-.theme-toggle {
-  display: none !important;
-}
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}";
 
     "include/mixins",
     "vendor/susy/susy",
