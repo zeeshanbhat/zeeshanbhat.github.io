@@ -1,5 +1,4 @@
 ---
-title: "Beyond Research"
 layout: single
 permalink: /hobbies/
 ---
