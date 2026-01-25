@@ -56,6 +56,13 @@ I enjoy reading Urdu poetry, especially the works of **Faiz Ahmad Faiz**, **Mirz
     </div>
     <p style="text-align: right; font-weight: bold; font-size: 0.85em; color: #0366d6; margin-top: 15px;">— Allama Iqbal</p>
   </div>
+  <div style="padding: 20px; border: 1px solid #e1e4e8; border-radius: 8px; background-color: #fcfcfc; display: flex; flex-direction: column; justify-content: space-between;">
+    <div>
+      <p style="font-style: italic; color: #24292e; margin-bottom: 8px; font-family: 'Georgia', serif;">"Shikwa-e-zulmat-e-shab se to kahin behtar tha,<br>Apne hisse ki koi shama jalate jaate."</p>
+      <p style="font-size: 0.9em; color: #586069;">Rather than complaining about the darkness of the night, it would have been better to light a candle of your own.</p>
+    </div>
+    <p style="text-align: right; font-weight: bold; font-size: 0.85em; color: #0366d6; margin-top: 15px;">— Ahmad Faraz</p>
+  </div>
 
 </div>
 
