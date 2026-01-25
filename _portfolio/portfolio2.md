@@ -1,6 +1,6 @@
 ---
 title: "Full-Scale In-Plane Cyclic Testing of Masonry Infilled RC Frames Designed for Modern Codes"
-excerpt: "Full-scale experimental investigation of in-plane cyclic response of masonry infilled RC frames designed for modern seismic codes.<br/><img src='/images/Paper2.png'>"
+excerpt: "Full-scale experimental investigation of in-plane cyclic response of masonry infilled RC frames designed for modern seismic codes.<br/><img src='/images/Paper2.png' style='width:80%; display:block; margin:10px auto; border-radius:12px;'>"
 collection: portfolio
 ---
 
