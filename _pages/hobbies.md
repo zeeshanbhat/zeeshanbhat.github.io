@@ -29,3 +29,7 @@ Some of my favuorite books
 ## ✍️ Writing
 I enjoy writing occasionally, mainly personal reflections.
 
+## 📝 Urdu Poetry
+I enjoy reading Urdu poetry, especially the works of **Faiz Ahmad Faiz**, **Mirza Ghalib**, **Allama Iqbal**, and **Ahmad Faraz**.
+
+
