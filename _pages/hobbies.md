@@ -31,22 +31,24 @@ I enjoy writing occasionally, mainly personal reflections.
 
 ## 📝 Urdu Poetry
 I enjoy reading Urdu poetry, especially the works of **Faiz Ahmad Faiz**, **Mirza Ghalib**, **Allama Iqbal**, and **Ahmad Faraz**.
-<div style="padding: 20px; border: 1px solid #e1e4e8; border-radius: 8px; background-color: #f6f8fa; font-family: 'Georgia', serif; max-width: 500px;">
-  <h2 style="margin-top: 0; color: #24292e;">📝 Urdu Poetry</h2>
-  
+## 📝 Urdu Poetry
+I enjoy reading Urdu poetry, especially the works of **Faiz Ahmad Faiz**, **Mirza Ghalib**, **Allama Iqbal**, and **Ahmad Faraz**.
+
+<div style="padding: 20px; border: 1px solid #e1e4e8; border-radius: 8px; background-color: #f6f8fa; font-family: Georgia, serif; max-width: 500px;">
   <p style="font-style: italic; color: #24292e; font-size: 1.1em; line-height: 1.6; margin-bottom: 10px;">
-    "Shikwa-e-zulmat-e-shab se to kahin behtar tha,<br>
-    Apne hisse ki koi shama jalate jaate."
+    Shikwa-e-zulmat-e-shab se to kahin behtar tha,<br>
+    Apne hisse ki koi shama jalate jaate.
   </p>
-  
-  <p style="font-size: 0.95em; color: #586069; margin-bottom: 20px;">
+
+  <p style="font-size: 0.95em; color: #586069; margin-bottom: 15px;">
     Rather than complaining about the darkness of the night, it would have been better to light a candle of your own.
   </p>
-  
+
   <div style="text-align: right; font-weight: bold; font-size: 1em; color: #0366d6;">
     — Ahmad Faraz
   </div>
 </div>
+
 
 
 
