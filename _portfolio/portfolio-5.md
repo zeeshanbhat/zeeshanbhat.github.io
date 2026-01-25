@@ -1,6 +1,6 @@
 ---
 title: "Application of Digital Image Correlation (DIC) in Large-Scale Testing"
-excerpt: "Applied Digital Image Correlation (DIC) for full-field deformation measurement and detailed damage interpretation during large-scale cyclic testing.<br/><img src='/images/Paper5.png' style='width:80%; display:block; margin:10px auto; border-radius:12px;'>"
+excerpt: "Applied Digital Image Correlation (DIC) for full-field deformation measurement and detailed damage interpretation during large-scale cyclic testing.<br/><img src='/images/Paper5.jpg' style='width:80%; display:block; margin:10px auto; border-radius:12px;'>"
 collection: portfolio
 ---
 
