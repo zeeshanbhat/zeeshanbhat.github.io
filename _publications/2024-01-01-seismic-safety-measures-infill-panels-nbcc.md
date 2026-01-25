@@ -4,4 +4,7 @@ collection: publications
 category: technical_reports
 permalink: /publication/2024-seismic-safety-measures-infill-panels-nbcc
 excerpt: "Technical report prepared for NBCC (India) Limited on seismic safety measures for RC frame buildings with different infill panels."
+date: 2024-01-01
+venue: "NBCC (India) Limited, India"
 ---
+
