@@ -1,6 +1,6 @@
 ---
 title: "Full-Scale Out-of-Plane Cyclic Testing of Masonry Infills"
-excerpt: "Full-scale experimental study on the out-of-plane cyclic response of masonry infill panels under reversed loading.<br/><img src='/images/paper3.png' style='width:80%; display:block; margin:10px auto; border-radius:12px;'>"
+excerpt: "Full-scale experimental study on the out-of-plane cyclic response of masonry infill panels under reversed loading.<br/><img src='/images/paper3.png' style='width:65%; display:block; margin:10px auto; border-radius:12px;'>"
 collection: portfolio
 ---
 
