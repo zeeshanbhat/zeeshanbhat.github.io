@@ -26,44 +26,27 @@ Some of my favourite books
   <img src="/images/book4.jpg" style="width:100%; max-width:180px; border-radius:12px;">
 </div>
 
+## ✍️ Writing
+I enjoy writing occasionally, mainly personal reflections.
 
 ## 📝 Urdu Poetry
 I enjoy reading Urdu poetry, especially the works of **Faiz Ahmad Faiz**, **Mirza Ghalib**, **Allama Iqbal**, and **Ahmad Faraz**.
-<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:20px; margin-top: 20px;">
+<div style="padding: 20px; border: 1px solid #e1e4e8; border-radius: 8px; background-color: #f6f8fa; font-family: 'Georgia', serif; max-width: 500px;">
+  <h2 style="margin-top: 0; color: #24292e;">📝 Urdu Poetry</h2>
   
-  <div style="padding: 20px; border: 1px solid #e1e4e8; border-radius: 8px; background-color: #fcfcfc; display: flex; flex-direction: column; justify-content: space-between;">
-    <div>
-      <p style="font-style: italic; color: #24292e; margin-bottom: 8px; font-family: 'Georgia', serif;">"Bas ke dushwaar hai har kaam ka aasaan hona,<br>Aadmi ko bhi mayassar nahin insaan hona."</p>
-      <p style="font-size: 0.9em; color: #586069;">It is difficult for every task to be easy; even for a human, it is not simple to achieve true humanity.</p>
-    </div>
-    <p style="text-align: right; font-weight: bold; font-size: 0.85em; color: #0366d6; margin-top: 15px;">— Mirza Ghalib</p>
+  <p style="font-style: italic; color: #24292e; font-size: 1.1em; line-height: 1.6; margin-bottom: 10px;">
+    "Shikwa-e-zulmat-e-shab se to kahin behtar tha,<br>
+    Apne hisse ki koi shama jalate jaate."
+  </p>
+  
+  <p style="font-size: 0.95em; color: #586069; margin-bottom: 20px;">
+    Rather than complaining about the darkness of the night, it would have been better to light a candle of your own.
+  </p>
+  
+  <div style="text-align: right; font-weight: bold; font-size: 1em; color: #0366d6;">
+    — Ahmad Faraz
   </div>
-
-  <div style="padding: 20px; border: 1px solid #e1e4e8; border-radius: 8px; background-color: #fcfcfc; display: flex; flex-direction: column; justify-content: space-between;">
-    <div>
-      <p style="font-style: italic; color: #24292e; margin-bottom: 8px; font-family: 'Georgia', serif;">"Dil na-umeed to nahin, naakaam hi to hai,<br>Lambi hai gham ki shaam, magar shaam hi to hai."</p>
-      <p style="font-size: 0.9em; color: #586069;">The heart is not without hope, it is only that we have met failure; the night of grief is long, but it is, after all, only a night.</p>
-    </div>
-    <p style="text-align: right; font-weight: bold; font-size: 0.85em; color: #0366d6; margin-top: 15px;">— Faiz Ahmad Faiz</p>
-  </div>
-
-  <div style="padding: 20px; border: 1px solid #e1e4e8; border-radius: 8px; background-color: #fcfcfc; display: flex; flex-direction: column; justify-content: space-between;">
-    <div>
-      <p style="font-style: italic; color: #24292e; margin-bottom: 8px; font-family: 'Georgia', serif;">"Sitaron se aage jahan aur bhi hain,<br>Abhi ishq ke imtihan aur bhi hain."</p>
-      <p style="font-size: 0.9em; color: #586069;">Beyond the stars, there are yet more worlds to discover; there are still more trials for the soul to encounter.</p>
-    </div>
-    <p style="text-align: right; font-weight: bold; font-size: 0.85em; color: #0366d6; margin-top: 15px;">— Allama Iqbal</p>
-  </div>
-  <div style="padding: 20px; border: 1px solid #e1e4e8; border-radius: 8px; background-color: #fcfcfc; display: flex; flex-direction: column; justify-content: space-between;">
-    <div>
-      <p style="font-style: italic; color: #24292e; margin-bottom: 8px; font-family: 'Georgia', serif;">"Shikwa-e-zulmat-e-shab se to kahin behtar tha,<br>Apne hisse ki koi shama jalate jaate."</p>
-      <p style="font-size: 0.9em; color: #586069;">Rather than complaining about the darkness of the night, it would have been better to light a candle of your own.</p>
-    </div>
-    <p style="text-align: right; font-weight: bold; font-size: 0.85em; color: #0366d6; margin-top: 15px;">— Ahmad Faraz</p>
-  </div>
-
 </div>
 
-## ✍️ Writing
-I enjoy writing occasionally, mainly personal reflections.
+
 
