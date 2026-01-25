@@ -36,13 +36,14 @@ I enjoy reading Urdu poetry, especially the works of **Faiz Ahmad Faiz**, **Mirz
 <div style="display: flex; justify-content: center;">
   <div style="padding: 20px; border: 1px solid #e1e4e8; border-radius: 8px; background-color: #f6f8fa; font-family: Georgia, serif; max-width: 500px; width: 100%;">
     
-  <p style="font-style: italic; color: #24292e; font-size: 1.05em; line-height: 1.6; margin-bottom: 10px;">
+  <p style="font-style: italic; color: #24292e; font-size: 1.0em; line-height: 1.6; margin-bottom: 10px;">
       Shikwa-e-zulmat-e-shab se to kahin behtar tha,<br>
       Apne hisse ki koi shama jalate jaate.
     </p>
 
-  <p style="font-size: 0.9em; color: #586069; margin-bottom: 15px;">
-      Rather than complaining about the darkness of the night, it would have been better to light a candle of your own.
+  <p style="font-size: 0.8em; color: #586069; margin-bottom: 15px;">
+      Rather than complaining about the darkness of the night,<br>
+      it would have been better to light a candle of your own.
     </p>
 
   <div style="text-align: right; font-weight: bold; font-size: 1em; color: #0366d6;">
