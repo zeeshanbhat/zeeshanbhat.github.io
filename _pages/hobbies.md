@@ -26,8 +26,6 @@ Some of my favourite books
   <img src="/images/book4.jpg" style="width:100%; max-width:180px; border-radius:12px;">
 </div>
 
-## ✍️ Writing
-I enjoy writing occasionally, mainly personal reflections.
 
 ## 📝 Urdu Poetry
 I enjoy reading Urdu poetry, especially the works of **Faiz Ahmad Faiz**, **Mirza Ghalib**, **Allama Iqbal**, and **Ahmad Faraz**.
@@ -66,4 +64,6 @@ I enjoy reading Urdu poetry, especially the works of **Faiz Ahmad Faiz**, **Mirz
 
 </div>
 
+## ✍️ Writing
+I enjoy writing occasionally, mainly personal reflections.
 
