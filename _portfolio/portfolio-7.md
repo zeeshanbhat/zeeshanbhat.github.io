@@ -1,6 +1,6 @@
 ---
 title: "Seismic Risk Assessment of Masonry Infilled RC Frame Buildings Designed for Modern Codes"
-excerpt: "Assessed the seismic risk and vulnerability of masonry infilled RC frame buildings designed for modern codes using Multiple Stripe Analysis (MSA).<br/><img src='/images/Paper6.png' style='width:85%; display:block; margin:10px auto; border-radius:12px;'>"
+excerpt: "Assessed the seismic risk and vulnerability of masonry infilled RC frame buildings designed for modern codes using Multiple Stripe Analysis (MSA).<br/><img src='/images/Paper7.png' style='width:85%; display:block; margin:10px auto; border-radius:12px;'>"
 collection: portfolio
 ---
 
