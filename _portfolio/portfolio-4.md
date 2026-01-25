@@ -4,7 +4,7 @@ excerpt: "Developed nonlinear numerical models and validated them against full-s
 collection: portfolio
 ---
 
-I worked on **nonlinear modelling** of masonry infilled RC frame systems using **OpenSees/STKO**, and **validated the numerical response against full-scale experimental results** to ensure reliable prediction of seismic performance. :contentReference[oaicite:1]{index=1}
+I worked on **nonlinear modelling** of masonry infilled RC frame systems using **OpenSees/STKO**, and **validated the numerical response against full-scale experimental results** to ensure reliable prediction of seismic performance.
 
 **Key contributions:**
 - Developed **phenomenological/element-level nonlinear models** to represent frame–infill interaction and cyclic response  
