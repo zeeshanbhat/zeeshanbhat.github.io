@@ -43,6 +43,8 @@
         {% elsif post.collection == 'publications' %}
           {% if post.category == 'conferences' or post.categories contains 'conferences' %}
             <p><i>{{ post.venue }}</i></p>
+          {% elsif post.category == 'technical_reports' or post.categories contains 'technical_reports' %}
+            <p><i>{{ post.venue }}</i></p>
           {% else %}
             <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
           {% endif %}
