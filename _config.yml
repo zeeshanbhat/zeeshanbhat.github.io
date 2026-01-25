@@ -91,7 +91,7 @@ publication_category:
     title: 'Conference Papers'
   technical_reports:
     title: 'Technical Reports'
-    openaccess:
+  openaccess:
   title: 'Open Access Data'  
 
 # Site Settings
