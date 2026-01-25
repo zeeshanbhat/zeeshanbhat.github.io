@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2022-steel-timber-composite-beams
 date: 2022-01-01
-venue: "**Practice Periodical on Structural Design and Construction**"
+venue: "<strong>Practice Periodical on Structural Design and Construction</strong>"
 paperurl: "https://doi.org/10.1061/(ASCE)SC.1943-5576.0000636"
 citation: 'Waseem, S. A., Bhat, Z. M., & Bhat, J. A. (2022). &quot;An experimental investigation into the behavior of steel-timber composite beams.&quot; <i>Practice Periodical on Structural Design and Construction</i>, 27(1), 04021055.'
 excerpt: ""
