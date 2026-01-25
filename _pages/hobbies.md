@@ -32,7 +32,7 @@ I enjoy writing occasionally, mainly personal reflections.
 ## 📝 Urdu Poetry
 I enjoy reading Urdu poetry, especially the works of **Faiz Ahmad Faiz**, **Mirza Ghalib**, **Allama Iqbal**, and **Ahmad Faraz**.
 
-<div style="padding: 20px; border: 1px solid #e1e4e8; border-radius: 8px; background-color: #f6f8fa; font-family: Georgia, serif; max-width: 500px; margin: 0 auto;">
+<div style="padding: 20px; border: 1px solid #e1e4e8; border-radius: 8px; background-color: #f6f8fa; max-width: 500px; margin: 0 auto;">
   
   <p style="font-style: italic; color: #24292e; font-size: 1.1em; line-height: 1.6; margin-bottom: 10px;">
     Shikwa-e-zulmat-e-shab se to kahin behtar tha,<br>
@@ -47,6 +47,7 @@ I enjoy reading Urdu poetry, especially the works of **Faiz Ahmad Faiz**, **Mirz
     — Ahmad Faraz
   </div>
 </div>
+
 
 
 
