@@ -1,10 +1,10 @@
 ---
 title: "Seismic Hazard Assessment Using OpenQuake"
-excerpt: "Performed seismic hazard assessment using OpenQuake to support risk-based evaluation and performance-based decision making for earthquake engineering applications.<br/><img src='/images/Paper6.png' style='width:60%; display:block; margin:10px auto; border-radius:12px;'>"
+excerpt: "Performed seismic hazard assessment using OpenQuake to support risk-based evaluation and performance-based decision making for earthquake engineering applications.<br/><img src='/images/Paper6.png' style='width:95%; display:block; margin:10px auto; border-radius:12px;'>"
 collection: portfolio
 ---
 
-I worked on **seismic hazard assessment** using **OpenQuake**, focusing on estimating hazard levels and developing inputs for **risk and vulnerability assessment**. :contentReference[oaicite:1]{index=1}
+I worked on **seismic hazard assessment** using **OpenQuake**, focusing on estimating hazard levels and developing inputs for **risk and vulnerability assessment**. 
 
 **Key contributions:**
 - Performed **probabilistic seismic hazard assessment (PSHA)** using OpenQuake  
