@@ -20,15 +20,14 @@ My research focuses on the **seismic performance of masonry-infilled reinforced 
 <h3 style="text-align:center;">Research Focus and Expertise</h3>
 
 <div style="position:relative; overflow:hidden; border-radius:8px;">
-  <img src="/images/research_workflow.png"
-       alt="Research workflow"
-       style="
-         width:91%;
-         display:block;
-         transform: scale(1.06);
-         transform-origin: center;
-       ">
+  <img src="/images/research_workflow.png" 
+       alt="Research workflow" 
+       style="max-width:98%; display:block; transform:scale(1.06); transform-origin:center;">
+
+  <!-- hides the right black line only here -->
+  <div style="position:absolute; top:0; right:0; width:6px; height:100%; background:white;"></div>
 </div>
+
 
 ### Education
 
