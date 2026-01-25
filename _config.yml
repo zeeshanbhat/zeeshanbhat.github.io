@@ -92,7 +92,7 @@ publication_category:
   technical_reports:
     title: 'Technical Reports'
     openaccess:
-  title: "Open Access Data"  
+  title: 'Open Access Data'  
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
