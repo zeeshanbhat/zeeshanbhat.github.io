@@ -1,11 +1,11 @@
 ---
-title: "Hobbies"
+title: "Beyond Research"
 layout: single
 permalink: /hobbies/
 ---
 
-## 📷 Photography
-I enjoy photography and love capturing moments from nature, places, and daily life.
+## 📷 Wildlife Photography
+Some of my favourite shots
 
 <div style="display:grid; grid-template-columns:repeat(2, 1fr); gap:15px;">
   <img src="/images/photo1.jpeg" style="width:100%; border-radius:12px;">
@@ -17,7 +17,7 @@ I enjoy photography and love capturing moments from nature, places, and daily li
 ---
 
 ## 📚 Reading Books
-I enjoy reading books related to personal growth.
+Some of my favuorite books
 
 <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:15px;">
   <img src="/images/book1.jpg" style="width:100%; max-width:180px; border-radius:12px;">
@@ -26,4 +26,6 @@ I enjoy reading books related to personal growth.
   <img src="/images/book4.jpg" style="width:100%; max-width:180px; border-radius:12px;">
 </div>
 
+## ✍️ Writing
+I enjoy writing occasionally, mainly personal reflections based on my own observations, which I prefer to keep private.
 
