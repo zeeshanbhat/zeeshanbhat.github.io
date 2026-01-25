@@ -1,6 +1,6 @@
 ---
 title: "Nonlinear Modelling and Validation Against Experimental Results"
-excerpt: "Developed nonlinear numerical models and validated them against full-scale experimental results to capture strength, stiffness degradation, and damage progression under cyclic loading.<br/><img src='/images/Paper4.png' style='width:60%; display:block; margin:10px auto; border-radius:12px;'>"
+excerpt: "Developed nonlinear numerical models and validated them against full-scale experimental results to capture strength, stiffness degradation, and damage progression under cyclic loading.<br/><img src='/images/Paper4.png' style='width:85%; display:block; margin:10px auto; border-radius:12px;'>"
 collection: portfolio
 ---
 
