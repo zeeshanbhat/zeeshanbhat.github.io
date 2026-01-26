@@ -4,7 +4,6 @@ excerpt: "<img src='/images/Paper2.png' style='width:80%; display:block; margin:
 collection: portfolio
 ---
 
-## Full-Scale Cyclic Testing of Masonry-Infilled RC Frames
 
 I conducted full-scale in-plane cyclic testing on masonry-infilled reinforced concrete (RC) frames designed to modern codes to evaluate their seismic performance, damage patterns, and strength/stiffness degradation under lateral loading.
 
