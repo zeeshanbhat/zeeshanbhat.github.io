@@ -1,6 +1,6 @@
 ---
 title: "Damage Assessment in Masonry Using Digital Image Correlation (DIC)"
-excerpt: "Experimental study to quantify crack initiation and propagation in masonry under uniaxial and diagonal compression using full-field strain measurements from DIC.<br/><img src='/images/Paper1.png' style='width:80%; display:block; margin:10px auto; border-radius:12px;'>"
+<img src='/images/Paper1.png' style='width:80%; display:block; margin:10px auto; border-radius:12px;'>"
 collection: portfolio
 ---
 
