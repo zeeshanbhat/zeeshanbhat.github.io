@@ -4,7 +4,7 @@ layout: single
 permalink: /hobbies/
 ---
 
-## 📷 Wildlife Photography
+## 📷 Photography
 Some of my favourite shots
 
 <div style="display:grid; grid-template-columns:repeat(2, 1fr); gap:15px;">
