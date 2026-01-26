@@ -47,14 +47,15 @@
 }
 .author__avatar {
   display: flex !important;
-  justify-content: center !important;
+  justify-content: flex-start !important;
   align-items: center !important;
   width: 100%;
 }
 
 .author__avatar img {
   width: 180px !important;
-  height: 180px !important;
+  aspect-ratio: 1 / 1 !important;  /* ✅ always square */
+  height: auto !important;         /* ✅ prevents oval */
   object-fit: cover !important;
   border-radius: 50% !important;
   display: block;
