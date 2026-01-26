@@ -45,15 +45,20 @@
   font-size: 8px;
   opacity: 0.7;
 }
+.author__avatar {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100%;
+}
+
 .author__avatar img {
   width: 180px !important;
   height: 180px !important;
   object-fit: cover !important;
   border-radius: 50% !important;
-}
-.author__avatar {
-  display: flex;
-  justify-content: center;
+  display: block;
+  margin: 0 auto;
 }
 /* Force title color override */
 .layout--single h1.page__title,
