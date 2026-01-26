@@ -51,6 +51,10 @@
   object-fit: cover !important;
   border-radius: 50% !important;
 }
+.author__avatar {
+  display: flex;
+  justify-content: center;
+}
 /* Force title color override */
 .layout--single h1.page__title,
 .page__inner-wrap h1.page__title,
