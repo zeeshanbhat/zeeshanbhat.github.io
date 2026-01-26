@@ -4,10 +4,13 @@ excerpt: "Assessed the seismic risk and vulnerability of masonry infilled RC fra
 collection: portfolio
 ---
 
-I worked on **seismic risk assessment** of **masonry infilled reinforced concrete (RC) frame buildings designed for modern codes**, focusing on quantifying **structural vulnerability and expected seismic performance**. :contentReference[oaicite:1]{index=1}
 
-**Key contributions:**
-- Developed nonlinear structural models of **infilled RC frames** designed as per modern code provisions  
-- Performed seismic performance assessment using **engineering demand parameters (EDPs)** such as drift and damage states  
-- Estimated risk-related outcomes by evaluating **damage probability and vulnerability trends**  
-- Compared the influence of different masonry infill types on overall building seismic risk  
+I assessed the **seismic risk** of masonry-infilled reinforced concrete (RC) frame buildings designed to modern codes, focusing on quantifying structural vulnerability and expected seismic performance.
+
+### Key Contributions
+- Developed **nonlinear models** of **masonry-infilled RC frames** designed as per modern code provisions  
+- Performed seismic performance assessment using **Multiple Stripe Analysis (MSA)**  
+- Developed **fragility curves** for masonry infills at different **damage states**, as well as for the **overall buildings**  
+- Estimated risk-related outcomes by **convolving fragility curves with hazard curves**  
+- Compared the influence of different **masonry infill types** on overall building seismic risk  
+
