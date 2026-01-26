@@ -1,6 +1,6 @@
 ---
 title: "Damage Assessment in Masonry Using Digital Image Correlation (DIC)"
-<img src='/images/Paper1.png' style='width:80%; display:block; margin:10px auto; border-radius:12px;'>"
+excerpt: <img src='/images/Paper1.png' style='width:80%; display:block; margin:10px auto; border-radius:12px;'>"
 collection: portfolio
 ---
 
