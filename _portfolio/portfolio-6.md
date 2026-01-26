@@ -1,13 +1,15 @@
 ---
-title: "Seismic Hazard Assessment Using OpenQuake"
-excerpt: "Performed seismic hazard assessment using OpenQuake to support risk-based evaluation and performance-based decision making for earthquake engineering applications.<br/><img src='/images/Paper6.png' style='width:95%; display:block; margin:10px auto; border-radius:12px;'>"
+title: "Probabilistic Seismic Hazard Analysis (PSHA)"
+excerpt: "<img src='/images/Paper6.png' style='width:95%; display:block; margin:10px auto; border-radius:12px;'>"
 collection: portfolio
 ---
 
-I worked on **seismic hazard assessment** using **OpenQuake**, focusing on estimating hazard levels and developing inputs for **risk and vulnerability assessment**. 
+I performed **Probabilistic Seismic Hazard Assessment (PSHA)** at various locations in India using **OpenQuake** to generate **hazard curves** and develop **Conditional Mean Spectra (CMS)** for selecting **hazard-consistent ground motions**. These inputs were essential for **risk and vulnerability assessment**.
 
-**Key contributions:**
-- Performed **probabilistic seismic hazard assessment (PSHA)** using OpenQuake  
-- Processed seismic source and ground motion model inputs for hazard computation  
-- Generated hazard outputs such as **hazard curves** and **uniform hazard spectra**  
-- Supported hazard results for **risk-informed seismic assessment and decision-making**  
+### Key Contributions
+- Performed **Probabilistic Seismic Hazard Assessment (PSHA)** using **OpenQuake**  
+- Processed **seismic source models** and **ground motion prediction models (GMPEs)** for hazard computation  
+- Generated hazard outputs such as **hazard curves** and **uniform hazard spectra (UHS)**  
+- Developed **Conditional Mean Spectra (CMS)** for selecting **hazard-consistent ground motions**
+ 
+
