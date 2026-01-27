@@ -25,7 +25,9 @@ main:
     
   - title: "Beyond Research"
     url: /hobbies/
-
+    
+  - title: "Get in Touch"
+    url: /contact/
     
     
   # - title: "CV"
@@ -33,3 +35,5 @@ main:
     
   #- title: "Guide"
    # url: /markdown/
+
+   
