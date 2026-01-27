@@ -77,6 +77,27 @@ body.layout--single.page-teaching .page__title {
 }
 
 
+.contact-wrap{display:grid;grid-template-columns:1fr 1.1fr;gap:28px;margin-top:12px}
+.contact-card{background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:14px;padding:22px;box-shadow:0 8px 22px rgba(0,0,0,.06)}
+.contact-title{margin:0 0 10px;font-size:1.35rem;line-height:1.2}
+.contact-subtitle{margin:0 0 18px;opacity:.85}
+.contact-meta .meta-row{display:flex;gap:12px;padding:12px 0;border-top:1px dashed rgba(0,0,0,.10)}
+.contact-meta .meta-row:first-child{border-top:0;padding-top:0}
+.meta-icon{width:36px;height:36px;display:grid;place-items:center;border-radius:10px;background:rgba(0,0,0,.04);font-size:18px}
+.meta-label{font-size:.82rem;opacity:.7;margin-bottom:2px}
+.meta-value a{text-decoration:none;border-bottom:1px solid rgba(0,0,0,.20)}
+.meta-value a:hover{border-bottom-color:rgba(0,0,0,.55)}
+.contact-form .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.field{margin-bottom:14px}
+.field label{display:block;font-size:.92rem;margin-bottom:6px;opacity:.9}
+.field input,.field textarea{width:100%;padding:11px 12px;border:1px solid rgba(0,0,0,.18);border-radius:10px;background:#fff}
+.btn-send{padding:10px 18px;border:0;border-radius:10px;cursor:pointer;font-weight:600;background:#4e6cf0;color:#fff}
+.btn-send:hover{filter:brightness(.95)}
+.hp{display:none!important}
+@media (max-width:900px){.contact-wrap{grid-template-columns:1fr}}
+@media (max-width:520px){.contact-form .grid{grid-template-columns:1fr}}
+
+
 
 
 
