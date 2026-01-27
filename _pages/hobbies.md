@@ -5,7 +5,7 @@ permalink: /hobbies/
 ---
 
 ## 📷 Photography
-Some of my favourite shots
+A small collection of my photography.
 
 <div style="display:grid; grid-template-columns:repeat(2, 1fr); gap:15px;">
   <img src="/images/photo1.jpeg" style="width:100%; border-radius:12px;">
@@ -17,7 +17,7 @@ Some of my favourite shots
 ---
 
 ## 📚 Books
-Some of my favourite books
+Books I’ve found especially meaningful.
 
 <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:15px;">
   <img src="/images/book1.jpg" style="width:100%; max-width:180px; border-radius:12px;">
@@ -27,11 +27,11 @@ Some of my favourite books
 </div>
 
 ## ✍️ Writing
-I enjoy writing occasionally, mainly personal reflections.
+Personal reflections and occasional writing.
 
 
 ## 📝 Urdu Poetry
-I enjoy reading Urdu poetry, especially the works of **Faiz Ahmad Faiz**, **Mirza Ghalib**, **Allama Iqbal**, and **Ahmad Faraz**.
+A deep appreciation for Urdu poetry, especially the works of **Faiz Ahmad Faiz**, **Mirza Ghalib**, **Allama Iqbal**, and **Ahmad Faraz**.
 
 <div style="display: flex; justify-content: center;">
   <div style="padding: 20px; border: 1px solid #e1e4e8; border-radius: 8px; background-color: #f6f8fa; font-family: Georgia, serif; max-width: 500px; width: 100%;">
