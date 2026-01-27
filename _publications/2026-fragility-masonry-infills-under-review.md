@@ -3,10 +3,12 @@ title: "Seismic fragility analysis of masonry infills in RC buildings in the out
 collection: publications
 category: manuscripts
 permalink: /publication/seismic-fragility-oop-submitted
-date: 1900-01-01
-venue: '<span class="submitted">Submitted to <i>Journal of Building Engineering</i></span>'
+date: 2026-01-01
+venue: "Journal of Building Engineering"
+pubstatus: "Submitted to"
 excerpt: ""
 ---
+
 
 
 
