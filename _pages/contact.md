@@ -16,7 +16,6 @@ layout: single
     </p>
 
     <div class="contact-meta">
-
       <div class="meta-row">
         <span class="meta-icon">📍</span>
         <div class="meta-text">
@@ -34,7 +33,6 @@ layout: single
           </div>
         </div>
       </div>
-
     </div>
   </div>
 
@@ -42,7 +40,7 @@ layout: single
   <div class="contact-card contact-right">
     <h2 class="contact-title">Send a message</h2>
 
-    <form action="https://formspree.io/f/xeegvbvg" method="POST" class="contact-form">
+    <form id="contactForm" action="https://formspree.io/f/xeegvbvg" method="POST" class="contact-form">
 
       <!-- Spam protection -->
       <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off">
@@ -71,11 +69,38 @@ layout: single
 
       <input type="hidden" name="_subject" value="New message from your website">
 
-      <!-- THANK YOU REDIRECT -->
-      <input type="hidden" name="_next" value="https://zeeshanbhat.github.io/contact/thanks/">
-
       <button type="submit" class="btn-send">Send</button>
     </form>
+
+    <script>
+      (function () {
+        const form = document.getElementById('contactForm');
+        if (!form) return;
+
+        form.addEventListener('submit', async function (e) {
+          e.preventDefault();
+          const data = new FormData(form);
+
+          try {
+            const res = await fetch(form.action, {
+              method: 'POST',
+              body: data,
+              headers: { 'Accept': 'application/json' }
+            });
+
+            if (res.ok) {
+              window.location.href = '/contact/thanks/';
+            } else {
+              alert('Sorry—something went wrong. Please try again, or email me directly.');
+            }
+          } catch (err) {
+            alert('Network error. Please try again, or email me directly.');
+          }
+        });
+      })();
+    </script>
+
   </div>
 
 </div>
+
