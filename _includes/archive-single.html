@@ -46,8 +46,12 @@
           {% elsif post.category == 'technical_reports' or post.categories contains 'technical_reports' %}
             <p><i>{{ post.venue }}</i></p>
           {% else %}
-            <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+            {% if post.substatus %}
+              <p><span class="substatus">{{ post.substatus }} <i>{{ post.venue }}</i></span></p>
+            {% else %}
+              <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
           {% endif %}
+         {% endif %}
 
         {% elsif post.date %}
           <p class="page__date">
