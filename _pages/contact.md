@@ -1,25 +1,43 @@
 ---
-title: "Get in Touch"
+title: ""
 permalink: /contact/
 layout: single
 ---
+<div class="contact-card contact-left">
 
-<div class="contact-wrap">
+  <h2 class="contact-title">Address</h2>
+  <p class="contact-subtitle">
+    Department of Earthquake Engineering<br/>
+    Indian Institute of Technology Roorkee<br/>
+    Roorkee, Uttarakhand, India
+  </p>
 
-  <div class="contact-card contact-left">
-    <h2 class="contact-title">Get in touch</h2>
-    <p class="contact-subtitle">Send a message using the form.</p>
+  <div class="contact-meta">
 
-    <div class="contact-meta">
-      <div class="meta-row">
-        <span class="meta-icon">✉️</span>
-        <div class="meta-text">
-          <div class="meta-label">Email</div>
-          <div class="meta-value"><a href="mailto:zbhat@eq.iitr.ac.in">zbhat@eq.iitr.ac.in</a></div>
+    <!-- Location -->
+    <div class="meta-row">
+      <span class="meta-icon">📍</span>
+      <div class="meta-text">
+        <div class="meta-label">Location</div>
+        <div class="meta-value">
+          IIT Roorkee, Uttarakhand, India
         </div>
       </div>
     </div>
+
+    <!-- Email -->
+    <div class="meta-row">
+      <span class="meta-icon">✉️</span>
+      <div class="meta-text">
+        <div class="meta-label">Email</div>
+        <div class="meta-value">
+          <a href="mailto:zbhat@eq.iitr.ac.in">zbhat@eq.iitr.ac.in</a>
+        </div>
+      </div>
+    </div>
+
   </div>
+</div>
 
   <div class="contact-card contact-right">
     <h2 class="contact-title">Send a message</h2>
