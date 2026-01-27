@@ -4,8 +4,8 @@ collection: publications
 category: manuscripts
 permalink: /publication/seismic-fragility-oop-submitted
 date: 2026-01-01
-venue: "Journal of Building Engineering (Under Review)"
-substatus: "Under Review at"
+venue: "Journal of Building Engineering"
+substatus: "Under Review in"
 excerpt: ""
 ---
 
