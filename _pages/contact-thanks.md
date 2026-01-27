@@ -2,6 +2,7 @@
 title: "Message Sent"
 permalink: /contact/thanks/
 layout: single
+sitemap: false
 ---
 
 ✅ **Thank you for your message.**  
