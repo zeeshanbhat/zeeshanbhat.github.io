@@ -62,7 +62,5 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
   </div>
 </div>
 
-### Contact
-📧 <a href="mailto:zbhat@eq.iitr.ac.in"><strong>zbhat@eq.iitr.ac.in</strong></a>
 
 
