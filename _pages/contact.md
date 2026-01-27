@@ -1,5 +1,5 @@
 ---
-title: "Get in Touch"
+title: ""
 permalink: /contact/
 layout: single
 ---
@@ -9,7 +9,7 @@ layout: single
   <div class="contact-card contact-left">
     <h2 class="contact-title">Address</h2>
     <p class="contact-subtitle">
-      Department of Earthquake Engineering<br/>
+      Dept. of Earthquake Engineering<br/>
       Indian Institute of Technology Roorkee<br/>
       Roorkee, Uttarakhand, India
     </p>
