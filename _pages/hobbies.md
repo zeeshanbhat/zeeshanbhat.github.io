@@ -5,7 +5,7 @@ permalink: /hobbies/
 ---
 
 ## 📷 Photography
-A small collection of my photography.
+Some of my shots
 
 <div style="display:grid; grid-template-columns:repeat(2, 1fr); gap:15px;">
   <img src="/images/photo1.jpeg" style="width:100%; border-radius:12px;">
@@ -17,7 +17,6 @@ A small collection of my photography.
 ---
 
 ## 📚 Books
-Books I’ve found especially meaningful.
 
 <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:15px;">
   <img src="/images/book1.jpg" style="width:100%; max-width:180px; border-radius:12px;">
