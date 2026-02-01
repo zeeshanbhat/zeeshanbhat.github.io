@@ -97,14 +97,6 @@ body.layout--single.page-teaching .page__title {
 @media (max-width:900px){.contact-wrap{grid-template-columns:1fr}}
 @media (max-width:520px){.contact-form .grid{grid-template-columns:1fr}}
 
-/* Portfolio SINGLE page title (the big H1) */
-.layout--single h1.page__title,
-.page__inner-wrap h1.page__title,
-.page__content h1.page__title {
-  color: #1F3A5F !important;     /* match OVERVIEW */
-  font-size: 1.6rem !important;  /* reduce size */
-  line-height: 1.25 !important;
-}
 
 
 
