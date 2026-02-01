@@ -97,21 +97,16 @@ body.layout--single.page-teaching .page__title {
 @media (max-width:900px){.contact-wrap{grid-template-columns:1fr}}
 @media (max-width:520px){.contact-form .grid{grid-template-columns:1fr}}
 
-
 /* ===== Portfolio Item Titles (Clean Academic Style) ===== */
-.archive__item-title,
-.archive__item-title a {
-  color: #1F3A5F !important;   /* match OVERVIEW color */
+.layout--archive .archive__item-title a {
+  color: #1F3A5F !important;        /* match OVERVIEW color */
+  font-size: 1.25rem !important;    /* reduce size */
+  line-height: 1.35 !important;
+  display: inline-block;            /* needed for underline block */
 }
 
-/* Slightly reduce title size for long research titles */
-.archive__item-title {
-  font-size: 1.25rem;         /* balanced, not dominant */
-  line-height: 1.35;
-}
-
-/* Optional: underline line (keep if you want, remove if not) */
-.archive__item-title::after {
+/* Optional underline line (under the title only) */
+.layout--archive .archive__item-title a::after {
   content: "";
   display: block;
   width: 70%;
@@ -119,6 +114,9 @@ body.layout--single.page-teaching .page__title {
   background: #1F3A5F;
   margin: 0.5rem auto 1.4rem auto;
 }
+
+
+
 
 
 
