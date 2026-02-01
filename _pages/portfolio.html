@@ -4,21 +4,27 @@ title:
 permalink: /portfolio/
 author_profile: true
 ---
-<!-- ===== Research Overview Video ===== -->
-<div style="max-width: 950px; margin: 0 auto 2.5rem auto;">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-    <iframe
-      src="EMBED_VIDEO_URL_HERE"
-      title="Research Overview"
-      frameborder="0"
-      allow="autoplay; fullscreen; picture-in-picture"
-      allowfullscreen
-      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-    </iframe>
-  </div>
+{% include base_path %}
+
+<!-- ===== Portfolio Overview Video ===== -->
+<div style="max-width: 960px; margin: 0 auto 2.5rem auto;">
+  <video
+    controls
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="metadata"
+    style="width: 100%; height: auto;">
+    <source src="{{ base_path }}/assets/videos/research-overview.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </div>
 <!-- ===== End Video ===== -->
-{% include base_path %}
+
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
 
 
 
