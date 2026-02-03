@@ -7,82 +7,92 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- ===== Portfolio Heading ===== -->
-<h2 style="
+<!-- ===== HIGHLIGHT LABEL ===== -->
+<div style="
   text-align: center;
-  color: #1F3A5F;
+  font-size: 0.75rem;
+  letter-spacing: 1.6px;
   font-weight: 600;
-  font-size: 1.4rem;   /* increase size */
-  letter-spacing: 0.3px;
-  margin-bottom: 0.4rem;">
-Full-Scale Experimental Test Setup
-</h2>
-
-<hr style="
-  max-width: 360px;
-  margin: 0 auto 1.8rem auto;
-  border: 0;
-  border-top: 2px solid #2C6FA3;">
-<!-- ===== End Heading ===== -->
-
-<!-- ===== Portfolio Overview Video ===== -->
-<div style="max-width: 960px; margin: 0 auto 2.5rem auto;">
-  <video
-    controls
-    autoplay
-    muted
-    loop
-    playsinline
-    preload="metadata"
-    style="width: 100%; height: auto; background: #000;">
-    <source src="{{ base_path }}/assets/videos/research-overview.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-<!-- FULL-WIDTH SEPARATOR -->
-
-<!-- ===== Second Portfolio Heading ===== -->
-<h2 style="
-  text-align: center;
-  color: #1F3A5F;
-  font-weight: 600;
-  font-size: 1.4rem;
-  letter-spacing: 0.3px;
-  margin-bottom: 0.4rem;">
-Digital Image Correlation in Full Scale Testing
-</h2>
-
-<hr style="
-  max-width: 360px;
-  margin: 0 auto 1.8rem auto;
-  border: 0;
-  border-top: 2px solid #2C6FA3;">
-<!-- ===== End Second Heading ===== -->
-
-<!-- ===== Second Portfolio Video ===== -->
-<div style="max-width: 960px; margin: 0 auto 2.5rem auto;">
-  <video
-    controls
-    autoplay
-    muted
-    loop
-    playsinline
-    preload="metadata"
-    style="width: 100%; height: auto; background: #000;">
-    <source src="{{ base_path }}/assets/videos/DIC.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  color: #5F7FA3;
+  margin-bottom: 0.6rem;">
+EXPERIMENTAL RESEARCH HIGHLIGHTS
 </div>
 
-<!-- OPTIONAL SEPARATOR AFTER SECOND VIDEO -->
-<hr style="
-  width: 100%;
-  margin: 2.5rem 0 2.8rem 0;
-  border: 0;
-  border-top: 1.5px solid #1F3A5F;">
+<!-- ===== HIGHLIGHT PANEL ===== -->
+<div style="
+  max-width: 1120px;
+  margin: 0 auto 4rem auto;
+  padding: 2.8rem 2.2rem 3rem 2.2rem;
+  background: linear-gradient(180deg, #FAFBFE 0%, #F4F7FB 100%);
+  border: 1.5px solid #E2E8F2;
+  border-radius: 20px;
+  box-shadow: 0 14px 34px rgba(31, 58, 95, 0.10);
+">
 
-<!-- ===== End Video ===== -->
+  <!-- ===== Highlight 1 ===== -->
+  <h2 style="
+    text-align: center;
+    color: #1F3A5F;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;">
+  Full-Scale Experimental Test Setup
+  </h2>
 
+  <hr style="
+    max-width: 340px;
+    margin: 0 auto 1.6rem auto;
+    border: 0;
+    border-top: 2px solid #2C6FA3;">
+
+  <div style="max-width: 960px; margin: 0 auto 2.8rem auto;">
+    <video
+      controls
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="metadata"
+      style="width: 100%; height: auto; background: #000; border-radius: 14px;">
+      <source src="{{ base_path }}/assets/videos/research-overview.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- ===== Highlight 2 ===== -->
+  <h2 style="
+    text-align: center;
+    color: #1F3A5F;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;">
+  Digital Image Correlation in Full-Scale Testing
+  </h2>
+
+  <hr style="
+    max-width: 340px;
+    margin: 0 auto 1.6rem auto;
+    border: 0;
+    border-top: 2px solid #2C6FA3;">
+
+  <div style="max-width: 960px; margin: 0 auto;">
+    <video
+      controls
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="metadata"
+      style="width: 100%; height: auto; background: #000; border-radius: 14px;">
+      <source src="{{ base_path }}/assets/videos/DIC.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+</div>
+<!-- ===== END HIGHLIGHT PANEL ===== -->
+
+<!-- ===== PORTFOLIO ITEMS (DETAILED PROJECTS BELOW) ===== -->
 {% for post in site.portfolio %}
   {% include archive-single.html %}
 {% endfor %}
