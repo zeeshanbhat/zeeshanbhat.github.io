@@ -57,7 +57,27 @@
   display: block;
   margin: 0 auto;
 }
+/* Force title color override */
+.layout--single h1.page__title,
+.page__inner-wrap h1.page__title,
+.page__content h1.page__title {
+  color: #005E7A  !important;
+}
+/* Hide page titles only on Research, Publications, Teaching (alternative) */
+body.layout--single.page-research .page__title,
+body.layout--single.page-publications .page__title,
+body.layout--single.page-teaching .page__title {
+  display: none !important;
+}
+.substatus {
+  color: #e67e22 !important;   /* orange */
+  font-weight: 600;
+}
 
+.substatus i {
+  color: #444 !important;             /* reset */
+  font-weight: normal;
+}
 
 
 .contact-wrap{display:grid;grid-template-columns:1fr 1.1fr;gap:28px;margin-top:12px}
@@ -79,6 +99,7 @@
 .hp{display:none!important}
 @media (max-width:900px){.contact-wrap{grid-template-columns:1fr}}
 @media (max-width:520px){.contact-form .grid{grid-template-columns:1fr}}
+
 
 
 

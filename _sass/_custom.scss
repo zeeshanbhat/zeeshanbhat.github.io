@@ -1,109 +1,20 @@
-/* ==========================================================================
-   Professional UI polish (typography, spacing, and visual consistency)
-   ========================================================================== */
-
-:root {
-  --brand-primary: #0f4c81;
-  --brand-primary-hover: #0b3b63;
-  --text-heading: #0f172a;
-  --text-body: #253243;
-  --surface-soft: #f8fafc;
-}
-
-/* Improve global readability */
-body {
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  color: var(--text-body);
-  line-height: 1.75;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-}
-
-/* Consistent heading rhythm and professional tone */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
+/* ===== GLOBAL TITLE FONT (Portfolio, Publications, Experience, etc.) ===== */
 .page__content h1,
 .page__content h2,
 .page__content h3,
 .page__content h4,
 .page__content h5,
 .page__content h6,
+.page__content h1 a,
+.page__content h2 a,
+.page__content h3 a,
+.page__content h4 a,
+.page__content h5 a,
+.page__content h6 a,
 .archive__item-title,
 .archive__item-title a {
-  font-family: "Inter", "Segoe UI", Arial, Helvetica, sans-serif;
-  color: var(--text-heading);
-  font-weight: 700;
-  letter-spacing: -0.012em;
-  line-height: 1.25;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.2px;
 }
 
-.page__content p,
-.page__content li {
-  font-size: 1.04rem;
-}
-
-/* Improve width and spacing for long-form pages */
-.page__content {
-  max-width: 74ch;
-}
-
-/* More polished link style */
-a {
-  color: var(--brand-primary);
-  text-underline-offset: 0.16em;
-  text-decoration-thickness: 0.08em;
-}
-
-a:hover,
-a:focus {
-  color: var(--brand-primary-hover);
-}
-
-/* Subtle card-like polish for listed content */
-.archive__item,
-.list__item {
-  border-radius: 10px;
-  padding: 0.35rem 0.45rem;
-  transition: background-color 0.2s ease;
-}
-
-.archive__item:hover,
-.list__item:hover {
-  background-color: var(--surface-soft);
-}
-
-/* Better button hierarchy */
-.btn,
-.btn--primary,
-.btn-send {
-  font-weight: 600;
-  border-radius: 10px;
-}
-
-/* Keep key personal customizations */
-.layout--single h1.page__title,
-.page__inner-wrap h1.page__title,
-.page__content h1.page__title {
-  color: #005e7a !important;
-}
-
-body.layout--single.page-research .page__title,
-body.layout--single.page-publications .page__title,
-body.layout--single.page-teaching .page__title {
-  display: none !important;
-}
-
-.substatus {
-  color: #e67e22 !important;
-  font-weight: 600;
-}
-
-.substatus i {
-  color: #444 !important;
-  font-weight: 400;
-}
