@@ -1,26 +1,25 @@
 /* ==========================================================================
-   Professional UI polish (typography, spacing, and visual consistency)
+   Faculty portfolio refinement (formal palette + academic typography)
    ========================================================================== */
 
 :root {
-  --brand-primary: #0f4c81;
-  --brand-primary-hover: #0b3b63;
-  --text-heading: #0f172a;
-  --text-body: #253243;
-  --surface-soft: #f8fafc;
+  --folio-navy: #1e2f45;
+  --folio-ink: #2c3a4d;
+  --folio-accent: #7d5a2f;
+  --folio-accent-hover: #634728;
+  --folio-border: #d8dee8;
+  --folio-soft: #f7f8fb;
 }
 
-/* Improve global readability */
 body {
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  color: var(--text-body);
-  line-height: 1.75;
+  font-family: "Source Sans 3", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: var(--folio-ink);
+  line-height: 1.72;
+  background: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
 }
 
-/* Consistent heading rhythm and professional tone */
 h1,
 h2,
 h3,
@@ -35,11 +34,19 @@ h6,
 .page__content h6,
 .archive__item-title,
 .archive__item-title a {
-  font-family: "Inter", "Segoe UI", Arial, Helvetica, sans-serif;
-  color: var(--text-heading);
+  font-family: "Merriweather", "Times New Roman", Georgia, serif;
+  color: var(--folio-navy);
   font-weight: 700;
-  letter-spacing: -0.012em;
-  line-height: 1.25;
+  letter-spacing: 0.01em;
+  line-height: 1.3;
+}
+
+.page__title {
+  font-size: clamp(1.9rem, 2.5vw, 2.5rem);
+}
+
+.page__content {
+  max-width: 74ch;
 }
 
 .page__content p,
@@ -47,63 +54,77 @@ h6,
   font-size: 1.04rem;
 }
 
-/* Improve width and spacing for long-form pages */
-.page__content {
-  max-width: 74ch;
-}
-
-/* More polished link style */
 a {
-  color: var(--brand-primary);
-  text-underline-offset: 0.16em;
+  color: var(--folio-accent);
   text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.17em;
 }
 
 a:hover,
 a:focus {
-  color: var(--brand-primary-hover);
+  color: var(--folio-accent-hover);
 }
 
-/* Subtle card-like polish for listed content */
+.masthead,
+.page__footer {
+  background: var(--folio-soft);
+  border-color: var(--folio-border);
+}
+
 .archive__item,
 .list__item {
-  border-radius: 10px;
-  padding: 0.35rem 0.45rem;
+  border-radius: 8px;
   transition: background-color 0.2s ease;
 }
 
 .archive__item:hover,
 .list__item:hover {
-  background-color: var(--surface-soft);
+  background-color: var(--folio-soft);
 }
 
-/* Better button hierarchy */
 .btn,
 .btn--primary,
 .btn-send {
-  font-weight: 600;
-  border-radius: 10px;
-}
-
-/* Keep key personal customizations */
-.layout--single h1.page__title,
-.page__inner-wrap h1.page__title,
-.page__content h1.page__title {
-  color: #005e7a !important;
-}
-
-body.layout--single.page-research .page__title,
-body.layout--single.page-publications .page__title,
-body.layout--single.page-teaching .page__title {
-  display: none !important;
-}
-
-.substatus {
-  color: #e67e22 !important;
+  border-radius: 6px;
   font-weight: 600;
 }
 
-.substatus i {
-  color: #444 !important;
-  font-weight: 400;
+.edu-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.95rem 0;
+  border-bottom: 1px solid var(--folio-border);
+}
+
+.edu-item:last-child {
+  border-bottom: 0;
+}
+
+.edu-item__logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.edu-item__content {
+  flex: 1;
+}
+
+.edu-item__date {
+  color: var(--folio-navy);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+@media (max-width: 680px) {
+  .edu-item {
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .edu-item__date {
+    width: 100%;
+    padding-left: calc(64px + 0.75rem);
+  }
 }
