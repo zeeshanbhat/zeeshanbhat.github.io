@@ -6,4 +6,5 @@ permalink: /publication/cyclic-behavior-openings-dic-under-review
 venue: "in Earthquake Engineering and Structural Dynamics"
 substatus: "Under Review"
 excerpt: ""
+share: false
 ---
