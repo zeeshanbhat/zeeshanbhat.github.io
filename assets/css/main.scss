@@ -229,13 +229,15 @@ body.layout--single.page-teaching .page__title {
 .teaching-cards {
   display: grid;
   gap: 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .teaching-card {
   border: 1px solid #d8dee8;
-  border-radius: 20px;
+  border-radius: 18px;
   background: #f6f7f9;
-  padding: 1.4rem 1.6rem;
+  padding: 1.1rem 1.25rem;
 }
 
 .teaching-card__top {
@@ -248,7 +250,7 @@ body.layout--single.page-teaching .page__title {
 .teaching-card__title {
   margin: 0;
   color: #474d54;
-  font-size: 2rem;
+  font-size: 1.45rem;
 }
 
 .teaching-card__chips {
@@ -285,11 +287,13 @@ body.layout--single.page-teaching .page__title {
 
 .teaching-card__label {
   color: #7a8088;
+  font-size: 1rem;
 }
 
 .teaching-card__value {
-  font-weight: 700;
+  font-weight: 600;
   color: #4a5057;
+  font-size: 1.05rem;
 }
 
 .teaching-card__meta {
@@ -299,6 +303,7 @@ body.layout--single.page-teaching .page__title {
 .teaching-card__meta p {
   margin: 0.2rem 0;
   color: #4a5057;
+  font-size: 0.98rem;
 }
 
 @media (max-width: 780px) {
@@ -312,6 +317,6 @@ body.layout--single.page-teaching .page__title {
   }
 
   .teaching-card__title {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
 }
