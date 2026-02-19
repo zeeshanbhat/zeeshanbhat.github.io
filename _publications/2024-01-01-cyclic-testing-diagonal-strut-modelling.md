@@ -8,6 +8,7 @@ venue: "Engineering Structures"
 paperurl: "https://doi.org/10.1016/j.engstruct.2024.118695"
 citation: 'Bhat, Z. M., Singh, Y., & Agarwal, P. (2024). &quot; Cyclic testing and diagonal strut modelling of different types of masonry infills in reinforced concrete frames designed for modern codes.&quot; <i>Engineering Structures</i>, 317, 118695.'
 excerpt: ""
+share: false
 ---
 
 
