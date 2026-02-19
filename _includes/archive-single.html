@@ -99,6 +99,8 @@
       <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.bibtexurl %}
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+    {% if post.citation and post.collection != 'publications' %}
+      <p>Citation: {{ post.citation }}</p>
     {% endif %}
 
   </article>
