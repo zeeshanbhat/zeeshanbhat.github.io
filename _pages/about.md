@@ -11,11 +11,12 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 ### Research Interests
 
 <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:12px; margin:14px 0 22px;">
-  <div style="background:#fff; color:#000; border:1px solid #000; padding:12px 14px; border-radius:8px; font-weight:600;">Large-scale experimental testing</div>
-  <div style="background:#fff; color:#000; border:1px solid #000; padding:12px 14px; border-radius:8px; font-weight:600;">Nonlinear structural modelling</div>
-  <div style="background:#fff; color:#000; border:1px solid #000; padding:12px 14px; border-radius:8px; font-weight:600;">Seismic hazard, risk, and vulnerability assessment</div>
-  <div style="background:#fff; color:#000; border:1px solid #000; padding:12px 14px; border-radius:8px; font-weight:600;">Performance-based earthquake engineering</div>
-  <div style="background:#fff; color:#000; border:1px solid #000; padding:12px 14px; border-radius:8px; font-weight:600;">Resilience-based seismic design</div>
+  <div style="background:#fff; color:#000; border:1px solid #000; padding:12px 14px; border-radius:8px; font-weight:400;">Large-scale experimental testing</div>
+  <div style="background:#fff; color:#000; border:1px solid #000; padding:12px 14px; border-radius:8px; font-weight:400;">Nonlinear structural modelling</div>
+  <div style="background:#fff; color:#000; border:1px solid #000; padding:12px 14px; border-radius:8px; font-weight:400;">Seismic hazard, risk, and vulnerability assessment</div>
+  <div style="background:#fff; color:#000; border:1px solid #000; padding:12px 14px; border-radius:8px; font-weight:400;">Performance-based earthquake engineering</div>
+  <div style="background:#fff; color:#000; border:1px solid #000; padding:12px 14px; border-radius:8px; font-weight:400;">Resilience-based seismic design</div>
+  <div style="background:#fff; color:#000; border:1px solid #000; padding:12px 14px; border-radius:8px; font-weight:400;">Non-structural elements</div>
 </div>
 
 <h3 style="text-align:center;">Research Focus and Expertise</h3>
