@@ -8,6 +8,7 @@ venue: "Practice Periodical on Structural Design and Construction"
 paperurl: "https://doi.org/10.1061/(ASCE)SC.1943-5576.0000636"
 citation: 'Waseem, S. A., Bhat, Z. M., & Bhat, J. A. (2022). &quot;An experimental investigation into the behavior of steel-timber composite beams.&quot; <i>Practice Periodical on Structural Design and Construction</i>, 27(1), 04021055.'
 excerpt: ""
+share: false
 ---
 
 
