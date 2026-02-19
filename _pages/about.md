@@ -9,11 +9,14 @@ author_profile: true
 I am a Research Associate in the Department of Earthquake Engineering at the Indian Institute of Technology Roorkee (IIT Roorkee), India. My research combines advanced experimental and numerical methodologies to understand structural performance under seismic loading.
 
 ### Research Interests
-- Large-scale experimental testing  
-- Nonlinear structural modelling  
-- Seismic hazard, risk, and vulnerability assessment  
-- Performance-based earthquake engineering  
-- Resilience-based seismic design
+
+<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:12px; margin:14px 0 22px;">
+  <div style="background:#fff; color:#000; border:1px solid #000; padding:12px 14px; border-radius:8px; font-weight:600;">Large-scale experimental testing</div>
+  <div style="background:#fff; color:#000; border:1px solid #000; padding:12px 14px; border-radius:8px; font-weight:600;">Nonlinear structural modelling</div>
+  <div style="background:#fff; color:#000; border:1px solid #000; padding:12px 14px; border-radius:8px; font-weight:600;">Seismic hazard, risk, and vulnerability assessment</div>
+  <div style="background:#fff; color:#000; border:1px solid #000; padding:12px 14px; border-radius:8px; font-weight:600;">Performance-based earthquake engineering</div>
+  <div style="background:#fff; color:#000; border:1px solid #000; padding:12px 14px; border-radius:8px; font-weight:600;">Resilience-based seismic design</div>
+</div>
 
 <h3 style="text-align:center;">Research Focus and Expertise</h3>
 
@@ -61,6 +64,5 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
     Jul 2012 – Jun 2016
   </div>
 </div>
-
 
 
