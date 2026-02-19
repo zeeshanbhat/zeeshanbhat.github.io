@@ -7,6 +7,33 @@ author_profile: true
 
 {% include base_path %}
 
+<div class="teaching-list teaching-cards">
 {% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+  <article class="teaching-card">
+    <div class="teaching-card__top">
+      <h2 class="teaching-card__title">{{ post.title }}</h2>
+      <div class="teaching-card__chips">
+        {% if post.type %}<span class="teaching-chip teaching-chip--dark">{{ post.type }}</span>{% endif %}
+        <span class="teaching-chip">{{ post.date | default: "1900-01-01" | date: "%Y" }}</span>
+      </div>
+    </div>
+
+    <div class="teaching-card__rows">
+      <div class="teaching-card__row">
+        <span class="teaching-card__label">Period</span>
+        <span class="teaching-card__value">{{ post.date | default: "1900-01-01" | date: "%B %Y" }}</span>
+      </div>
+      <div class="teaching-card__row">
+        <span class="teaching-card__label">Programme</span>
+        <span class="teaching-card__value">{{ post.type }}</span>
+      </div>
+      <div class="teaching-card__row">
+        <span class="teaching-card__label">Institutes</span>
+        <span class="teaching-card__value">{{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}</span>
+      </div>
+    </div>
+
+    <a class="teaching-card__link" href="{{ base_path }}{{ post.url }}">View syllabus</a>
+  </article>
 {% endfor %}
+</div>
