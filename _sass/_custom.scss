@@ -18,3 +18,12 @@
   letter-spacing: 0.2px;
 }
 
+
+/* Publications page title color */
+.publications-list .archive__item-title,
+.publications-list .archive__item-title a,
+.publications-list .archive__item-title a:visited,
+.publications-list .archive__item-title a:hover,
+.publications-list .archive__item-title a:focus {
+  color: #000 !important;
+}
