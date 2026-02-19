@@ -33,7 +33,10 @@ author_profile: true
       </div>
     </div>
 
-    <a class="teaching-card__link" href="{{ base_path }}{{ post.url }}">View syllabus</a>
+    <div class="teaching-card__meta">
+      {% if post.coordinator %}<p><strong>Course Coordinator:</strong> {{ post.coordinator }}</p>{% endif %}
+      {% if post.role %}<p><strong>Role:</strong> {{ post.role }}</p>{% endif %}
+    </div>
   </article>
 {% endfor %}
 </div>
