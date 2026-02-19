@@ -69,6 +69,24 @@ body.layout--single.page-publications .page__title,
 body.layout--single.page-teaching .page__title {
   display: none !important;
 }
+
+.publications-list .list__item {
+  margin-bottom: 1rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid #d8dee8;
+  border-radius: 10px;
+  background: #f3f6fa;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.publications-list .list__item:last-child {
+  margin-bottom: 0;
+}
+
+.publications-list .list__item .archive__item {
+  margin-bottom: 0;
+}
+
 .substatus {
   color: #e67e22 !important;   /* orange */
   font-weight: 600;
@@ -177,7 +195,6 @@ body.layout--single.page-teaching .page__title {
     margin-left: 82px;
   }
 }
-
 
 
 
