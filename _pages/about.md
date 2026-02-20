@@ -8,7 +8,7 @@ author_profile: true
 
 I am a Research Associate in the Department of Earthquake Engineering at the Indian Institute of Technology Roorkee (IIT Roorkee), India. My research combines advanced experimental and numerical methodologies to understand structural performance under seismic loading.
 
-<h3 style="color:#005E7A;font-size:0.6rem;">Research Interests</h3>
+<h3 style="color:#005E7A;font-size:1.1rem;">Research Interests</h3>
 
 <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:12px; margin:14px 0 22px;">
   <div style="background:var(--global-bg-color, #fff); color:var(--global-text-color, inherit); border:1px solid var(--global-border-color, #000); padding:12px 14px; border-radius:8px; font-weight:400; font-family:var(--global-font-family, inherit);">Large-scale experimental testing</div>
@@ -19,7 +19,7 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
   <div style="background:var(--global-bg-color, #fff); color:var(--global-text-color, inherit); border:1px solid var(--global-border-color, #000); padding:12px 14px; border-radius:8px; font-weight:400; font-family:var(--global-font-family, inherit);">Non-structural elements</div>
 </div>
 
-<h3 style="text-align:center;margin:16px 0; color:#005E7A;font-size:0.6rem;">Research Expertise</h3>
+<h3 style="text-align:center;margin:16px 0; color:#005E7A;font-size:1.1rem;">Research Expertise</h3>
 
 <div style="position:relative; overflow:hidden; border-radius:8px;">
   <img src="/images/research_workflow.png" 
@@ -31,7 +31,7 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 </div>
 
 
-<h3 style="color:#005E7A;font-size:0.6rem;">Education</h3>
+<h3 style="color:#005E7A;font-size:1.1rem;">Education</h3>
 
 <div style="display:flex; align-items:center; gap:20px; margin-bottom:25px;">
   <img src="/images/iitr_logo.png" alt="IIT Roorkee Logo" style="width:70px; height:70px;">
