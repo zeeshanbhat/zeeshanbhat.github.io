@@ -10,7 +10,10 @@
 main:
   - title: "Research"
     url: /portfolio/  
-    
+
+  - title: "Highlights"
+    url: /research-highlights/
+
   - title: "Publications"
     url: /publications/
 
