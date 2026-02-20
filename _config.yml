@@ -23,9 +23,9 @@ repository               : zeeshanbhat/zeeshanbhat.github.io
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Zeeshan Manzoor Bhat"
+  name             : 
   pronouns         : # example: "she/her"  
-  bio              : "Research Associate in Structural & Earthquake Engineering at IIT Roorkee"
+  bio              : 
   location         : "Roorkee, India"
   employer         :
   uri              : # URL
