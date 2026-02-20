@@ -46,7 +46,10 @@
 .research-list .archive__item-title a,
 .research-list .archive__item-title a:visited,
 .research-list .archive__item-title a:hover,
-.research-list .archive__item-title a:focus,
+.research-list .archive__item-title a:focus {
+  color: #005E7A !important;
+}
+
 .research-list .archive__item-excerpt,
 .research-list .archive__item-excerpt p,
 .research-list .archive__item p {
