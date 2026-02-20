@@ -15,7 +15,7 @@ name                     : &name "Zeeshan Manzoor Bhat"
 description              : &description "Zeeshan Manzoor Bhat's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://zeeshanbhat.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : zeeshanbhat/zeeshan.github.io
+repository               : zeeshanbhat/zeeshanbhat.github.io
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
