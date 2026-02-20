@@ -23,9 +23,12 @@
 .publications-list .archive__item-title,
 .publications-list .archive__item-title a,
 .publications-list .archive__item-title a:visited,
-.publications-list .archive__item-title a:hover,
 .publications-list .archive__item-title a:focus {
-  color: #000 !important;
+  color: var(--global-text-color) !important;
+}
+
+.publications-list .archive__item-title a:hover {
+  color: var(--global-text-color) !important;
 }
 
 /* Research page cards */
@@ -43,12 +46,18 @@
 }
 
 .research-list .archive__item-title,
-.research-list .archive__item-title a,
-.research-list .archive__item-title a:visited,
-.research-list .archive__item-title a:hover,
-.research-list .archive__item-title a:focus,
 .research-list .archive__item-excerpt,
 .research-list .archive__item-excerpt p,
 .research-list .archive__item p {
-  color: #000 !important;
+  color: var(--global-text-color) !important;
+}
+
+.research-list .archive__item-title a,
+.research-list .archive__item-title a:visited,
+.research-list .archive__item-title a:focus {
+  color: var(--global-text-color) !important;
+}
+
+.research-list .archive__item-title a:hover {
+  color: var(--global-text-color) !important;
 }

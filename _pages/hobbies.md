@@ -33,19 +33,19 @@ Personal reflections and occasional writing.
 A deep appreciation for Urdu poetry, especially the works of **Faiz Ahmad Faiz**, **Mirza Ghalib**, **Allama Iqbal**, and **Ahmad Faraz**.
 
 <div style="display: flex; justify-content: center;">
-  <div style="padding: 20px; border: 1px solid #e1e4e8; border-radius: 8px; background-color: #f6f8fa; font-family: Georgia, serif; max-width: 500px; width: 100%;">
+  <div style="padding: 20px; border: 1px solid #e1e4e8; border-radius: 8px; background-color: #f6f8fa; font-family: var(--global-font-family, inherit); max-width: 500px; width: 100%;">
     
-  <p style="font-style: italic; color: #24292e; font-size: 1.1em; line-height: 1.6; margin-bottom: 10px;">
+  <p style="font-style: italic; color: var(--global-text-color, inherit); font-size: 1.1em; line-height: 1.6; margin-bottom: 10px;">
       Shikwa-e-zulmat-e-shab se to kahin behtar tha,<br>
       Apne hisse ki koi shama jalate jaate.
     </p>
 
-  <p style="font-size: 0.95em; color: #586069; margin-bottom: 15px;">
+  <p style="font-size: 0.95em; color: var(--global-text-color-light, inherit); margin-bottom: 15px;">
       Rather than complaining about the darkness of the night,<br>
       it would have been better to light a candle of your own.
     </p>
 
-  <div style="text-align: right; font-weight: bold; font-size: 1em; color: #0366d6;">
+  <div style="text-align: right; font-weight: bold; font-size: 1em; color: var(--global-text-color, inherit);">
       — Ahmad Faraz
     </div>
   </div>
