@@ -19,10 +19,6 @@ Some of my shots
 ## 📚 Books
 
 <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:15px;">
-  <img src="/images/book1.jpg" style="width:100%; max-width:180px; border-radius:12px;">
-  <img src="/images/book2.jpg" style="width:100%; max-width:180px; border-radius:12px;">
-  <img src="/images/book3.jpg" style="width:100%; max-width:180px; border-radius:12px;">
-  <img src="/images/book4.jpg" style="width:100%; max-width:180px; border-radius:12px;">
   <img src="/images/book1.jpg" alt="Book cover from personal reading list" style="width:100%; max-width:180px; border-radius:12px;">
   <img src="/images/book2.jpg" alt="Book cover from personal reading list" style="width:100%; max-width:180px; border-radius:12px;">
   <img src="/images/book3.jpg" alt="Book cover from personal reading list" style="width:100%; max-width:180px; border-radius:12px;">
