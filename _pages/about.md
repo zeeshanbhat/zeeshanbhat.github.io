@@ -19,7 +19,7 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
   <div style="background:var(--global-bg-color, #fff); color:var(--global-text-color, inherit); border:1px solid var(--global-border-color, #000); padding:12px 14px; border-radius:8px; font-weight:400; font-family:var(--global-font-family, inherit);">Non-structural elements</div>
 </div>
 
-<h3 style="text-align:center;margin:0;">Research Expertise</h3>
+<h3 style="text-align:center;margin:6;">Research Expertise</h3>
 
 <div style="position:relative; overflow:hidden; border-radius:8px;">
   <img src="/images/research_workflow.png" 
