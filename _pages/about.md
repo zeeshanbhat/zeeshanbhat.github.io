@@ -70,7 +70,4 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
   <a href="/files/cv.pdf" download style="display:inline-block; background:#005E7A; color:#fff; padding:10px 16px; border-radius:8px; text-decoration:none; font-weight:600;">
     Download CV (PDF)
   </a>
-  <a href="/cv-json/" style="display:inline-block; border:1px solid #005E7A; color:#005E7A; padding:10px 16px; border-radius:8px; text-decoration:none; font-weight:600;">
-    View CV Online
-  </a>
 </div>
