@@ -24,7 +24,7 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 <div style="position:relative; overflow:hidden; border-radius:8px;">
   <img src="/images/research_workflow.png" 
        alt="Research workflow" 
-       style="max-width:98%; display:block; transform:scale(1.06); transform-origin:center;margin-top:-6px;">
+       style="max-width:98%; display:block; transform:scale(1.01); transform-origin:center;margin-top:-6px;">
 
   <!-- hides the right black line only here -->
   <div style="position:absolute; top:0; right:0; width:6px; height:100%; background:white;"></div>
