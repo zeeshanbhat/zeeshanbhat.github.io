@@ -25,7 +25,7 @@
 .publications-list .archive__item-title a:visited,
 .publications-list .archive__item-title a:hover,
 .publications-list .archive__item-title a:focus {
-  color: #000 !important;
+  color: var(--global-text-color) !important;
 }
 
 /* Research page cards */
@@ -50,5 +50,5 @@
 .research-list .archive__item-excerpt,
 .research-list .archive__item-excerpt p,
 .research-list .archive__item p {
-  color: #000 !important;
+  color: var(--global-text-color) !important;
 }
