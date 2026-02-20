@@ -27,3 +27,28 @@
 .publications-list .archive__item-title a:focus {
   color: #000 !important;
 }
+
+/* Research page cards */
+.research-list .list__item {
+  margin-bottom: 1.25rem;
+  padding: 1rem 1.2rem;
+  border: 1px solid #E6EBF2;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(31, 58, 95, 0.06);
+}
+
+.research-list .archive__item-title {
+  margin-top: 0;
+}
+
+.research-list .archive__item-title,
+.research-list .archive__item-title a,
+.research-list .archive__item-title a:visited,
+.research-list .archive__item-title a:hover,
+.research-list .archive__item-title a:focus,
+.research-list .archive__item-excerpt,
+.research-list .archive__item-excerpt p,
+.research-list .archive__item p {
+  color: #000 !important;
+}
