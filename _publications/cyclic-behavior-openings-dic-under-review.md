@@ -3,7 +3,7 @@ title: "Cyclic behavior and damage assessment of masonry infilled RC frames with
 collection: publications
 category: manuscripts
 permalink: /publication/cyclic-behavior-openings-dic-under-review
-venue: "in Earthquake Engineering and Structural Dynamics"
+venue: "in Engineering Structures"
 substatus: "Under Review"
 excerpt: ""
 share: false
