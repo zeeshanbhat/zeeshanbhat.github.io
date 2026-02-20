@@ -23,11 +23,11 @@ repository               : zeeshanbhat/zeeshanbhat.github.io
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : 
+  name             : "Zeeshan Manzoor Bhat"
   pronouns         : # example: "she/her"  
-  bio              : 
-  location         : 
-  employer         : 
+  bio              : "Research Associate in Structural & Earthquake Engineering at IIT Roorkee"
+  location         : "Roorkee, India"
+  employer         : "Indian Institute of Technology Roorkee"
   uri              : # URL
   email            : "zbhat@eq.iitr.ac.in"
 
@@ -151,9 +151,14 @@ og_description           : "Academic website of Zeeshan Manzoor Bhat"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Zeeshan Manzoor Bhat"
+  links:
+    - "https://scholar.google.com/citations?user=JSvEMocAAAAJ&hl=en"
+    - "https://orcid.org/0000-0003-2838-1151"
+    - "https://www.researchgate.net/profile/Zeeshan-Manzoor-Bhat-2"
+    - "https://www.linkedin.com/in/zeeshan-manzoor-bhat-b46054119/"
+    - "https://github.com/zeeshanbhat"
 
 
 # Analytics
