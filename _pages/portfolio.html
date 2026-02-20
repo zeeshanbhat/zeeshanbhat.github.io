@@ -7,91 +7,12 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- ===== HIGHLIGHT LABEL ===== -->
-<div style="
-  text-align: center;
-  font-size: 0.75rem;
-  letter-spacing: 1.6px;
-  font-weight: 600;
-  color: #5F7FA3;
-  margin-bottom: 0.6rem;">
-EXPERIMENTAL RESEARCH HIGHLIGHTS
+<div style="text-align:center; margin:0 auto 2.25rem auto; max-width:760px;">
+  <a href="{{ base_path }}/research-highlights/" style="display:inline-block; padding:0.8rem 1.2rem; border:1px solid #2C6FA3; border-radius:10px; color:#1F3A5F; font-weight:600; text-decoration:none;">
+    View Experimental Research Highlights
+  </a>
 </div>
 
-<!-- ===== HIGHLIGHT PANEL ===== -->
-<div style="
-  max-width: 1120px;
-  margin: 0 auto 4rem auto;
-  padding: 2.8rem 2.2rem 3rem 2.2rem;
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFD 100%);
-  border: 1.2px solid #E6EBF2;
-  border-radius: 20px;
-  box-shadow: 0 10px 26px rgba(31, 58, 95, 0.08);
-">
-
-  <!-- ===== Highlight 1 ===== -->
-  <h2 style="
-    text-align: center;
-    color: #1F3A5F;
-    font-weight: 600;
-    font-size: 1.4rem;
-    margin-bottom: 0.4rem;">
-  Full-Scale Experimental Test Setup
-  </h2>
-
-  <hr style="
-    max-width: 340px;
-    margin: 0 auto 1.6rem auto;
-    border: 0;
-    border-top: 2px solid #2C6FA3;">
-
-  <div style="max-width: 960px; margin: 0 auto 2.8rem auto;">
-    <video
-      controls
-      autoplay
-      muted
-      loop
-      playsinline
-      preload="metadata"
-      style="width: 100%; height: auto; background: #000; border-radius: 14px;">
-      <source src="{{ base_path }}/assets/videos/research-overview.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-
-  <!-- ===== Highlight 2 ===== -->
-  <h2 style="
-    text-align: center;
-    color: #1F3A5F;
-    font-weight: 600;
-    font-size: 1.4rem;
-    margin-bottom: 0.4rem;">
-  Digital Image Correlation in Full-Scale Testing
-  </h2>
-
-  <hr style="
-    max-width: 340px;
-    margin: 0 auto 1.6rem auto;
-    border: 0;
-    border-top: 2px solid #2C6FA3;">
-
-  <div style="max-width: 960px; margin: 0 auto;">
-    <video
-      controls
-      autoplay
-      muted
-      loop
-      playsinline
-      preload="metadata"
-      style="width: 100%; height: auto; background: #000; border-radius: 14px;">
-      <source src="{{ base_path }}/assets/videos/DIC.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-
-</div>
-<!-- ===== END HIGHLIGHT PANEL ===== -->
-<!-- ===== DETAILED PROJECTS HEADING ===== -->
 <!-- ===== DETAILED PROJECTS LABEL ===== -->
 <div style="
   text-align: center;
@@ -110,7 +31,3 @@ DETAILED RESEARCH PROJECTS
     {% include archive-single.html %}
   {% endfor %}
 </div>
-
-
-
-
