@@ -67,7 +67,7 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 </div>
 
 <div style="margin-top:28px; display:flex; gap:12px; flex-wrap:wrap;justify-content:center;">
-  <a href="/files/CV_Zeeshan.pdf" download style="display:inline-block; background:#005E7A; color:#fff; padding:10px 16px; border-radius:8px; text-decoration:none; font-weight:600;">
+  <a href="/files/CV_Zeeshan.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-block; background:#005E7A; color:#fff; padding:10px 16px; border-radius:8px; text-decoration:none; font-weight:600;">
     Download CV (PDF)
   </a>
 </div>
