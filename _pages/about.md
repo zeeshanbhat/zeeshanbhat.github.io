@@ -26,6 +26,10 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
        alt="Research workflow" 
        style="max-width:98%; display:block; transform:scale(1.01); transform-origin:center;margin-top:0;">
 
+  <small style="position:absolute; right:12px; bottom:10px; font-size:0.72rem; color:#4b5563; background:rgba(255,255,255,0.85); padding:2px 6px; border-radius:4px;">
+    AI-generated image
+  </small>
+
   <!-- hides the right black line only here -->
   <div style="position:absolute; top:0; right:0; width:6px; height:100%; background:white;"></div>
 </div>
