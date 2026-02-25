@@ -133,6 +133,9 @@ atom_feed:
 
 
 # SEO Related
+# Google Search Console: paste only the token string from
+# <meta name="google-site-verification" content="TOKEN" />
+# Example: google_site_verification: "abc123xyz"
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
