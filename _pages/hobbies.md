@@ -1,7 +1,7 @@
 ---
 title: ""
 layout: single
-permalink: /hobbies/
+permalink: /beyond-research/
 ---
 
 ## 📷 Photography
