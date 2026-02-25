@@ -2,6 +2,9 @@
 layout: archive
 title: 
 permalink: /experience/
+redirect_from:
+  - /cv/
+  - /cv
 author_profile: true
 ---
 {% include base_path %}

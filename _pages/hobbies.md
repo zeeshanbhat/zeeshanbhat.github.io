@@ -2,6 +2,9 @@
 title: ""
 layout: single
 permalink: /beyond-research/
+redirect_from:
+  - /hobbies/
+  - /hobbies
 ---
 
 ## 📷 Photography
