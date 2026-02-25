@@ -1,10 +1,10 @@
 ---
 title: "Nonlinear Modelling and Validation Against Experimental Results"
-excerpt: "<img src='/images/Paper4.png'>"
+excerpt: "<img src='/images/photoZ.jpg'>"
 collection: portfolio
 ---
 
-<img class='project-hero-image' src='/images/Paper4.png' alt='Project image'>
+<img class='project-hero-image' src='/images/photoZ.jpg' alt='Project image'>
 
 I developed **nonlinear models** of masonry-infilled RC frames using **OpenSees** and **validated their responses against full-scale experimental results** to ensure reliable prediction of seismic performance.
 
