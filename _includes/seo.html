@@ -128,7 +128,9 @@
     {
       "@context": "http://schema.org",
       "@type": "WebSite",
+      "@id": {{ seo_url | append: "#website" | jsonify }},
       "name": {{ site.title | jsonify }},
+      "alternateName": {{ site.social.name | default: site.title | jsonify }},
       "url": {{ seo_url | jsonify }}
     }
   </script>
