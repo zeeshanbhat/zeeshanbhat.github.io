@@ -244,3 +244,42 @@
   background: #000;
   border-radius: 14px;
 }
+
+/* Experience card on /cv */
+.experience-card {
+  margin-bottom: 1.25rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid #E6EBF2;
+  border-radius: 12px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(31, 58, 95, 0.06);
+}
+
+.experience-card__header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.experience-card__logo {
+  width: 70px;
+  height: 70px;
+}
+
+.experience-card__role {
+  flex: 1;
+  min-width: 240px;
+}
+
+.experience-card__date {
+  font-weight: 600;
+  color: #004A43;
+  white-space: nowrap;
+}
+
+.experience-card__duties {
+  margin-top: 0.4rem;
+  margin-bottom: 0;
+}
