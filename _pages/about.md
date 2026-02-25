@@ -92,7 +92,7 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
   <div class="about-hover-card">Non-structural elements</div>
 </div>
 
-<h3 style="text-align:center;margin:16px 0; color:#005E7A;font-size:1.2rem;">Research Expertise</h3>
+<h3 style="color:#005E7A;font-size:1.2rem;">Research Expertise</h3>
 
 <div class="about-hover-card research-expertise-card">
   <img src="/images/research_workflow.png" alt="Research workflow">
