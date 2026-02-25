@@ -6,7 +6,7 @@ excerpt: "Structural & Earthquake Engineering | IIT Roorkee"
 author_profile: true
 ---
 
-I am a Research Associate in the Department of Earthquake Engineering at the Indian Institute of Technology Roorkee (IIT Roorkee), India. My research combines advanced experimental and numerical methodologies to understand structural performance under seismic loading.
+I am a Research Associate in the Department of Earthquake Engineering at the Indian Institute of Technology Roorkee (IIT Roorkee), India. My research combines advanced experimental and numerical methodologies to understand the performance of structures under seismic hazards.
 
 <h3 style="color:#005E7A;font-size:1.2rem;">Research Interests</h3>
 
