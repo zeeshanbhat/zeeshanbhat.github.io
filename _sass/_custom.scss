@@ -48,6 +48,15 @@
   color: #005E7A !important;
 }
 
+.publications-list .archive__item > p,
+.publications-list .archive__item .page__meta,
+.publications-list .archive__item .archive__item-excerpt,
+.publications-list .archive__item .archive__item-excerpt p,
+.publications-list .archive__item .substatus {
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
 
 .publications-list .list__item {
   margin-bottom: 0.7rem;
