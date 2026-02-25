@@ -1,8 +1,10 @@
 ---
 title: "Probabilistic Seismic Hazard Analysis (PSHA)"
-excerpt: "<img src='/images/Paper6.png' style='width:95%; display:block; margin:10px auto; border-radius:12px;'>"
+excerpt: "<img src='/images/Paper6.png'>"
 collection: portfolio
 ---
+
+<img class='project-hero-image' src='/images/Paper6.png' alt='Project image'>
 
 I performed **Probabilistic Seismic Hazard Assessment (PSHA)** at various locations in India using **OpenQuake** to generate **hazard curves** and develop **Conditional Mean Spectra (CMS)** for selecting **hazard-consistent ground motions**. These inputs were essential for **risk and vulnerability assessment**.
 
