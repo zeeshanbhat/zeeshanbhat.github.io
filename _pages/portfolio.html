@@ -7,73 +7,33 @@ author_profile: true
 
 {% include base_path %}
 
-<details style="max-width:1120px; margin:0 auto 2rem auto; border:1.2px solid #E6EBF2; border-radius:14px; background:#FFFFFF; padding:0.8rem 1rem;">
-  <summary style="cursor:pointer; font-weight:600; color:#1F3A5F; list-style:none;">Experimental Research Highlights (click to open)</summary>
+<details class="research-highlights-panel">
+  <summary class="research-highlights-panel__summary">Experimental Research Highlights (click to open)</summary>
 
-  <div style="
-    text-align: center;
-    font-size: 0.75rem;
-    letter-spacing: 1.6px;
-    font-weight: 600;
-    color: #5F7FA3;
-    margin: 1.2rem 0 0.6rem 0;">
-  EXPERIMENTAL RESEARCH HIGHLIGHTS
-  </div>
+  <div class="research-highlights-panel__eyebrow">EXPERIMENTAL RESEARCH HIGHLIGHTS</div>
 
-  <div style="
-    max-width: 1120px;
-    margin: 0 auto 0.8rem auto;
-    padding: 2.2rem 2rem 2.4rem 2rem;
-    background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFD 100%);
-    border: 1.2px solid #E6EBF2;
-    border-radius: 20px;
-    box-shadow: 0 10px 26px rgba(31, 58, 95, 0.08);
-  ">
+  <div class="research-highlights-grid">
+    <section class="research-highlights-card">
+      <h2 class="research-highlights-card__title">Full-Scale Experimental Test Setup</h2>
+      <hr class="research-highlights-card__rule">
+      <div class="research-highlights-card__media">
+        <video controls autoplay muted loop playsinline preload="metadata">
+          <source src="{{ base_path }}/assets/videos/research-overview.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
 
-    <h2 style="
-      text-align: center;
-      color: #1F3A5F;
-      font-weight: 600;
-      font-size: 1.4rem;
-      margin-bottom: 0.4rem;">
-    Full-Scale Experimental Test Setup
-    </h2>
-
-    <hr style="
-      max-width: 340px;
-      margin: 0 auto 1.6rem auto;
-      border: 0;
-      border-top: 2px solid #2C6FA3;">
-
-    <div style="max-width: 960px; margin: 0 auto 2.8rem auto;">
-      <video controls autoplay muted loop playsinline preload="metadata" style="width: 100%; height: auto; background: #000; border-radius: 14px;">
-        <source src="{{ base_path }}/assets/videos/research-overview.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-
-    <h2 style="
-      text-align: center;
-      color: #1F3A5F;
-      font-weight: 600;
-      font-size: 1.4rem;
-      margin-bottom: 0.4rem;">
-    Digital Image Correlation in Full-Scale Testing
-    </h2>
-
-    <hr style="
-      max-width: 340px;
-      margin: 0 auto 1.6rem auto;
-      border: 0;
-      border-top: 2px solid #2C6FA3;">
-
-    <div style="max-width: 960px; margin: 0 auto;">
-      <video controls autoplay muted loop playsinline preload="metadata" style="width: 100%; height: auto; background: #000; border-radius: 14px;">
-        <source src="{{ base_path }}/assets/videos/DIC.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-
+    <section class="research-highlights-card">
+      <h2 class="research-highlights-card__title">Digital Image Correlation in Full-Scale Testing</h2>
+      <hr class="research-highlights-card__rule">
+      <div class="research-highlights-card__media">
+        <video controls autoplay muted loop playsinline preload="metadata">
+          <source src="{{ base_path }}/assets/videos/DIC.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
   </div>
 </details>
 
