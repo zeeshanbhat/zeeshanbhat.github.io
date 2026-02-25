@@ -102,7 +102,7 @@
     <h2>Work Experience</h2>
     <ul class="cv-list">
       {% for work in cv.work %}
-      <li class="cv-item">
+      <li class="cv-item cv-item--boxed">
         <div class="cv-item-header">
           <div class="cv-item-title">{{ work.position }}</div>
           <div class="cv-item-date">{{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% endif %}</div>

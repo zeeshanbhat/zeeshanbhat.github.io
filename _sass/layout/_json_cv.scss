@@ -123,6 +123,22 @@
   margin-bottom: 0.25rem;
 }
 
+.cv-item--boxed {
+  padding: 1rem 1.1rem;
+  border: 1px solid #E6EBF2;
+  border-radius: 12px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(31, 58, 95, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.cv-item--boxed:hover,
+.cv-item--boxed:focus-within {
+  transform: translateY(-4px);
+  border-color: #005E7A;
+  box-shadow: 0 12px 26px rgba(0, 94, 122, 0.16);
+}
+
 /* Skills Styles */
 .cv-skills {
   display: grid;
