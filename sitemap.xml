@@ -1,0 +1,64 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{ site.url }}/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+  </url>
+
+  {% for page in site.pages %}
+    {% unless page.sitemap == false or page.url == '/' %}
+  <url>
+    <loc>{{ site.url }}{{ page.url | replace:'index.html','' }}</loc>
+    <lastmod>{{ page.last_modified_at | default: page.date | default: site.time | date_to_xmlschema }}</lastmod>
+  </url>
+    {% endunless %}
+  {% endfor %}
+
+  {% for post in site.posts %}
+    {% unless post.sitemap == false %}
+  <url>
+    <loc>{{ site.url }}{{ post.url | replace:'index.html','' }}</loc>
+    <lastmod>{{ post.last_modified_at | default: post.date | default: site.time | date_to_xmlschema }}</lastmod>
+  </url>
+    {% endunless %}
+  {% endfor %}
+
+  {% for publication in site.publications %}
+    {% unless publication.sitemap == false %}
+  <url>
+    <loc>{{ site.url }}{{ publication.url | replace:'index.html','' }}</loc>
+    <lastmod>{{ publication.last_modified_at | default: publication.date | default: site.time | date_to_xmlschema }}</lastmod>
+  </url>
+    {% endunless %}
+  {% endfor %}
+
+  {% for talk in site.talks %}
+    {% unless talk.sitemap == false %}
+  <url>
+    <loc>{{ site.url }}{{ talk.url | replace:'index.html','' }}</loc>
+    <lastmod>{{ talk.last_modified_at | default: talk.date | default: site.time | date_to_xmlschema }}</lastmod>
+  </url>
+    {% endunless %}
+  {% endfor %}
+
+  {% for teaching in site.teaching %}
+    {% unless teaching.sitemap == false %}
+  <url>
+    <loc>{{ site.url }}{{ teaching.url | replace:'index.html','' }}</loc>
+    <lastmod>{{ teaching.last_modified_at | default: teaching.date | default: site.time | date_to_xmlschema }}</lastmod>
+  </url>
+    {% endunless %}
+  {% endfor %}
+
+  {% for project in site.portfolio %}
+    {% unless project.sitemap == false %}
+  <url>
+    <loc>{{ site.url }}{{ project.url | replace:'index.html','' }}</loc>
+    <lastmod>{{ project.last_modified_at | default: project.date | default: site.time | date_to_xmlschema }}</lastmod>
+  </url>
+    {% endunless %}
+  {% endfor %}
+</urlset>
