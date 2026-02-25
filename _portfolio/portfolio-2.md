@@ -1,9 +1,10 @@
 ---
 title: "Full-Scale In-Plane Cyclic Testing of Masonry Infilled RC Frames Designed for Modern Codes"
-excerpt: "<img src='/images/Paper2.png' style='width:80%; display:block; margin:10px auto; border-radius:12px;'>"
+excerpt: "<img src='/images/Paper2.png'>"
 collection: portfolio
 ---
 
+<img class='project-hero-image' src='/images/Paper2.png' alt='Project image'>
 
 I conducted full-scale in-plane (IP) cyclic testing on masonry-infilled reinforced concrete (RC) frames designed to modern codes to evaluate their seismic performance, damage patterns, and strength/stiffness degradation under lateral loading.
 
