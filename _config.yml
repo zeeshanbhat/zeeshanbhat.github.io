@@ -23,12 +23,12 @@ repository               : zeeshanbhat/zeeshanbhat.github.io
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Zeeshan Manzoor Bhat"
+  name             : 
   pronouns         : # example: "she/her"  
   bio              : 
   location         : "Roorkee, India"
   employer         :
-  uri              : # URL
+  uri              : "https://zeeshanbhat.github.io"
   email            : "zbhat@eq.iitr.ac.in"
 
   # Academic websites
@@ -92,7 +92,7 @@ publication_category:
   technical_reports:
     title: 'Technical Reports'
   openaccess:
-    title: 'Databse'
+    title: 'Datasets'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

@@ -1,7 +1,7 @@
 ---
 permalink: /
 
-title: "Zeeshan Manzoor Bhat"
+title: "ZEESHAN MANZOOR BHAT"
 excerpt: "Structural & Earthquake Engineering | IIT Roorkee"
 author_profile: true
 ---
@@ -39,6 +39,21 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
     gap: 20px;
     margin-bottom: 16px;
     padding: 14px;
+  }
+
+  .research-expertise-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 10px;
+  }
+
+  .research-expertise-card img {
+    width: 100%;
+    display: block;
+    transform: scale(1.01);
+    transform-origin: center;
+    border-radius: 6px;
   }
 
   .download-cv-btn {
@@ -79,10 +94,8 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 
 <h3 style="text-align:center;margin:16px 0; color:#005E7A;font-size:1.2rem;">Research Expertise</h3>
 
-<div style="position:relative; overflow:hidden; border-radius:8px;">
-  <img src="/images/research_workflow.png" 
-       alt="Research workflow" 
-       style="max-width:98%; display:block; transform:scale(1.01); transform-origin:center;margin-top:0;">
+<div class="about-hover-card research-expertise-card">
+  <img src="/images/research_workflow.png" alt="Research workflow">
 
   <small style="position:absolute; right:12px; bottom:10px; font-size:0.72rem; color:#4b5563; background:rgba(255,255,255,0.85); padding:2px 6px; border-radius:4px;">
     AI-generated image
