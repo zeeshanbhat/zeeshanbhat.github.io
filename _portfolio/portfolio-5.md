@@ -1,8 +1,10 @@
 ---
 title: "Application of Digital Image Correlation (DIC) in Large-Scale Testing"
-excerpt: "<img src='/images/Paper5.jpg' style='width:80%; display:block; margin:10px auto; border-radius:12px;'>"
+excerpt: "<img src='/images/Paper5.jpg'>"
 collection: portfolio
 ---
+
+<img class='project-hero-image' src='/images/Paper5.jpg' alt='Project image'>
 
 I used **Digital Image Correlation (DIC)** during **large-scale experimental testing** to obtain **full-field displacement and strain measurements**, enabling detailed interpretation of **crack initiation, propagation, and damage localisation**. 
 

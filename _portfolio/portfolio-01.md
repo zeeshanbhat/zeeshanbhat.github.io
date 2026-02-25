@@ -1,9 +1,10 @@
 ---
 title: "Seismic Risk Assessment of Masonry Infilled RC Frame Buildings Designed for Modern Codes"
-excerpt: "<img src='/images/Paper7.png' style='width:75%; display:block; margin:10px auto; border-radius:12px;'>"
+excerpt: "<img src='/images/Paper7.png'>"
 collection: portfolio
 ---
 
+<img class='project-hero-image' src='/images/Paper7.png' alt='Project image'>
 
 I assessed the **seismic risk** of masonry-infilled reinforced concrete (RC) frame buildings designed to modern codes, focusing on quantifying structural vulnerability and expected seismic performance.
 
