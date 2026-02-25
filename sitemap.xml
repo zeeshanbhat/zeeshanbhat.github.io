@@ -1,0 +1,65 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{ site.url | append: '/' | xml_escape }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+  </url>
+
+  {% for page in site.html_pages %}
+    {% assign page_url = page.url | replace:'index.html','' %}
+    {% unless page.sitemap == false or page.url == '/' or page.url == '/sitemap.xml' or page.url contains '.css' or page.url contains '.js' %}
+  <url>
+    <loc>{{ site.url | append: page_url | xml_escape }}</loc>
+    <lastmod>{{ page.last_modified_at | default: page.date | default: site.time | date_to_xmlschema }}</lastmod>
+  </url>
+    {% endunless %}
+  {% endfor %}
+
+  {% for post in site.posts %}
+    {% unless post.sitemap == false %}
+  <url>
+    <loc>{{ site.url | append: post.url | replace:'index.html','' | xml_escape }}</loc>
+    <lastmod>{{ post.last_modified_at | default: post.date | default: site.time | date_to_xmlschema }}</lastmod>
+  </url>
+    {% endunless %}
+  {% endfor %}
+
+  {% for publication in site.publications %}
+    {% unless publication.sitemap == false %}
+  <url>
+    <loc>{{ site.url | append: publication.url | replace:'index.html','' | xml_escape }}</loc>
+    <lastmod>{{ publication.last_modified_at | default: publication.date | default: site.time | date_to_xmlschema }}</lastmod>
+  </url>
+    {% endunless %}
+  {% endfor %}
+
+  {% for talk in site.talks %}
+    {% unless talk.sitemap == false %}
+  <url>
+    <loc>{{ site.url | append: talk.url | replace:'index.html','' | xml_escape }}</loc>
+    <lastmod>{{ talk.last_modified_at | default: talk.date | default: site.time | date_to_xmlschema }}</lastmod>
+  </url>
+    {% endunless %}
+  {% endfor %}
+
+  {% for teaching in site.teaching %}
+    {% unless teaching.sitemap == false %}
+  <url>
+    <loc>{{ site.url | append: teaching.url | replace:'index.html','' | xml_escape }}</loc>
+    <lastmod>{{ teaching.last_modified_at | default: teaching.date | default: site.time | date_to_xmlschema }}</lastmod>
+  </url>
+    {% endunless %}
+  {% endfor %}
+
+  {% for project in site.portfolio %}
+    {% unless project.sitemap == false %}
+  <url>
+    <loc>{{ site.url | append: project.url | replace:'index.html','' | xml_escape }}</loc>
+    <lastmod>{{ project.last_modified_at | default: project.date | default: site.time | date_to_xmlschema }}</lastmod>
+  </url>
+    {% endunless %}
+  {% endfor %}
+</urlset>
