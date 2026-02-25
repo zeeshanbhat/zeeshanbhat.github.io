@@ -240,6 +240,13 @@ body.layout--single.page-teaching .page__title {
   border-radius: 14px;
   background: #f6f7f9;
   padding: 0.9rem 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.teaching-card:hover {
+  transform: translateY(-3px);
+  border-color: #c4cfde;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.1);
 }
 
 .teaching-card__top {
