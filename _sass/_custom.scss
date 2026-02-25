@@ -87,6 +87,30 @@
 
 .research-list .archive__item-title {
   margin-top: 0;
+  font-size: 1.55rem;
+  line-height: 1.2;
+}
+
+.research-list .archive__item-excerpt {
+  margin-top: 0.35rem;
+}
+
+.research-list .archive__item-excerpt img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 220px;
+  object-fit: contain;
+  border-radius: 12px;
+  margin: 0.25rem auto 0.75rem !important;
+}
+
+.page__content .project-hero-image {
+  display: block;
+  width: min(100%, 900px);
+  max-width: 100%;
+  height: auto;
+  margin: 0.5rem auto 1.25rem;
+  border-radius: 12px;
 }
 
 .research-list .archive__item-title,
