@@ -1,9 +1,10 @@
 ---
 title: "Full-Scale Out-of-Plane Cyclic Testing of Masonry Infills Using Air Bags"
-excerpt: "<img src='/images/paper3.png' style='width:55%; display:block; margin:10px auto; border-radius:12px;'>"
+excerpt: "<img src='/images/paper3.png'>"
 collection: portfolio
 ---
 
+<img class='project-hero-image' src='/images/paper3.png' alt='Project image'>
 
 I conducted full-scale reversed out-of-plane (OOP) cyclic testing of masonry infills to evaluate their **strength, stiffness, energy dissipation capacity**, and **failure mechanisms** under out-of-plane seismic loading.
 
