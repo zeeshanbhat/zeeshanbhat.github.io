@@ -9,7 +9,7 @@
 
 main:
   - title: "Research"
-    url: /portfolio/  
+    url: /research/  
 
 
   - title: "Publications"
@@ -19,13 +19,13 @@ main:
    # url: /talks/   
 
   - title: "Experience"
-    url: /cv/
+    url: /experience/
 
   - title: "Teaching"
     url: /teaching/    
     
   - title: "Beyond Research"
-    url: /hobbies/
+    url: /beyond-research/
     
   - title: "Contact"
     url: /contact/
