@@ -1,8 +1,10 @@
 ---
 title: "Damage Assessment in Masonry Using Digital Image Correlation (DIC)"
-excerpt: <img src='/images/Paper1.png' style='width:80%; display:block; margin:10px auto; border-radius:12px;'>"
+excerpt: "<img src='/images/Paper1.png'>"
 collection: portfolio
 ---
+
+<img class='project-hero-image' src='/images/Paper1.png' alt='Project image'>
 
 I conducted damage assessment in masonry under different loading conditions using **Digital Image Correlation (DIC)** to obtain full-field displacement and strain measurements.
 
