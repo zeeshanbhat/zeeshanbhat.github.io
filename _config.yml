@@ -22,8 +22,8 @@ repository               : zeeshanbhat/zeeshanbhat.github.io
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "bio-photo.jpg"
-  name             : "Zeeshan Manzoor Bhat"
+  avatar           : "profile.png"
+  name             : 
   pronouns         : # example: "she/her"  
   bio              : "Researcher in structural and earthquake engineering."
   location         : "Roorkee, India"
@@ -149,7 +149,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  "/images/bio-photo.jpg"
+og_image                 :  "/images/profile.png"
 og_description           : "Academic website of Zeeshan Manzoor Bhat"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
