@@ -73,6 +73,36 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
     box-shadow: 0 9px 16px rgba(0, 94, 122, 0.28);
   }
 
+  .dynamic-stats-card {
+    margin: 20px 0 10px;
+    border-left: 4px solid #005e7a;
+  }
+
+  .dynamic-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+  }
+
+  .dynamic-stat {
+    padding: 10px;
+    border-radius: 6px;
+    background: rgba(0, 94, 122, 0.06);
+  }
+
+  .dynamic-stat-label {
+    font-size: 0.82rem;
+    color: #4b5563;
+    margin-bottom: 4px;
+  }
+
+  .dynamic-stat-value {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #005e7a;
+  }
+
   @media (max-width: 768px) {
     .education-card {
       flex-wrap: wrap;
@@ -90,6 +120,21 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
   <div class="about-hover-card">Performance-based earthquake engineering</div>
   <div class="about-hover-card">Resilience-based seismic design</div>
   <div class="about-hover-card">Non-structural elements</div>
+</div>
+
+<div class="about-hover-card dynamic-stats-card">
+  <h4 style="margin:0; color:#005E7A;">Live Snapshot</h4>
+  <div class="dynamic-stats-grid">
+    <div class="dynamic-stat">
+      <div class="dynamic-stat-label">Current time</div>
+      <div id="live-clock" class="dynamic-stat-value">--:--:--</div>
+    </div>
+    <div class="dynamic-stat">
+      <div class="dynamic-stat-label">Visits on this browser</div>
+      <div id="visit-count" class="dynamic-stat-value">1</div>
+    </div>
+  </div>
+  <small style="display:block; margin-top:8px; color:#6b7280;">Visit counter uses local browser storage.</small>
 </div>
 
 <h3 style="text-align:center;margin:16px 0; color:#005E7A;font-size:1.2rem;">Research Expertise</h3>
@@ -146,3 +191,26 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
     Download CV (PDF)
   </a>
 </div>
+
+<script>
+  (function () {
+    var clockEl = document.getElementById('live-clock');
+    var visitEl = document.getElementById('visit-count');
+
+    if (clockEl) {
+      var updateClock = function () {
+        clockEl.textContent = new Date().toLocaleTimeString();
+      };
+      updateClock();
+      setInterval(updateClock, 1000);
+    }
+
+    if (visitEl && typeof window !== 'undefined' && window.localStorage) {
+      var storageKey = 'homepage_visit_count';
+      var currentCount = parseInt(window.localStorage.getItem(storageKey) || '0', 10);
+      currentCount = Number.isNaN(currentCount) ? 1 : currentCount + 1;
+      window.localStorage.setItem(storageKey, String(currentCount));
+      visitEl.textContent = String(currentCount);
+    }
+  })();
+</script>
