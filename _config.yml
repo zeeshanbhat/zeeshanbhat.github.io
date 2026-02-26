@@ -25,9 +25,9 @@ author:
   avatar           : "bio-photo.jpg"
   name             : "Zeeshan Manzoor Bhat"
   pronouns         : # example: "she/her"  
-  bio              : "Doctoral researcher in structural and earthquake engineering at IIT Roorkee."
+  bio              : "Researcher in structural and earthquake engineering."
   location         : "Roorkee, India"
-  employer         :
+  employer         : "IIT Roorkee"
   uri              : "https://zeeshanbhat.github.io"
   email            : "zbhat@eq.iitr.ac.in"
 
