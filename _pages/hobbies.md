@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 ## 📷 Photography
-Some of my shots
+Some of my snaps
 
 <div style="display:grid; grid-template-columns:repeat(2, 1fr); gap:15px;">
   <img src="/images/photo1.jpeg" style="width:100%; border-radius:12px;">
