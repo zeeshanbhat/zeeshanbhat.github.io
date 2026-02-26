@@ -29,7 +29,7 @@ Some of my shots
 </div>
 
 ## ✍️ Writing
-Personal reflections and occasional writing.
+Simple thoughts and reflections on life and everyday experiences.
 
 
 ## 📝 Urdu Poetry
