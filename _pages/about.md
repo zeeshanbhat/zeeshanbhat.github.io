@@ -46,8 +46,6 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
     overflow: hidden;
     border-radius: 8px;
     padding: 10px;
-    max-width: 840px;
-    margin: 0 auto;
   }
 
   .research-expertise-card img {
