@@ -251,20 +251,24 @@
 
 /* Keep sidebar separate and reserve left column space for all page content */
 @media screen and (min-width: 1024px) {
-  .layout--single #main {
+  .layout--single #main,
+  .layout--archive #main {
     max-width: 100%;
-    padding-left: 360px;
+    padding-left: 380px;
     box-sizing: border-box;
   }
 
-  .layout--single .sidebar {
-    width: 320px;
-    max-width: 320px;
+  .layout--single .sidebar,
+  .layout--archive .sidebar {
+    width: 340px;
+    max-width: 340px;
     z-index: 20;
   }
 
   .layout--single .page,
-  .layout--single .archive {
+  .layout--single .archive,
+  .layout--archive .page,
+  .layout--archive .archive {
     float: none;
     width: 100%;
     margin-left: 0;
