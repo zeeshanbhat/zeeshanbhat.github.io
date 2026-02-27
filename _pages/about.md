@@ -7,7 +7,7 @@ excerpt: "Structural & Earthquake Engineering | IIT Roorkee"
 author_profile: true
 ---
 
-I am a Research Associate in the Department of Earthquake Engineering at the Indian Institute of Technology Roorkee (IIT Roorkee), India. My research combines advanced experimental and numerical methodologies to understand the performance of structures under seismic hazards.
+I am a Research Associate in the Department of Earthquake Engineering at the Indian Institute of Technology (IIT) Roorkee, India. My research combines advanced experimental and numerical methodologies to understand the performance of structures under seismic hazards.
 
 <style>
   .about-card-grid {
@@ -100,7 +100,7 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 <div style="position:relative; overflow:hidden; border-radius:8px;">
   <img src="/images/research_workflow.png" 
        alt="Research workflow" 
-       style="max-width:80%; display:block; margin:0 auto; transform:scale(1.01); transform-origin:center;">
+       style="max-width:75%; display:block; margin:0 auto; transform:scale(1.01); transform-origin:center;">
 
   <small style="position:absolute; right:12px; bottom:10px; font-size:0.72rem; color:#4b5563; background:rgba(255,255,255,0.85); padding:2px 6px; border-radius:4px;">
     AI-generated image
