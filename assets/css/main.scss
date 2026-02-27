@@ -63,6 +63,14 @@
 .page__content h1.page__title {
   color: #005E7A  !important;
 }
+
+/* Keep section headings consistent on Beyond Research + Contact pages */
+body.page-beyond-research .page__content h2,
+body.page-beyond-research .page__content h3,
+body.page-contact .contact-title {
+  color: #005E7A;
+}
+
 /* Hide page titles only on Research, Publications, Teaching (alternative) */
 body.layout--single.page-research .page__title,
 body.layout--single.page-publications .page__title,
