@@ -1,7 +1,7 @@
 ---
 title: "Message Sent"
 permalink: /contact/thanks/
-layout: single
+layout: archive
 sitemap: false
 ---
 
