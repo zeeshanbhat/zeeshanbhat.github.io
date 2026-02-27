@@ -39,8 +39,8 @@ author_profile: true
     white-space: nowrap;
   }
 
-  .experience-duties-title,
-  .experience-duties li {
+  .experience-role,
+  .experience-duties-title {
     color: #005E7A;
   }
 
@@ -57,7 +57,7 @@ author_profile: true
   <div class="experience-header">
     <img src="/images/iitr_logo.png" alt="IIT Roorkee Logo" style="width:70px; height:70px;">
     <div style="flex:1; min-width:240px;">
-      <strong>Research Associate</strong><br>
+      <strong class="experience-role">Research Associate</strong><br>
       Indian Institute of Technology Roorkee, India<br>
       <em>Supervisor:</em> Prof. Yogendra Singh<br>
       <em>Project:</em> Enhancing Sustainability of RC Frame Buildings through Seismic Safety and Design Life Elongation Using GFRP Reinforcement
