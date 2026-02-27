@@ -249,13 +249,11 @@
   border-radius: 14px;
 }
 
-/* Keep sidebar separate and reserve left column space for all page content */
+/* Keep sidebar separate and shift content column right on desktop */
 @media screen and (min-width: 1024px) {
   .layout--single #main,
   .layout--archive #main {
     max-width: 100%;
-    padding-left: 760px;
-    box-sizing: border-box;
   }
 
   .layout--single .sidebar,
@@ -266,13 +264,13 @@
   }
 
   .layout--single .page,
-  .layout--single .archive,
-  .layout--archive .page,
   .layout--archive .archive {
     float: none;
-    width: 100%;
-    margin-left: 0;
+    width: calc(100% - 420px);
+    margin-left: 420px;
     padding-left: 0;
+    box-sizing: border-box;
   }
 }
+
 
