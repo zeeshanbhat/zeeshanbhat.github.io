@@ -249,27 +249,37 @@
   border-radius: 14px;
 }
 
-/* Keep sidebar separate and shift content column right on desktop */
+/* Desktop layout: keep author sidebar in its own column and prevent overlap */
 @media screen and (min-width: 1024px) {
   .layout--single #main,
   .layout--archive #main {
     max-width: 100%;
+    display: grid;
+    grid-template-columns: 340px minmax(0, 1fr);
+    column-gap: 40px;
+    align-items: start;
   }
 
-  .layout--single .sidebar,
-  .layout--archive .sidebar {
+  .layout--single #main > .sidebar,
+  .layout--archive #main > .sidebar {
+    position: sticky !important;
+    top: 90px;
     width: 340px;
     max-width: 340px;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
     z-index: 20;
+    margin: 0;
+    padding-top: 0;
   }
 
-  .layout--single .page,
-  .layout--archive .archive {
-    float: none;
-    width: calc(100% - 420px);
-    margin-left: 420px;
-    padding-left: 0;
-    box-sizing: border-box;
+  .layout--single #main > .page,
+  .layout--archive #main > .archive {
+    float: none !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    min-width: 0;
   }
 }
 
