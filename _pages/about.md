@@ -78,6 +78,7 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
     }
   }
   
+  body.layout--archive h1.page__title,
   body.layout--single.page-home h1.page__title {
     color: #005E7A !important;
   }
