@@ -2,7 +2,7 @@
 permalink: /
 layout: archive
 
-title: "ZEESHAN MANZOOR BHAT"
+title: "Zeeshan Manzoor Bhat"
 excerpt: "Structural & Earthquake Engineering | IIT Roorkee"
 author_profile: true
 ---
@@ -76,6 +76,10 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
       flex-wrap: wrap;
       gap: 10px;
     }
+  }
+  
+  body.layout--single.page-home h1.page__title {
+    color: #005E7A !important;
   }
 </style>
 
