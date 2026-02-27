@@ -248,3 +248,22 @@
   background: #000;
   border-radius: 14px;
 }
+
+/* Keep sidebar separate and allow main content to use full remaining width */
+@media screen and (min-width: 1024px) {
+  .layout--single #main {
+    max-width: 100%;
+  }
+
+  .layout--single .sidebar {
+    width: 290px;
+    max-width: 290px;
+  }
+
+  .layout--single .page {
+    float: none;
+    width: calc(100% - 320px);
+    margin-left: 320px;
+    padding-left: 0.75rem;
+  }
+}
