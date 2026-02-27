@@ -42,13 +42,11 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
   }
 
   .research-expertise-image {
-    position: relative;
     margin: 0 auto 12px;
-    max-width: 900px;
   }
 
   .research-expertise-image img {
-    width: 95%;
+    width: 96%;
     display: block;
     transform: scale(1.01);
     transform-origin: center;
