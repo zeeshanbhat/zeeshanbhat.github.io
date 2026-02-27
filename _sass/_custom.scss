@@ -248,3 +248,29 @@
   background: #000;
   border-radius: 14px;
 }
+
+/* Keep sidebar separate and shift content column right on desktop */
+@media screen and (min-width: 1024px) {
+  .layout--single #main,
+  .layout--archive #main {
+    max-width: 100%;
+  }
+
+  .layout--single .sidebar,
+  .layout--archive .sidebar {
+    width: 340px;
+    max-width: 340px;
+    z-index: 20;
+  }
+
+  .layout--single .page,
+  .layout--archive .archive {
+    float: none;
+    width: calc(100% - 420px);
+    margin-left: 420px;
+    padding-left: 0;
+    box-sizing: border-box;
+  }
+}
+
+
