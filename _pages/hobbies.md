@@ -38,7 +38,7 @@ A deep appreciation for Urdu poetry, especially the works of **Faiz Ahmad Faiz**
 <div style="display: flex; justify-content: center;">
   <div style="padding: 20px; border: 1px solid #e1e4e8; border-radius: 8px; background-color: #f6f8fa; font-family: var(--global-font-family, inherit); max-width: 500px; width: 100%;">
 
-  <p style="font-style: italic; color: var(--global-text-color, inherit); font-size: 1.1em; line-height: 1.6; margin-bottom: 10px;
+  <p style="font-style: italic; color: var(--global-text-color, inherit); font-size: 0.95em; line-height: 1.6; margin-bottom: 10px;
           font-family: 'Merriweather', 'Georgia', 'Times New Roman', serif; font-weight: 500;">
      Shikwa-e-zulmat-e-shab se to kahin behtar tha,<br>
      Apne hisse ki koi shama jalate jaate.
@@ -54,7 +54,6 @@ A deep appreciation for Urdu poetry, especially the works of **Faiz Ahmad Faiz**
     </div>
   </div>
 </div>
-
 
 
 
