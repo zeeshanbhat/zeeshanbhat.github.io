@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Zeeshan Manzoor Bhat"
+title                    : "About"
 title_separator          : "-"
 name                     : &name "Zeeshan Manzoor Bhat"
-description              : &description "Zeeshan Manzoor Bhat's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Research Portfolio | Structural & Earthquake Engineering | IIT Roorkee"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://zeeshanbhat.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : zeeshanbhat/zeeshanbhat.github.io
@@ -136,6 +136,8 @@ atom_feed:
 # Google Search Console: paste only the token string from
 # <meta name="google-site-verification" content="TOKEN" />
 # Example: google_site_verification: "abc123xyz"
+author                   : "Zeeshan Manzoor Bhat"
+keywords                 : "Zeeshan Manzoor Bhat, Structural Engineering, Earthquake Engineering"
 google_site_verification : "Rmg1GQxXBeZngLZHBiekKeBANb62rPgBRrI8gSqKCKg"
 bing_site_verification   :
 alexa_site_verification  :
