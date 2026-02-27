@@ -256,14 +256,16 @@
   }
 
   .layout--single .sidebar {
-    width: 290px;
-    max-width: 290px;
+    width: 320px;
+    max-width: 320px;
+    z-index: 20;
   }
 
   .layout--single .page {
     float: none;
-    width: calc(100% - 320px);
-    margin-left: 320px;
-    padding-left: 0.75rem;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 360px;
+    box-sizing: border-box;
   }
 }
