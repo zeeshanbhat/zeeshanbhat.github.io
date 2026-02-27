@@ -7,7 +7,7 @@ redirect_from:
   - /hobbies
 ---
 
-<h2 style="color:#005E7A;">📷 Photography</h2>
+<h2 style="color:#005E7A;font-size:1.1em;">📷 Photography</h2>
 Some of my snaps
 
 <div style="display:grid; grid-template-columns:repeat(2, 1fr); gap:15px; width:80%; margin-right:auto;">
@@ -19,7 +19,7 @@ Some of my snaps
 
 ---
 
-<h2 style="color:#005E7A;">📚 Books</h2>
+<h2 style="color:#005E7A;font-size:1.1em;">📚 Books</h2>
 
 <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:15px; width:80%; margin-right:auto;">
   <img src="/images/book1.jpg" alt="Book cover from personal reading list" style="width:100%; max-width:180px; border-radius:12px;">
@@ -28,11 +28,11 @@ Some of my snaps
   <img src="/images/book4.jpg" alt="Book cover from personal reading list" style="width:100%; max-width:180px; border-radius:12px;"> 
 </div>
 
-<h2 style="color:#005E7A;">✍️ Writing</h2>
+<h2 style="color:#005E7A;font-size:1.1em;">✍️ Writing</h2>
 Simple thoughts and reflections on life and everyday experiences.
 
 
-<h2 style="color:#005E7A;">📝 Urdu Poetry</h2>
+<h2 style="color:#005E7A;font-size:1.1em;">📝 Urdu Poetry</h2>
 A deep appreciation for Urdu poetry, especially the works of **Faiz Ahmad Faiz**, **Mirza Ghalib**, **Allama Iqbal**, and **Ahmad Faraz**.
 
 <div style="display: flex; justify-content: center;">
