@@ -27,6 +27,17 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
     transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
   }
 
+  .about-hover-card {
+    background: var(--global-bg-color, #fff);
+    color: var(--global-text-color, inherit);
+    border: 1px solid var(--global-border-color, #000);
+    padding: 12px 14px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-family: var(--global-font-family, inherit);
+    transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+  }
+
   .about-hover-card:hover {
     transform: translateY(-3px);
     border-color: #005e7a;
@@ -41,17 +52,6 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
     padding: 14px;
   }
 
-  .research-expertise-image {
-    margin: 0 auto 12px;
-  }
-
-  .research-expertise-image img {
-    width: 96%;
-    display: block;
-    transform: scale(1.01);
-    transform-origin: center;
-    border-radius: 6px;
-  }
 
   .download-cv-btn {
     display: inline-block;
@@ -91,10 +91,12 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 
 <h3 style="text-align:center;margin:16px 0; color:#005E7A;font-size:1.2rem;">Research Expertise</h3>
 
-<div class="research-expertise-image">
-  <img src="/images/research_workflow.png" alt="Research workflow">
+<div style="position:relative; overflow:hidden; border-radius:8px;">
+  <img src="/images/research_workflow.png" 
+       alt="Research workflow" 
+       style="max-width:80%; display:block; transform:scale(1.01); transform-origin:center;margin-top:0;">
 
-  <small style="position:absolute; right:12px; bottom:10px; font-size:0.62rem; color:#4b5563; background:rgba(255,255,255,0.85); padding:2px 6px; border-radius:4px;">
+  <small style="position:absolute; right:12px; bottom:10px; font-size:0.72rem; color:#4b5563; background:rgba(255,255,255,0.85); padding:2px 6px; border-radius:4px;">
     AI-generated image
   </small>
 
