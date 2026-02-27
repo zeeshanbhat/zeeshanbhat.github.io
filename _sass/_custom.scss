@@ -249,3 +249,12 @@
   border-radius: 14px;
 }
 
+/* Global page title color (all pages) */
+.page__title,
+.page__title a,
+.page__title a:visited,
+.layout--archive .page__title,
+.layout--single .page__title {
+  color: #005E7A !important;
+}
+
