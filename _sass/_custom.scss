@@ -249,10 +249,12 @@
   border-radius: 14px;
 }
 
-/* Keep sidebar separate and allow main content to use full remaining width */
+/* Keep sidebar separate and reserve left column space for all page content */
 @media screen and (min-width: 1024px) {
   .layout--single #main {
     max-width: 100%;
+    padding-left: 360px;
+    box-sizing: border-box;
   }
 
   .layout--single .sidebar {
@@ -261,11 +263,12 @@
     z-index: 20;
   }
 
-  .layout--single .page {
+  .layout--single .page,
+  .layout--single .archive {
     float: none;
     width: 100%;
     margin-left: 0;
-    padding-left: 360px;
-    box-sizing: border-box;
+    padding-left: 0;
   }
 }
+
