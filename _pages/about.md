@@ -41,15 +41,14 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
     padding: 14px;
   }
 
-  .research-expertise-card {
+  .research-expertise-image {
     position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-    padding: 10px;
+    margin: 0 auto 12px;
+    max-width: 900px;
   }
 
-  .research-expertise-card img {
-    width: 90%;
+  .research-expertise-image img {
+    width: 95%;
     display: block;
     transform: scale(1.01);
     transform-origin: center;
@@ -94,10 +93,10 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 
 <h3 style="text-align:center;margin:16px 0; color:#005E7A;font-size:1.2rem;">Research Expertise</h3>
 
-<div class="about-hover-card research-expertise-card">
+<div class="research-expertise-image">
   <img src="/images/research_workflow.png" alt="Research workflow">
 
-  <small style="position:absolute; right:12px; bottom:10px; font-size:0.72rem; color:#4b5563; background:rgba(255,255,255,0.85); padding:2px 6px; border-radius:4px;">
+  <small style="position:absolute; right:12px; bottom:10px; font-size:0.62rem; color:#4b5563; background:rgba(255,255,255,0.85); padding:2px 6px; border-radius:4px;">
     AI-generated image
   </small>
 
