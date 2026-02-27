@@ -214,18 +214,6 @@ body.layout--single.page-teaching .page__title {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 .teaching-cards {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -340,5 +328,5 @@ body.layout--single.page-teaching .page__title {
 
 body.layout--archive .archive {
   padding-left: 0.01rem;
-  padding-right: 0.75rem;
+  padding-right: 2.75rem;
 }
