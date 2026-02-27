@@ -248,3 +248,32 @@
   background: #000;
   border-radius: 14px;
 }
+
+/* Full-width content while preserving desktop sidebar behavior */
+#main {
+  max-width: 100% !important;
+}
+
+@media (min-width: 925px) {
+  /* Pages without sidebar should use the full viewport width */
+  #main > .page,
+  #main > .archive {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  /* When sidebar exists, use almost all width for content next to it */
+  #main > .sidebar + .page,
+  #main > .sidebar + .archive {
+    width: calc(100% - 18rem) !important;
+    max-width: calc(100% - 18rem) !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .list__item {
+    padding-right: 0 !important;
+  }
+}
