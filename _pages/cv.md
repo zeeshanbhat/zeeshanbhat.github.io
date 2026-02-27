@@ -35,8 +35,13 @@ author_profile: true
 
   .experience-date {
     font-weight: 600;
-    color: #004a43;
+    color: #005E7A;
     white-space: nowrap;
+  }
+
+  .experience-duties-title,
+  .experience-duties li {
+    color: #005E7A;
   }
 
   .experience-duties {
@@ -62,7 +67,7 @@ author_profile: true
     </div>
   </div>
 
-  <strong>Duties</strong>
+  <strong class="experience-duties-title">Duties</strong>
   <ul class="experience-duties">
     <li>Conducting large-scale experimental testing of GFRP-reinforced members</li>
     <li>Developing phenomenological models to simulate the nonlinear response of GFRP-reinforced concrete columns</li>
