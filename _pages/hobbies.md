@@ -1,6 +1,6 @@
 ---
 title: ""
-layout: single
+layout: archive
 permalink: /beyond-research/
 redirect_from:
   - /hobbies/

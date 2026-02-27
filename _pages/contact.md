@@ -1,7 +1,7 @@
 ---
 title: ""
 permalink: /contact/
-layout: single
+layout: archive
 ---
 
 <div class="contact-wrap">
