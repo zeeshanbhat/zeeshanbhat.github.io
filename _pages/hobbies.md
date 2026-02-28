@@ -21,11 +21,12 @@ Some of my snaps
 
 <h2 style="color:#005E7A;font-size:1.1em;">📚 Books</h2>
 
-<div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:15px; width:95%; margin-right:auto;">
+<div style="display:grid; grid-template-columns:repeat(5, 1fr); gap:15px; width:95%; margin-right:auto;">
   <img src="/images/book1.jpg" alt="Book cover from personal reading list" style="width:100%; max-width:180px; border-radius:12px;">
   <img src="/images/book2.jpg" alt="Book cover from personal reading list" style="width:100%; max-width:180px; border-radius:12px;">
   <img src="/images/book3.jpg" alt="Book cover from personal reading list" style="width:100%; max-width:180px; border-radius:12px;">
   <img src="/images/book4.jpg" alt="Book cover from personal reading list" style="width:100%; max-width:180px; border-radius:12px;"> 
+  <img src="/images/book5.jpg" alt="Book cover from personal reading list" style="width:100%; max-width:180px; border-radius:12px;"> 
 </div>
 
 <h2 style="color:#005E7A;font-size:1.1em;">✍️ Writing</h2>
