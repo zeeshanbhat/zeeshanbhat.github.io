@@ -10,7 +10,7 @@ redirect_from:
 <h2 style="color:#005E7A;font-size:1.1em;">📷 Photography</h2>
 Some of my snaps
 
-<div style="display:grid; grid-template-columns:repeat(2, 1fr); gap:15px; width:80%; margin-right:auto;">
+<div style="display:grid; grid-template-columns:repeat(2, 1fr); gap:15px; width:95%; margin-right:auto;">
   <img src="/images/photo1.jpeg" style="width:100%; border-radius:12px;">
   <img src="/images/photo2.jpeg" style="width:100%; border-radius:12px;">
   <img src="/images/photo3.jpeg" style="width:100%; border-radius:12px;">
@@ -21,7 +21,7 @@ Some of my snaps
 
 <h2 style="color:#005E7A;font-size:1.1em;">📚 Books</h2>
 
-<div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:15px; width:80%; margin-right:auto;">
+<div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:15px; width:95%; margin-right:auto;">
   <img src="/images/book1.jpg" alt="Book cover from personal reading list" style="width:100%; max-width:180px; border-radius:12px;">
   <img src="/images/book2.jpg" alt="Book cover from personal reading list" style="width:100%; max-width:180px; border-radius:12px;">
   <img src="/images/book3.jpg" alt="Book cover from personal reading list" style="width:100%; max-width:180px; border-radius:12px;">
