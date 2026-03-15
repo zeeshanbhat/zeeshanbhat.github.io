@@ -62,6 +62,8 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
+    border: 0;
+    cursor: pointer;
     transition: transform 0.22s ease, box-shadow 0.22s ease, background-color 0.22s ease;
   }
 
@@ -69,6 +71,95 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
     background: #00789b;
     transform: translateY(-2px);
     box-shadow: 0 9px 16px rgba(0, 94, 122, 0.28);
+  }
+
+  .cv-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1200;
+    padding: 20px;
+  }
+
+  .cv-modal.is-open {
+    display: flex;
+  }
+
+  .cv-modal__content {
+    width: min(100%, 420px);
+    background: var(--global-bg-color, #fff);
+    border-radius: 12px;
+    border: 1px solid var(--global-border-color, #d1d5db);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.2);
+    padding: 18px;
+  }
+
+  .cv-modal__content h4 {
+    margin: 0 0 8px;
+    color: #005e7a;
+  }
+
+  .cv-modal__content p {
+    margin: 0 0 14px;
+    font-size: 0.94rem;
+  }
+
+  .cv-modal__field {
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  .cv-modal__field span {
+    display: inline-block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .cv-modal__field input,
+  .cv-modal__field textarea {
+    width: 100%;
+    padding: 9px 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font: inherit;
+    background: var(--global-bg-color, #fff);
+    color: var(--global-text-color, inherit);
+  }
+
+  .cv-modal__field textarea {
+    resize: vertical;
+    min-height: 70px;
+  }
+
+  .cv-modal__actions {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+    margin-top: 6px;
+  }
+
+  .cv-modal__close {
+    border: 1px solid #cbd5e1;
+    background: transparent;
+    color: inherit;
+    border-radius: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .cv-modal__submit {
+    border: 0;
+    border-radius: 8px;
+    padding: 8px 12px;
+    background: #005e7a;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
   }
 
   @media (max-width: 768px) {
@@ -147,7 +238,78 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 </div>
 
 <div style="margin-top:28px; display:flex; gap:12px; flex-wrap:wrap;justify-content:center;">
-  <a href="mailto:zbhat@eq.iitr.ac.in?subject=CV%20Request" class="download-cv-btn">
-    Request CV
-  </a>
+  <button type="button" class="download-cv-btn" id="openCvModalBtn">
+    Download CV
+  </button>
 </div>
+
+<div class="cv-modal" id="cvModal" aria-hidden="true">
+  <div class="cv-modal__content" role="dialog" aria-modal="true" aria-labelledby="cvModalTitle">
+    <h4 id="cvModalTitle">Please enter your details to download my CV</h4>
+    <p>Thanks for your interest. Share your details below and then continue to download the CV.</p>
+    <form id="cvDownloadForm">
+      <label class="cv-modal__field">
+        <span>Name</span>
+        <input type="text" name="name" required>
+      </label>
+      <label class="cv-modal__field">
+        <span>Email</span>
+        <input type="email" name="email" required>
+      </label>
+      <label class="cv-modal__field">
+        <span>Purpose</span>
+        <textarea name="purpose" required></textarea>
+      </label>
+      <div class="cv-modal__actions">
+        <button type="button" class="cv-modal__close" id="closeCvModalBtn">Cancel</button>
+        <button type="submit" class="cv-modal__submit">Continue to Download</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+  (function () {
+    const openBtn = document.getElementById('openCvModalBtn');
+    const closeBtn = document.getElementById('closeCvModalBtn');
+    const modal = document.getElementById('cvModal');
+    const form = document.getElementById('cvDownloadForm');
+    const cvPath = '/files/CV_Zeeshan.pdf';
+
+    if (!openBtn || !closeBtn || !modal || !form) {
+      return;
+    }
+
+    const setModalState = function (isOpen) {
+      modal.classList.toggle('is-open', isOpen);
+      modal.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    };
+
+    openBtn.addEventListener('click', function () {
+      setModalState(true);
+    });
+
+    closeBtn.addEventListener('click', function () {
+      setModalState(false);
+    });
+
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        setModalState(false);
+      }
+    });
+
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+
+      setModalState(false);
+      window.open(cvPath, '_blank', 'noopener');
+      form.reset();
+    });
+  })();
+</script>
