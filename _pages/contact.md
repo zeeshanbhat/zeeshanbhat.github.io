@@ -4,6 +4,64 @@ permalink: /contact/
 layout: archive
 ---
 
+<style>
+  .collab-note {
+    margin: 0 0 16px;
+    padding: 18px 20px;
+    border-radius: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    background: #fff;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.06);
+  }
+
+  .collab-note h3 {
+    margin: 0 0 6px;
+    color: #1f3a5f;
+    font-size: 1.05rem;
+  }
+
+  .collab-note p {
+    margin: 0;
+    font-size: 0.94rem;
+  }
+
+  .collab-links {
+    margin-top: 11px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .collab-links a {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #1f3a5f;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    background: #f8fafe;
+  }
+
+  .collab-links a:hover {
+    background: #eef3ff;
+    border-color: rgba(31, 58, 95, 0.35);
+  }
+</style>
+
+<div class="collab-note">
+  <h3>Collaboration</h3>
+  <p>If my work matches your interests, let’s keep in contact and collaborate.</p>
+  <div class="collab-links">
+    <a href="/research-highlights/">Research highlights</a>
+    <a href="/publications/">Publications</a>
+    <a href="/portfolio/">Projects</a>
+  </div>
+</div>
+
 <div class="contact-wrap">
 
   <!-- LEFT: ADDRESS -->

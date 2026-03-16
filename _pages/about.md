@@ -167,6 +167,7 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
       flex-wrap: wrap;
       gap: 10px;
     }
+
   }
   
   body.layout--archive h1.page__title,
