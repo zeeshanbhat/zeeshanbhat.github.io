@@ -4,6 +4,58 @@ permalink: /contact/
 layout: archive
 ---
 
+<style>
+  .collab-note {
+    margin: 0 0 14px;
+    padding: 14px 16px;
+    border-radius: 12px;
+    border: 1px solid rgba(78, 108, 240, 0.22);
+    background: linear-gradient(120deg, rgba(78, 108, 240, 0.07), rgba(0, 94, 122, 0.06));
+  }
+
+  .collab-note h3 {
+    margin: 0 0 6px;
+    color: #1f3a5f;
+    font-size: 1rem;
+  }
+
+  .collab-note p {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+
+  .collab-links {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .collab-links a {
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid rgba(31, 58, 95, 0.2);
+    background: #fff;
+  }
+
+  .collab-links a:hover {
+    background: #eef3ff;
+  }
+</style>
+
+<div class="collab-note">
+  <h3>Collaboration</h3>
+  <p>If my work matches your interests, let’s keep in contact and collaborate.</p>
+  <div class="collab-links">
+    <a href="/research-highlights/">Research highlights</a>
+    <a href="/publications/">Publications</a>
+    <a href="/portfolio/">Projects</a>
+  </div>
+</div>
+
 <div class="contact-wrap">
 
   <!-- LEFT: ADDRESS -->
