@@ -275,7 +275,7 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
     const closeBtn = document.getElementById('closeCvModalBtn');
     const modal = document.getElementById('cvModal');
     const form = document.getElementById('cvDownloadForm');
-    const cvPath = '/files/cv.pdf';
+    const cvPath = '/files/CV_Zeeshan.pdf';
 
     if (!openBtn || !closeBtn || !modal || !form) {
       return;
