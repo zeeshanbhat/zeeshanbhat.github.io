@@ -4,7 +4,7 @@ excerpt: "<img src='/images/Paper8.png'>"
 collection: portfolio
 ---
 
-<img class='project-hero-image' src='/images/Paper2.png' alt='Project image'>
+<img class='project-hero-image' src='/images/Paper8.png' alt='Project image'>
 
 I developed seismic fragility curves of masonry infills in low- and mid-rise reinforced concrete (RC) buildings while explicitly considering the interaction between **in-plane (IP) damage** and **out-of-plane (OOP) collapse mechanisms** during earthquakes.
 
