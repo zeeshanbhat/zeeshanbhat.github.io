@@ -1,6 +1,6 @@
 ---
 title: "Fragility Curves of Masonry Infills Considering In-Plane (IP) – Out-of-Plane (OOP) Interaction"
-excerpt: "<img src='/images/Paper2.png'>"
+excerpt: "<img src='/images/Paper8.png'>"
 collection: portfolio
 ---
 
