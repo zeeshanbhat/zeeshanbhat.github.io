@@ -9,6 +9,7 @@ collection: portfolio
 I conducted full-scale reversed out-of-plane (OOP) cyclic testing of masonry infills to evaluate their **strength, stiffness, energy dissipation capacity**, and **failure mechanisms** under out-of-plane seismic loading.
 
 ### Key Contributions
+
 - Developed a **first-of-its-kind test setup** for out-of-plane testing of masonry infills using **airbags**  
 - Studied the influence of **infill type** and **slenderness ratio** on out-of-plane response  
 - Evaluated **strength degradation, drift capacity, and collapse mechanisms** under cyclic loading
