@@ -9,6 +9,7 @@ collection: portfolio
 I conducted full-scale in-plane (IP) cyclic testing on masonry-infilled reinforced concrete (RC) frames designed to modern codes to evaluate their seismic performance, damage patterns, and strength/stiffness degradation under lateral loading.
 
 ### Key Contributions
+
 - Designed and conducted **full-scale in-plane cyclic experiments** on masonry-infilled RC frames  
 - Evaluated the **adequacy of modern code provisions** in preventing **shear failure** in columns due to masonry infill
 - Instrumented specimens to measure **lateral strength, drift capacity, stiffness degradation, and energy dissipation**
