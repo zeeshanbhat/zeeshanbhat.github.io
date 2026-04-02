@@ -16,7 +16,7 @@ layout: archive
 
   .collab-note h3 {
     margin: 0 0 6px;
-    color: #1f3a5f;
+    color: #005E7A;
     font-size: 1.05rem;
   }
 
@@ -41,14 +41,14 @@ layout: archive
     letter-spacing: 0.06em;
     text-transform: uppercase;
     font-weight: 700;
-    color: #1f3a5f;
+    color: #005E7A;
     border: 1px solid rgba(0, 0, 0, 0.14);
     background: #f8fafe;
   }
 
   .collab-links a:hover {
     background: #eef3ff;
-    border-color: rgba(31, 58, 95, 0.35);
+    border-color: rgba(0, 94, 122, 0.35);
   }
 </style>
 
