@@ -9,6 +9,7 @@ collection: portfolio
 I assessed the **seismic risk** of masonry-infilled reinforced concrete (RC) frame buildings designed to modern codes, focusing on quantifying structural vulnerability and expected seismic performance.
 
 ### Key Contributions
+
 - Developed **nonlinear models** of **masonry-infilled RC frames** designed as per modern code provisions  
 - Performed seismic performance assessment using **Multiple Stripe Analysis (MSA)**  
 - Developed **fragility curves** for masonry infills at different **damage states**, as well as for the **overall buildings**  
