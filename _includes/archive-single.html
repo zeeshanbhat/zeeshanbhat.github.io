@@ -62,9 +62,9 @@
         {% elsif post.collection == 'publications' %}
           {% if post.category == 'conferences' or post.categories contains 'conferences' or post.category == 'manuscripts' or post.categories contains 'manuscripts' or post.category == 'openaccess' or post.categories contains 'openaccess' or post.category == 'technical_reports' or post.categories contains 'technical_reports' %}
             {% if citation_formatted %}
-              <p>{% if include.pub_number %}{{ include.pub_number }}. {% endif %}{{ citation_formatted }}</p>
+              <p class="publication-citation-line">{% if include.pub_number %}{{ include.pub_number }}. {% endif %}{{ citation_formatted }}</p>
             {% elsif post.category == 'technical_reports' or post.categories contains 'technical_reports' %}
-              <p>{% if include.pub_number %}{{ include.pub_number }}. {% endif %}{{ title }}. <i>{{ post.venue }}</i>{% if post.date %}, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% endif %}.</p>
+              <p class="publication-citation-line">{% if include.pub_number %}{{ include.pub_number }}. {% endif %}{{ title }}. <i>{{ post.venue }}</i>{% if post.date %}, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% endif %}.</p>
             {% else %}
               <p><i>{{ post.venue }}</i></p>
             {% endif %}
