@@ -258,3 +258,35 @@
   color: #005E7A !important;
 }
 
+
+/* Research page heading scale adjustment (-10%) */
+body.page-research .page__content h1,
+body.page-research .page__content h2,
+body.page-research .page__content h3,
+body.page-research .page__content h4,
+body.page-research .page__content h5,
+body.page-research .page__content h6,
+body.page-research .page__content h1 a,
+body.page-research .page__content h2 a,
+body.page-research .page__content h3 a,
+body.page-research .page__content h4 a,
+body.page-research .page__content h5 a,
+body.page-research .page__content h6 a,
+body.page-research .research-list .archive__item-title,
+body.page-research .research-list .archive__item-title a,
+body.page-research .research-highlights-card__title {
+  font-size: 0.9em;
+}
+
+body.page-research .research-highlights-panel__eyebrow,
+body.page-research .research-section-heading {
+  font-size: 0.675rem;
+}
+
+body.page-research .research-section-heading {
+  text-align: center;
+  letter-spacing: 1.6px;
+  font-weight: 600;
+  color: #5F7FA3;
+  margin: 0 0 1.8rem;
+}
