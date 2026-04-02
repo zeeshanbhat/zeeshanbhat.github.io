@@ -16,7 +16,7 @@ layout: archive
 
   .collab-note h3 {
     margin: 0 0 6px;
-    color: #1f3a5f;
+    color: #005E7A;
     font-size: 1.05rem;
   }
 
