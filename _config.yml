@@ -89,10 +89,10 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
-  technical_reports:
-    title: 'Technical Reports'
   openaccess:
     title: 'Datasets'
+  technical_reports:
+    title: 'Technical Reports'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

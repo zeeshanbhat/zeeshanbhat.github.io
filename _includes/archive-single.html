@@ -12,6 +12,19 @@
   {% assign title = post.title %}
 {% endif %}
 
+{% assign citation_formatted = post.citation %}
+{% if citation_formatted %}
+  {% assign citation_formatted = citation_formatted | replace: "Bhat, Z. M.", "<strong>Bhat, Z. M.</strong>" %}
+  {% assign citation_formatted = citation_formatted | replace: "Bhat, Z.M.", "<strong>Bhat, Z.M.</strong>" %}
+  {% assign citation_formatted = citation_formatted | replace: "Z. M. Bhat", "<strong>Z. M. Bhat</strong>" %}
+{% endif %}
+{% assign citation_list_mode = false %}
+{% if post.collection == 'publications' and citation_formatted %}
+  {% if post.category == 'conferences' or post.categories contains 'conferences' or post.category == 'manuscripts' or post.categories contains 'manuscripts' or post.category == 'openaccess' or post.categories contains 'openaccess' or post.category == 'technical_reports' or post.categories contains 'technical_reports' %}
+    {% assign citation_list_mode = true %}
+  {% endif %}
+{% endif %}
+
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
@@ -26,15 +39,17 @@
       </div>
     {% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline">
-      {% if post.collection == 'teaching' %}
-        {{ title }}
-      {% elsif post.link %}
-        {% if post.collection == 'publications' and include.pub_number %}{{ include.pub_number }}. {% endif %}<a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        {% if post.collection == 'publications' and include.pub_number %}{{ include.pub_number }}. {% endif %}<a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
-    </h2>
+    {% unless citation_list_mode %}
+      <h2 class="archive__item-title" itemprop="headline">
+        {% if post.collection == 'teaching' %}
+          {{ title }}
+        {% elsif post.link %}
+          {% if post.collection == 'publications' and include.pub_number %}{{ include.pub_number }}. {% endif %}<a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        {% else %}
+          {% if post.collection == 'publications' and include.pub_number %}{{ include.pub_number }}. {% endif %}<a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        {% endif %}
+      </h2>
+    {% endunless %}
     
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
@@ -43,10 +58,12 @@
         {% if post.collection == 'teaching' %}
           <p>{{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
         {% elsif post.collection == 'publications' %}
-          {% if post.category == 'conferences' or post.categories contains 'conferences' %}
-            <p><i>{{ post.venue }}</i></p>
-          {% elsif post.category == 'technical_reports' or post.categories contains 'technical_reports' %}
-            <p><i>{{ post.venue }}</i></p>
+          {% if post.category == 'conferences' or post.categories contains 'conferences' or post.category == 'manuscripts' or post.categories contains 'manuscripts' or post.category == 'openaccess' or post.categories contains 'openaccess' or post.category == 'technical_reports' or post.categories contains 'technical_reports' %}
+            {% if citation_formatted %}
+              <p>{% if include.pub_number %}{{ include.pub_number }}. {% endif %}{{ citation_formatted }}</p>
+            {% else %}
+              <p><i>{{ post.venue }}</i></p>
+            {% endif %}
           {% else %}
             {% if post.substatus %}
               <p><span class="substatus">{{ post.substatus }} <i>{{ post.venue }}</i></span></p>
@@ -73,7 +90,12 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.paperurl and post.slidesurl and post.bibtexurl %}
+    {% if post.collection == 'publications' and post.category == 'conferences' or post.collection == 'publications' and post.categories contains 'conferences' or post.collection == 'publications' and post.category == 'manuscripts' or post.collection == 'publications' and post.categories contains 'manuscripts' or post.collection == 'publications' and post.category == 'openaccess' or post.collection == 'publications' and post.categories contains 'openaccess' or post.collection == 'publications' and post.category == 'technical_reports' or post.collection == 'publications' and post.categories contains 'technical_reports' %}
+      <p>
+        {% if post.paperurl %}<a href="{{ post.paperurl }}">[PDF]</a>{% endif %}
+        {% if post.url %}<a href="{{ base_path }}{{ post.url }}" rel="permalink">[Link]</a>{% endif %}
+      </p>
+    {% elsif post.paperurl and post.slidesurl and post.bibtexurl %}
       <p><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.paperurl and post.slidesurl %}
       <p><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
