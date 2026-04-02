@@ -29,6 +29,13 @@ author_profile: true
 
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
+    {% assign category_total = 0 %}
+    {% for count_post in site.publications %}
+      {% if count_post.category == category[0] %}
+        {% assign category_total = category_total | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+    {% assign publication_number = category_total %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
         {% continue %}
@@ -37,14 +44,17 @@ author_profile: true
         <h2 id="{{ category[0] | slugify }}">{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+      {% include archive-single.html pub_number=publication_number %}
+      {% assign publication_number = publication_number | minus: 1 %}
     {% endfor %}
   {% endfor %}
 {% else %}
+  {% assign publication_total = site.publications | size %}
+  {% assign publication_number = publication_total %}
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    {% include archive-single.html pub_number=publication_number %}
+    {% assign publication_number = publication_number | minus: 1 %}
   {% endfor %}
 {% endif %}
 </div>
-
 
