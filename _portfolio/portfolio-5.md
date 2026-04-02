@@ -8,7 +8,8 @@ collection: portfolio
 
 I used **Digital Image Correlation (DIC)** during **large-scale experimental testing** to obtain **full-field displacement and strain measurements**, enabling detailed interpretation of **crack initiation, propagation, and damage localisation**. 
 
-**Key contributions:**
+### Key Contributions
+
 - Set up DIC imaging to capture **full-field deformation response** during cyclic loading  
 - Generated and analysed **strain maps** to identify crack formation and damage progression  
 - Supported damage assessment and interpretation beyond conventional sensors (e.g., LVDTs/strain gauges)  
