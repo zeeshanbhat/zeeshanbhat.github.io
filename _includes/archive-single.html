@@ -20,7 +20,7 @@
 {% endif %}
 {% assign citation_list_mode = false %}
 {% if post.collection == 'publications' and citation_formatted %}
-  {% if post.category == 'conferences' or post.categories contains 'conferences' or post.category == 'manuscripts' or post.categories contains 'manuscripts' or post.category == 'openaccess' or post.categories contains 'openaccess' %}
+  {% if post.category == 'conferences' or post.categories contains 'conferences' or post.category == 'manuscripts' or post.categories contains 'manuscripts' or post.category == 'openaccess' or post.categories contains 'openaccess' or post.category == 'technical_reports' or post.categories contains 'technical_reports' %}
     {% assign citation_list_mode = true %}
   {% endif %}
 {% endif %}
@@ -58,14 +58,12 @@
         {% if post.collection == 'teaching' %}
           <p>{{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
         {% elsif post.collection == 'publications' %}
-          {% if post.category == 'conferences' or post.categories contains 'conferences' or post.category == 'manuscripts' or post.categories contains 'manuscripts' or post.category == 'openaccess' or post.categories contains 'openaccess' %}
+          {% if post.category == 'conferences' or post.categories contains 'conferences' or post.category == 'manuscripts' or post.categories contains 'manuscripts' or post.category == 'openaccess' or post.categories contains 'openaccess' or post.category == 'technical_reports' or post.categories contains 'technical_reports' %}
             {% if citation_formatted %}
               <p>{% if include.pub_number %}{{ include.pub_number }}. {% endif %}{{ citation_formatted }}</p>
             {% else %}
               <p><i>{{ post.venue }}</i></p>
             {% endif %}
-          {% elsif post.category == 'technical_reports' or post.categories contains 'technical_reports' %}
-            <p><i>{{ post.venue }}</i></p>
           {% else %}
             {% if post.substatus %}
               <p><span class="substatus">{{ post.substatus }} <i>{{ post.venue }}</i></span></p>
@@ -92,7 +90,7 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.collection == 'publications' and post.category == 'conferences' or post.collection == 'publications' and post.categories contains 'conferences' or post.collection == 'publications' and post.category == 'manuscripts' or post.collection == 'publications' and post.categories contains 'manuscripts' or post.collection == 'publications' and post.category == 'openaccess' or post.collection == 'publications' and post.categories contains 'openaccess' %}
+    {% if post.collection == 'publications' and post.category == 'conferences' or post.collection == 'publications' and post.categories contains 'conferences' or post.collection == 'publications' and post.category == 'manuscripts' or post.collection == 'publications' and post.categories contains 'manuscripts' or post.collection == 'publications' and post.category == 'openaccess' or post.collection == 'publications' and post.categories contains 'openaccess' or post.collection == 'publications' and post.category == 'technical_reports' or post.collection == 'publications' and post.categories contains 'technical_reports' %}
       <p>
         {% if post.paperurl %}<a href="{{ post.paperurl }}">[PDF]</a>{% endif %}
         {% if post.url %}<a href="{{ base_path }}{{ post.url }}" rel="permalink">[Link]</a>{% endif %}
