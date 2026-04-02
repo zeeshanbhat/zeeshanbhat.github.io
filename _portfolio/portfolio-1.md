@@ -9,6 +9,7 @@ collection: portfolio
 I conducted damage assessment in masonry under different loading conditions using **Digital Image Correlation (DIC)** to obtain full-field displacement and strain measurements.
 
 ### Key Contributions
+
 - Tracked **crack initiation and propagation** using DIC strain maps  
 - Observed that cracking initiates in the **mortar** for masonry made with **high-strength units + low-strength mortar**, while it initiates in the **brick units** for masonry made with **low-strength bricks + high-strength mortar**  
 - Found that under **diagonal compression**, masonry exhibits a **predominantly pure shear strain field**  
