@@ -5,8 +5,8 @@ category: manuscripts
 permalink: /publication/seismic-fragility-oop-submitted
 date: 2026-01-01
 venue: "Journal of Building Engineering"
-paperurl: "https://doi.org/10.1016/j.engstruct.2024.118695"
-citation: 'Bhat, Z. M., & Singh, Y. (2026). &quot; Out-of-plane seismic fragility analysis of masonry infills in low- and mid-rise RC frame archetype buildings accounting for in-plane damage.&quot; <i> Journal of Building Engineering </i>, 317, 118695.'
+paperurl: "https://doi.org/10.1016/j.jobe.2026.116007"
+citation: 'Bhat, Z. M., & Singh, Y. (2026). &quot; Out-of-plane seismic fragility analysis of masonry infills in low- and mid-rise RC frame archetype buildings accounting for in-plane damage.&quot; <i> Journal of Building Engineering </i>, 124, 116007.'
 excerpt: ""
 share: false
 ---
