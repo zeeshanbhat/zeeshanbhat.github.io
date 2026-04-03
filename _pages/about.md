@@ -231,20 +231,12 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 
 <div class="cv-modal" id="cvModal" aria-hidden="true">
   <div class="cv-modal__content" role="dialog" aria-modal="true" aria-labelledby="cvModalTitle">
-    <h4 id="cvModalTitle">Please enter your details to download my CV</h4>
-    <p>Thanks for your interest. Share your details below and then continue to download the CV.</p>
+    <h4 id="cvModalTitle">Please enter your email to download my CV</h4>
+    <p>Thanks for your interest. Share your email below and then continue to download the CV.</p>
     <form id="cvDownloadForm">
-      <label class="cv-modal__field">
-        <span>Name</span>
-        <input type="text" name="name" required>
-      </label>
       <label class="cv-modal__field">
         <span>Email</span>
         <input type="email" name="email" required>
-      </label>
-      <label class="cv-modal__field">
-        <span>Purpose</span>
-        <textarea name="purpose" required></textarea>
       </label>
       <div class="cv-modal__actions">
         <button type="button" class="cv-modal__close" id="closeCvModalBtn">Cancel</button>
