@@ -8,9 +8,9 @@ excerpt: "Structural & Earthquake Engineering | IIT Roorkee"
 author_profile: true
 ---
 
-I am a Research Associate in the Department of Earthquake Engineering at the Indian Institute of Technology (IIT) Roorkee, India, working under <a href="https://www.iitr.ac.in/~EQ/yogenfeq" target="_blank" rel="noopener">Professor Yogendra Singh</a>. My research focuses on using both large-scale experimental and numerical approaches to better understand how structures behave during earthquakes, with the goal of enhancing their performance, safety, and resilience. Through this work, I aim to contribute to the development of safer and more resilient infrastructure in earthquake-prone regions.
+I am a Research Associate in the Department of Earthquake Engineering at the Indian Institute of Technology (IIT) Roorkee, India, working under <a href="https://www.iitr.ac.in/~EQ/yogenfeq" target="_blank" rel="noopener">Prof. Yogendra Singh</a>. My research focuses on using both large-scale experimental and numerical approaches to better understand how structures behave during earthquakes, with the goal of enhancing their performance, safety, and resilience. Through this work, I aim to contribute to the development of safer and more resilient infrastructure in earthquake-prone regions.
 
-I am honored to have been awarded the **Canada Impact + Research Training Award**, and will be joining <a href="https://smithengineering.queensu.ca/directory/faculty/amir-fam.html" target="_blank" rel="noopener">Professor Amir Fam</a>'s research group at Queen's University, Canada. My research there will focus on energy-efficient and climate-resilient infrastructure, in addition to advancing seismic performance and design.
+I am honored to have been awarded the **Canada Impact + Research Training Award**, and will be joining <a href="https://smithengineering.queensu.ca/directory/faculty/amir-fam.html" target="_blank" rel="noopener">Prof. Amir Fam</a>'s research group at Queen's University, Canada. My research there will focus on energy-efficient and climate-resilient infrastructure, in addition to advancing seismic performance and design.
 <style>
   .about-card-grid {
     display: grid;
