@@ -29,8 +29,6 @@ Some of my snaps
   <img src="/images/book5.jpg" alt="Book cover from personal reading list" style="width:100%; max-width:180px; border-radius:12px;"> 
 </div>
 
-<h2 style="color:#005E7A;font-size:1.1em;">✍️ Writing</h2>
-Simple thoughts and reflections on life and everyday experiences.
 
 
 <h2 style="color:#005E7A;font-size:1.1em;">📝 Urdu Poetry</h2>
