@@ -74,3 +74,26 @@ author_profile: true
     <li>Performing seismic risk and vulnerability assessment of GFRP-reinforced structures</li>
   </ul>
 </div>
+
+<div class="experience-card" style="margin-top:16px;">
+  <div class="experience-header">
+    <img src="/images/iitr_logo.png" alt="IIT Roorkee Logo" style="width:70px; height:70px;">
+    <div style="flex:1; min-width:240px;">
+      <strong class="experience-role">Ph.D. Research Scholar</strong><br>
+      Indian Institute of Technology Roorkee, India<br>
+      <em>Supervisor:</em> Prof. Yogendra Singh<br>
+      <em>Thesis:</em> Experimental and Numerical Investigation of Seismic Behaviour of Masonry Infill Panels in RC Frame Buildings
+    </div>
+    <div class="experience-date">
+      Jul 2018 – Mar 2025
+    </div>
+  </div>
+
+  <strong class="experience-duties-title">Research Activities</strong>
+  <ul class="experience-duties">
+    <li>Conducted full-scale reversed cyclic experiments on masonry infill panels (in-plane and out-of-plane) in RC frames</li>
+    <li>Applied Digital Image Correlation (DIC) for full-field strain and displacement measurement during large-scale tests</li>
+    <li>Developed and calibrated nonlinear numerical models (diagonal strut, finite element) in OpenSees</li>
+    <li>Performed seismic fragility and risk assessment of RC frame buildings with masonry infills</li>
+  </ul>
+</div>
