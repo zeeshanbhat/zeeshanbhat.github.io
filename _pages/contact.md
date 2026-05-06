@@ -56,7 +56,7 @@ layout: archive
   <h3>Collaboration</h3>
   <p>If my work matches your interests, let’s keep in contact and collaborate.</p>
   <div class="collab-links">
-    <a href="/research-highlights/">Research highlights</a>
+    <a href="/research/">Research highlights</a>
     <a href="/publications/">Publications</a>
     <a href="/portfolio/">Projects</a>
   </div>
