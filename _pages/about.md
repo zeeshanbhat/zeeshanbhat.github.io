@@ -29,12 +29,12 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
     <span class="stats-bar__label">Years of Research</span>
   </div>
   <div class="stats-bar__item">
-    <span class="stats-bar__number" data-target="6">0</span>
+    <span class="stats-bar__number" data-target="14">0</span>
     <span class="stats-bar__label">Full-Scale Tests</span>
   </div>
   <div class="stats-bar__item">
-    <span class="stats-bar__number" data-target="3">0</span>
-    <span class="stats-bar__label">Countries Collaborated</span>
+    <span class="stats-bar__number" data-target="2">0</span>
+    <span class="stats-bar__label">Funded Projects</span>
   </div>
 </div>
 
@@ -320,22 +320,35 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 <h3 style="color:#005E7A;font-size:1.1rem;">Recent News</h3>
 
 <div class="news-timeline">
+
   <div class="news-item">
-    <div class="news-item__date">May 2025</div>
-    <div class="news-item__text">Awarded the <strong>Canada Impact + Research Training Award</strong>; joining Queen's University as a Postdoctoral Fellow.</div>
+    <div class="news-item__date">April 2026</div>
+    <div class="news-item__text">
+      Awarded the <strong>Canada Impact + Research Training Award</strong>; joining Queen’s University, Canada, as a Postdoctoral Fellow.
+    </div>
   </div>
+
   <div class="news-item">
-    <div class="news-item__date">Jun 2025</div>
-    <div class="news-item__text">Paper on <strong>out-of-plane cyclic testing of masonry infills</strong> accepted at COMPDYN 2025.</div>
+    <div class="news-item__date">March 2026</div>
+    <div class="news-item__text">
+      Paper on the seismic fragility of masonry infills considering in-plane and out-of-plane interaction accepted in the <strong>Journal of Building Engineering</strong>.
+    </div>
   </div>
+
   <div class="news-item">
-    <div class="news-item__date">Jun 2025</div>
-    <div class="news-item__text">Presented DIC research at the <strong>Canadian Masonry Symposium 2025</strong>.</div>
+    <div class="news-item__date">June 2025</div>
+    <div class="news-item__text">
+      Presented a paper on <strong>out-of-plane cyclic testing of masonry infills</strong> at <strong>COMPDYN 2025</strong>, Rhodes Island, Greece.
+    </div>
   </div>
+
   <div class="news-item">
-    <div class="news-item__date">Mar 2025</div>
-    <div class="news-item__text">Successfully defended <strong>Ph.D. thesis</strong> on seismic behaviour of masonry infill panels at IIT Roorkee.</div>
+    <div class="news-item__date">June 2025</div>
+    <div class="news-item__text">
+      Presented a paper on <strong>DIC-based damage assessment in large-scale testing</strong> at the <strong>Canadian Masonry Symposium 2025</strong>, Ottawa, Canada.
+    </div>
   </div>
+
 </div>
 
 <h3 style="color:#005E7A;font-size:1.1rem;">Research Interests</h3>
