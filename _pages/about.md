@@ -10,15 +10,97 @@ author_profile: true
 
 I am a Research Associate in the Department of Earthquake Engineering at the Indian Institute of Technology (IIT) Roorkee, India, working under <a href="https://www.iitr.ac.in/~EQ/yogenfeq" target="_blank" rel="noopener">Prof. Yogendra Singh</a>. My research focuses on using both large-scale experimental and numerical approaches to better understand how structures behave during earthquakes, with the goal of enhancing their performance, safety, and resilience. Through this work, I aim to contribute to the development of safer and more resilient infrastructure in earthquake-prone regions.
 
-<div style="background:#fff8ec;border:2px solid #e8a020;border-radius:12px;padding:16px 20px;margin:18px 0;display:flex;gap:14px;align-items:flex-start;">
-  <span style="font-size:2rem;line-height:1;">🎉</span>
+<div style="background:linear-gradient(135deg,#fff8ec 0%,#fff3e0 100%);border:2px solid #e8a020;border-radius:14px;padding:18px 22px;margin:20px 0;display:flex;gap:16px;align-items:flex-start;box-shadow:0 4px 14px rgba(232,160,32,0.12);">
+  <span style="font-size:2rem;line-height:1;flex-shrink:0;">🎉</span>
   <div>
     <div style="font-weight:700;font-size:1.08rem;color:#c45c00;margin-bottom:6px;">Canada Impact + Research Training Award</div>
     <div>I am honored to have received this award and will be joining <a href="https://smithengineering.queensu.ca/directory/faculty/amir-fam.html" target="_blank" rel="noopener">Prof. Amir Fam</a>'s research group at Queen's University, Canada, as a Postdoctoral Fellow. My research there will focus on developing energy-efficient and climate-resilient infrastructure, along with advancing seismic performance and design.</div>
   </div>
 </div>
 
+<!-- ===== STATS BAR ===== -->
+<div class="stats-bar">
+  <div class="stats-bar__item">
+    <span class="stats-bar__number" data-target="10">0</span>
+    <span class="stats-bar__label">Publications</span>
+  </div>
+  <div class="stats-bar__item">
+    <span class="stats-bar__number" data-target="7">0</span>
+    <span class="stats-bar__label">Years of Research</span>
+  </div>
+  <div class="stats-bar__item">
+    <span class="stats-bar__number" data-target="6">0</span>
+    <span class="stats-bar__label">Full-Scale Tests</span>
+  </div>
+  <div class="stats-bar__item">
+    <span class="stats-bar__number" data-target="3">0</span>
+    <span class="stats-bar__label">Countries Collaborated</span>
+  </div>
+</div>
+
 <style>
+  /* ===== STATS BAR ===== */
+  .stats-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    margin: 24px 0 28px;
+    border: 1px solid #E6EBF2;
+    border-radius: 14px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 16px rgba(31, 58, 95, 0.07);
+  }
+
+  .stats-bar__item {
+    flex: 1 1 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 12px;
+    border-right: 1px solid #E6EBF2;
+    transition: background 0.2s;
+  }
+
+  .stats-bar__item:last-child {
+    border-right: none;
+  }
+
+  .stats-bar__item:hover {
+    background: #f0f7fa;
+  }
+
+  .stats-bar__number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #005E7A;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  .stats-bar__label {
+    font-size: 0.75rem;
+    color: #5F7FA3;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: center;
+  }
+
+  @media (max-width: 540px) {
+    .stats-bar {
+      flex-direction: row;
+    }
+    .stats-bar__item {
+      flex: 1 1 45%;
+      border-bottom: 1px solid #E6EBF2;
+    }
+    .stats-bar__item:nth-child(even) {
+      border-right: none;
+    }
+  }
+
+  /* ===== RESEARCH INTEREST CARDS ===== */
   .about-card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -29,29 +111,27 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
   .about-hover-card {
     background: var(--global-bg-color, #fff);
     color: var(--global-text-color, inherit);
-    border: 1px solid var(--global-border-color, #000);
-    padding: 12px 14px;
-    border-radius: 8px;
+    border: 1px solid var(--global-border-color, #E6EBF2);
+    padding: 14px 16px;
+    border-radius: 10px;
     font-weight: 400;
     font-family: var(--global-font-family, inherit);
     transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
-  }
-
-  .about-hover-card {
-    background: var(--global-bg-color, #fff);
-    color: var(--global-text-color, inherit);
-    border: 1px solid var(--global-border-color, #000);
-    padding: 12px 14px;
-    border-radius: 8px;
-    font-weight: 400;
-    font-family: var(--global-font-family, inherit);
-    transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
 
   .about-hover-card:hover {
     transform: translateY(-3px);
     border-color: #005e7a;
     box-shadow: 0 8px 18px rgba(0, 94, 122, 0.16);
+  }
+
+  .about-hover-card .card-icon {
+    font-size: 1.4rem;
+    flex-shrink: 0;
+    line-height: 1;
   }
 
   .education-card {
@@ -61,7 +141,6 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
     margin-bottom: 16px;
     padding: 14px;
   }
-
 
   .download-cv-btn {
     display: inline-block;
@@ -82,6 +161,59 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
     box-shadow: 0 9px 16px rgba(0, 94, 122, 0.28);
   }
 
+  /* ===== NEWS SECTION ===== */
+  .news-timeline {
+    margin: 14px 0 28px;
+    position: relative;
+    padding-left: 20px;
+  }
+
+  .news-timeline::before {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 6px;
+    bottom: 6px;
+    width: 2px;
+    background: linear-gradient(180deg, #005E7A 0%, #E6EBF2 100%);
+    border-radius: 2px;
+  }
+
+  .news-item {
+    position: relative;
+    margin-bottom: 18px;
+    padding-left: 20px;
+  }
+
+  .news-item::before {
+    content: '';
+    position: absolute;
+    left: -19px;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #005E7A;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 2px #005E7A;
+  }
+
+  .news-item__date {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #005E7A;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+  }
+
+  .news-item__text {
+    font-size: 0.9rem;
+    color: var(--global-text-color, #333);
+    line-height: 1.5;
+  }
+
+  /* ===== CV MODAL ===== */
   .cv-modal {
     position: fixed;
     inset: 0;
@@ -176,7 +308,6 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
       flex-wrap: wrap;
       gap: 10px;
     }
-
   }
   
   body.layout--archive h1.page__title,
@@ -185,16 +316,38 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
   }
 </style>
 
+<!-- ===== RECENT NEWS ===== -->
+<h3 style="color:#005E7A;font-size:1.1rem;">Recent News</h3>
+
+<div class="news-timeline">
+  <div class="news-item">
+    <div class="news-item__date">May 2025</div>
+    <div class="news-item__text">Awarded the <strong>Canada Impact + Research Training Award</strong>; joining Queen's University as a Postdoctoral Fellow.</div>
+  </div>
+  <div class="news-item">
+    <div class="news-item__date">Jun 2025</div>
+    <div class="news-item__text">Paper on <strong>out-of-plane cyclic testing of masonry infills</strong> accepted at COMPDYN 2025.</div>
+  </div>
+  <div class="news-item">
+    <div class="news-item__date">Jun 2025</div>
+    <div class="news-item__text">Presented DIC research at the <strong>Canadian Masonry Symposium 2025</strong>.</div>
+  </div>
+  <div class="news-item">
+    <div class="news-item__date">Mar 2025</div>
+    <div class="news-item__text">Successfully defended <strong>Ph.D. thesis</strong> on seismic behaviour of masonry infill panels at IIT Roorkee.</div>
+  </div>
+</div>
+
 <h3 style="color:#005E7A;font-size:1.1rem;">Research Interests</h3>
 
 <div class="about-card-grid">
-  <div class="about-hover-card">Large-scale experimental testing</div>
-  <div class="about-hover-card">Nonlinear structural modelling</div>
-  <div class="about-hover-card">Seismic hazard, risk, and vulnerability assessment</div>
-  <div class="about-hover-card">Performance-based earthquake engineering</div>
-  <div class="about-hover-card">Resilience-based seismic design</div>
-  <div class="about-hover-card">Non-structural elements</div>
-  <div class="about-hover-card">Energy efficiency and climate resilience</div>
+  <div class="about-hover-card"><span class="card-icon">🏗️</span> Large-scale experimental testing</div>
+  <div class="about-hover-card"><span class="card-icon">💻</span> Nonlinear structural modelling</div>
+  <div class="about-hover-card"><span class="card-icon">🌍</span> Seismic hazard, risk, and vulnerability assessment</div>
+  <div class="about-hover-card"><span class="card-icon">📈</span> Performance-based earthquake engineering</div>
+  <div class="about-hover-card"><span class="card-icon">🛡️</span> Resilience-based seismic design</div>
+  <div class="about-hover-card"><span class="card-icon">🧱</span> Non-structural elements</div>
+  <div class="about-hover-card"><span class="card-icon">🌿</span> Energy efficiency and climate resilience</div>
 </div>
 
   
@@ -259,46 +412,62 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 
 <script>
   (function () {
+    /* CV modal */
     const openBtn = document.getElementById('openCvModalBtn');
     const closeBtn = document.getElementById('closeCvModalBtn');
     const modal = document.getElementById('cvModal');
     const form = document.getElementById('cvDownloadForm');
     const cvPath = '/files/CV_Zeeshan.pdf';
 
-    if (!openBtn || !closeBtn || !modal || !form) {
-      return;
+    if (openBtn && closeBtn && modal && form) {
+      const setModalState = function (isOpen) {
+        modal.classList.toggle('is-open', isOpen);
+        modal.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
+        document.body.style.overflow = isOpen ? 'hidden' : '';
+      };
+
+      openBtn.addEventListener('click', function () { setModalState(true); });
+      closeBtn.addEventListener('click', function () { setModalState(false); });
+      modal.addEventListener('click', function (e) { if (e.target === modal) setModalState(false); });
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        if (!form.checkValidity()) { form.reportValidity(); return; }
+        setModalState(false);
+        window.open(cvPath, '_blank', 'noopener');
+        form.reset();
+      });
     }
 
-    const setModalState = function (isOpen) {
-      modal.classList.toggle('is-open', isOpen);
-      modal.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
-      document.body.style.overflow = isOpen ? 'hidden' : '';
-    };
+    /* Animated counters */
+    function animateCounter(el) {
+      const target = parseInt(el.getAttribute('data-target'), 10);
+      const duration = 1200;
+      const step = target / (duration / 16);
+      let current = 0;
+      const timer = setInterval(function () {
+        current += step;
+        if (current >= target) {
+          el.textContent = target + '+';
+          clearInterval(timer);
+        } else {
+          el.textContent = Math.floor(current);
+        }
+      }, 16);
+    }
 
-    openBtn.addEventListener('click', function () {
-      setModalState(true);
-    });
-
-    closeBtn.addEventListener('click', function () {
-      setModalState(false);
-    });
-
-    modal.addEventListener('click', function (event) {
-      if (event.target === modal) {
-        setModalState(false);
-      }
-    });
-
-    form.addEventListener('submit', function (event) {
-      event.preventDefault();
-      if (!form.checkValidity()) {
-        form.reportValidity();
-        return;
-      }
-
-      setModalState(false);
-      window.open(cvPath, '_blank', 'noopener');
-      form.reset();
-    });
+    const counters = document.querySelectorAll('.stats-bar__number[data-target]');
+    if ('IntersectionObserver' in window) {
+      const obs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            animateCounter(entry.target);
+            obs.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.5 });
+      counters.forEach(function (el) { obs.observe(el); });
+    } else {
+      counters.forEach(animateCounter);
+    }
   })();
 </script>
