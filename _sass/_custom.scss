@@ -335,3 +335,14 @@ html {
   object-fit: cover !important;
 }
 
+/* ===== SIDEBAR CONNECT BUTTON ===== */
+.author__urls-wrapper .btn--inverse {
+  background: #005E7A;
+  color: #fff;
+  border-color: #005E7A;
+}
+
+.author__urls-wrapper .btn--inverse:hover {
+  background: #00789b;
+  border-color: #00789b;
+}
