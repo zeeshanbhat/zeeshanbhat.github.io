@@ -10,7 +10,14 @@ author_profile: true
 
 I am a Research Associate in the Department of Earthquake Engineering at the Indian Institute of Technology (IIT) Roorkee, India, working under <a href="https://www.iitr.ac.in/~EQ/yogenfeq" target="_blank" rel="noopener">Prof. Yogendra Singh</a>. My research focuses on using both large-scale experimental and numerical approaches to better understand how structures behave during earthquakes, with the goal of enhancing their performance, safety, and resilience. Through this work, I aim to contribute to the development of safer and more resilient infrastructure in earthquake-prone regions.
 
-I am honored to have been awarded the **Canada Impact + Research Training Award**, and will be joining <a href="https://smithengineering.queensu.ca/directory/faculty/amir-fam.html" target="_blank" rel="noopener">Prof. Amir Fam</a>'s research group at Queen's University, Canada, as a Postdoctoral Fellow. My research there will focus on developing energy-efficient and climate-resilient infrastructure, along with advancing seismic performance and design.
+<div style="background:#fff8ec;border:2px solid #e8a020;border-radius:12px;padding:16px 20px;margin:18px 0;display:flex;gap:14px;align-items:flex-start;">
+  <span style="font-size:2rem;line-height:1;">🎉</span>
+  <div>
+    <div style="font-weight:700;font-size:1.08rem;color:#c45c00;margin-bottom:6px;">Canada Impact + Research Training Award</div>
+    <div>I am honored to have received this award and will be joining <a href="https://smithengineering.queensu.ca/directory/faculty/amir-fam.html" target="_blank" rel="noopener">Prof. Amir Fam</a>'s research group at Queen's University, Canada, as a Postdoctoral Fellow. My research there will focus on developing energy-efficient and climate-resilient infrastructure, along with advancing seismic performance and design.</div>
+  </div>
+</div>
+
 <style>
   .about-card-grid {
     display: grid;
