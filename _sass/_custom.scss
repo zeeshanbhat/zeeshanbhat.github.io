@@ -258,3 +258,241 @@
   color: #005E7A !important;
 }
 
+/* ===== TYPOGRAPHY: Inter ===== */
+body,
+.page__content,
+.sidebar,
+.masthead,
+.author__name,
+.nav__title,
+.masthead__menu-item {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
+/* ===== FADE-IN ANIMATION ===== */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.page__content {
+  animation: fadeInUp 0.45s ease both;
+}
+
+/* ===== SECTION HEADING ===== */
+.section-heading {
+  color: #005E7A !important;
+  font-size: 1.1rem;
+}
+
+/* ===== ABOUT HOVER CARDS ===== */
+.about-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 14px 0 22px;
+}
+
+.about-hover-card {
+  background: var(--global-bg-color, #fff);
+  color: var(--global-text-color, inherit);
+  border: 1px solid var(--global-border-color, #E6EBF2);
+  padding: 12px 14px;
+  border-radius: 8px;
+  font-weight: 400;
+  font-family: inherit;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+
+.about-hover-card:hover {
+  transform: translateY(-3px);
+  border-color: #005E7A;
+  box-shadow: 0 8px 18px rgba(0, 94, 122, 0.16);
+}
+
+.interest-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.interest-card__icon {
+  font-size: 1.25rem;
+  line-height: 1.2;
+  flex-shrink: 0;
+}
+
+.interest-card__label {
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.education-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .education-card { flex-wrap: wrap; gap: 10px; }
+}
+
+/* ===== CV DOWNLOAD BUTTON ===== */
+.download-cv-btn {
+  display: inline-block;
+  background: #005e7a;
+  color: #fff !important;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  border: 0;
+  cursor: pointer;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, background-color 0.22s ease;
+}
+
+.download-cv-btn:hover {
+  background: #00789b;
+  transform: translateY(-2px);
+  box-shadow: 0 9px 16px rgba(0, 94, 122, 0.28);
+}
+
+/* ===== CV MODAL ===== */
+.cv-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1200;
+  padding: 20px;
+}
+
+.cv-modal.is-open { display: flex; }
+
+.cv-modal__content {
+  width: min(100%, 420px);
+  background: var(--global-bg-color, #fff);
+  border-radius: 12px;
+  border: 1px solid var(--global-border-color, #d1d5db);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.2);
+  padding: 18px;
+}
+
+.cv-modal__content h4 { margin: 0 0 8px; color: #005e7a; }
+.cv-modal__content p  { margin: 0 0 14px; font-size: 0.94rem; }
+
+.cv-modal__field { display: block; margin-bottom: 12px; }
+.cv-modal__field span { display: inline-block; margin-bottom: 6px; font-weight: 600; font-size: 0.9rem; }
+
+.cv-modal__field input,
+.cv-modal__field textarea {
+  width: 100%;
+  padding: 9px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font: inherit;
+  background: var(--global-bg-color, #fff);
+  color: var(--global-text-color, inherit);
+}
+
+.cv-modal__field textarea { resize: vertical; min-height: 70px; }
+.cv-modal__actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 6px; }
+
+.cv-modal__close {
+  border: 1px solid #cbd5e1;
+  background: transparent;
+  color: inherit;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.cv-modal__submit {
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 12px;
+  background: #005e7a;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* ===== AWARD CALLOUT ===== */
+.callout-award {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin: 1.1rem 0 1.5rem;
+  padding: 1rem 1.2rem;
+  background: linear-gradient(135deg, #fffbf0 0%, #fff8e6 100%);
+  border: 1.5px solid #f0c060;
+  border-left: 4px solid #D97706;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(201, 168, 76, 0.12);
+}
+
+.callout-award__icon {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+  line-height: 1;
+  margin-top: 2px;
+}
+
+.callout-award__body {
+  flex: 1;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.callout-award__body strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 1rem;
+  color: #92400e;
+}
+
+/* ===== EDUCATION TIMELINE ===== */
+.edu-timeline {
+  position: relative;
+  padding-left: 28px;
+  margin: 12px 0 28px;
+}
+
+.edu-timeline::before {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: 14px;
+  bottom: 14px;
+  width: 2px;
+  background: linear-gradient(to bottom, #005E7A, #a8d8e8);
+  border-radius: 2px;
+}
+
+.edu-timeline__entry {
+  position: relative;
+  margin-bottom: 14px;
+}
+
+.edu-timeline__entry:last-child { margin-bottom: 0; }
+
+.edu-timeline__dot {
+  position: absolute;
+  left: -22px;
+  top: 19px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #005E7A;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px #005E7A;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .edu-timeline { padding-left: 22px; }
+  .edu-timeline__dot { left: -18px; }
+}
