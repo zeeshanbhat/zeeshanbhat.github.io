@@ -5,6 +5,7 @@ layout: archive
 ---
 
 <style>
+  /* ===== COLLAB NOTE ===== */
   .collab-note {
     margin: 0 0 16px;
     padding: 18px 20px;
@@ -49,6 +50,161 @@ layout: archive
   .collab-links a:hover {
     background: #eef3ff;
     border-color: rgba(0, 94, 122, 0.35);
+  }
+
+    /* ===== CONTACT LAYOUT ===== */
+  .contact-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 8px;
+  }
+
+  @media (min-width: 700px) {
+    .contact-wrap {
+      grid-template-columns: 1fr 1.6fr;
+      align-items: start;
+    }
+  }
+
+  .contact-card {
+    background: var(--global-bg-color, #fff);
+    border: 1px solid #E6EBF2;
+    border-radius: 14px;
+    padding: 24px 22px;
+    box-shadow: 0 4px 16px rgba(31, 58, 95, 0.07);
+  }
+
+  .contact-title {
+    margin: 0 0 12px;
+    font-size: 1.05rem !important;
+    font-weight: 700;
+    color: #005E7A !important;
+    border-bottom: 2px solid #E6EBF2;
+    padding-bottom: 10px;
+  }
+
+  .contact-subtitle {
+    font-size: 0.9rem;
+    color: var(--global-text-color, #444);
+    margin: 0 0 18px;
+    line-height: 1.6;
+  }
+
+  .contact-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .meta-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .meta-icon {
+    font-size: 1.25rem;
+    line-height: 1.3;
+    flex-shrink: 0;
+  }
+
+  .meta-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    color: #5F7FA3;
+    margin-bottom: 2px;
+  }
+
+  .meta-value {
+    font-size: 0.9rem;
+    color: var(--global-text-color, #333);
+  }
+
+  .meta-value a {
+    color: #005E7A;
+    text-decoration: none;
+  }
+
+  .meta-value a:hover {
+    text-decoration: underline;
+  }
+
+  /* ===== CONTACT FORM ===== */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+
+  .field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .field label {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #5F7FA3;
+    letter-spacing: 0.3px;
+  }
+
+  .field input,
+  .field textarea {
+    padding: 9px 11px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font: inherit;
+    font-size: 0.93rem;
+    background: var(--global-bg-color, #fff);
+    color: var(--global-text-color, inherit);
+    transition: border-color 0.18s ease, box-shadow 0.18s ease;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .field input:focus,
+  .field textarea:focus {
+    outline: none;
+    border-color: #005E7A;
+    box-shadow: 0 0 0 3px rgba(0, 94, 122, 0.1);
+  }
+
+  .field textarea {
+    resize: vertical;
+    min-height: 130px;
+  }
+
+  .btn-send {
+    align-self: flex-end;
+    background: #005E7A;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .btn-send:hover {
+    background: #00789b;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 94, 122, 0.28);
+  }
+
+  .hp {
+    display: none !important;
   }
 </style>
 
