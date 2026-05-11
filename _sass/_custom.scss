@@ -272,11 +272,28 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ===== NAV ACTIVE INDICATOR — teal underline ===== */
+/* ===== NAV ACTIVE INDICATOR — teal pill ===== */
 .masthead__menu-item.selected a,
 .masthead__menu-item.selected a:hover {
+  color: #fff !important;
+  background: #005E7A !important;
+  border-bottom: none !important;
+  border-radius: 999px;
+  padding: 4px 12px;
+  pointer-events: none;
+  cursor: default;
+}
+
+/* Smooth hover on non-active nav items */
+.masthead__menu-item:not(.selected) a {
+  border-radius: 999px;
+  padding: 4px 12px;
+  transition: background 0.18s ease, color 0.18s ease;
+}
+
+.masthead__menu-item:not(.selected) a:hover {
+  background: rgba(0, 94, 122, 0.08) !important;
   color: #005E7A !important;
-  border-bottom-color: #005E7A !important;
 }
 
 /* ===== PUBLICATION CATEGORY JUMP PILLS ===== */
