@@ -296,6 +296,25 @@ html {
   color: #005E7A !important;
 }
 
+/* ===== NAV COMPACT ON SMALLER SCREENS ===== */
+@media (max-width: 1100px) {
+  .masthead__menu-item.selected a,
+  .masthead__menu-item.selected a:hover,
+  .masthead__menu-item:not(.selected) a {
+    padding: 3px 7px;
+    font-size: 0.82rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .masthead__menu-item.selected a,
+  .masthead__menu-item.selected a:hover,
+  .masthead__menu-item:not(.selected) a {
+    padding: 2px 5px;
+    font-size: 0.78rem;
+    letter-spacing: -0.1px;
+  }
+}
 /* ===== PUBLICATION CATEGORY JUMP PILLS ===== */
 .publications-list .page__taxonomy {
   display: flex;
