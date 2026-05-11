@@ -363,3 +363,29 @@ html {
 .reveal--delay-2 { transition-delay: 0.16s; }
 .reveal--delay-3 { transition-delay: 0.24s; }
 .reveal--delay-4 { transition-delay: 0.32s; }
+
+/* ===== INTER FONT ===== */
+body,
+p,
+li,
+td,
+.page__content,
+.archive__item-excerpt,
+.author__bio,
+.author__urls,
+.nav__items,
+.masthead__menu-item a,
+input,
+textarea,
+button,
+select {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.archive__item-title,
+.author__name {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  letter-spacing: -0.3px;
+}
