@@ -37,7 +37,6 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
     <span class="stats-bar__label">Funded Projects</span>
   </div>
 </div>
-</div>
 
 <style>
  
