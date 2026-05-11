@@ -7,9 +7,7 @@ seo_title: "Zeeshan Manzoor Bhat"
 excerpt: "Structural & Earthquake Engineering | IIT Roorkee"
 author_profile: true
 ---
-<div class="typed-wrap">
-  <span class="typed-prefix">I am a </span><span id="typedText" class="typed-text"></span><span class="typed-cursor" id="typedCursor">|</span>
-</div>
+
 I am a Research Associate in the Department of Earthquake Engineering at the Indian Institute of Technology (IIT) Roorkee, India, working under <a href="https://www.iitr.ac.in/~EQ/yogenfeq" target="_blank" rel="noopener">Prof. Yogendra Singh</a>. My research focuses on using both large-scale experimental and numerical approaches to better understand how structures behave during earthquakes, with the goal of enhancing their performance, safety, and resilience. Through this work, I aim to contribute to the development of safer and more resilient infrastructure in earthquake-prone regions.
 
 <div style="background:linear-gradient(135deg,#fff8ec 0%,#fff3e0 100%);border:2px solid #e8a020;border-radius:14px;padding:18px 22px;margin:20px 0;display:flex;gap:16px;align-items:flex-start;box-shadow:0 4px 14px rgba(232,160,32,0.12);">
@@ -42,45 +40,7 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 </div>
 
 <style>
-  /* ===== TYPING ANIMATION ===== */
-  .typed-wrap {
-    font-size: 1.12rem;
-    font-weight: 600;
-    color: #005E7A;
-    margin-bottom: 16px;
-    min-height: 1.6em;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 4px;
-  }
-
-  .typed-prefix {
-    color: var(--global-text-color, #333);
-    font-weight: 400;
-  }
-
-  .typed-text {
-    color: #005E7A;
-    font-weight: 700;
-    border-bottom: 2px solid #005E7A;
-    padding-bottom: 1px;
-  }
-
-  .typed-cursor {
-    color: #005E7A;
-    font-weight: 300;
-    font-size: 1.2rem;
-    animation: blink 0.75s step-end infinite;
-    margin-left: 1px;
-  }
-
-  @keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
-  }
-</style>
-<style>
+ 
   /* ===== STATS BAR ===== */
   .stats-bar {
     display: flex;
