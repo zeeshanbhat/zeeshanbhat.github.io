@@ -371,8 +371,6 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 
 </div>
 
-</div>
-
 <div style="text-align:center;margin:-8px 0 22px;">
   <button id="newsToggleBtn" class="news-toggle-btn">Show more news ▾</button>
 </div>
