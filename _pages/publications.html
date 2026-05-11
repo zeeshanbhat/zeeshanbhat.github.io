@@ -7,8 +7,57 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-<div class="publications-list">
+<!-- ===== SEARCH BAR ===== -->
+<div class="pub-search-wrap">
+  <input
+    type="search"
+    id="pubSearch"
+    class="pub-search-input"
+    placeholder="Search publications by keyword, author, venue…"
+    aria-label="Search publications"
+    autocomplete="off"
+  />
+  <span class="pub-search-count" id="pubSearchCount"></span>
+</div>
+
+<style>
+  .pub-search-wrap {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 1.4rem;
+    flex-wrap: wrap;
+  }
+  .pub-search-input {
+    flex: 1 1 260px;
+    padding: 9px 14px;
+    border: 1.5px solid #005E7A;
+    border-radius: 8px;
+    font-size: 0.93rem;
+    font-family: inherit;
+    outline: none;
+    transition: box-shadow 0.2s;
+    background: var(--global-bg-color, #fff);
+    color: var(--global-text-color, #333);
+  }
+  .pub-search-input:focus {
+    box-shadow: 0 0 0 3px rgba(0,94,122,0.18);
+  }
+  .pub-search-count {
+    font-size: 0.82rem;
+    color: #5F7FA3;
+    white-space: nowrap;
+    font-weight: 600;
+  }
+  .pub-no-results {
+    display: none;
+    padding: 20px 0;
+    color: #888;
+    font-size: 0.95rem;
+  }
+</style>
+
+<div class="publications-list" id="pubList">
 {% if site.publication_category %}
   <nav class="page__taxonomy">
     {% assign nav_item_count = 0 %}
@@ -27,7 +76,7 @@ author_profile: true
     {% endfor %}
   </nav>
 
-  {% for category in site.publication_category  %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% assign category_total = 0 %}
     {% for count_post in site.publications %}
@@ -41,7 +90,7 @@ author_profile: true
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2 id="{{ category[0] | slugify }}">{{ category[1].title }} <span class="pub-count-badge">{{ category_total }}</span></h2><hr />
+        <h2 id="{{ category[0] | slugify }}" class="pub-category-heading">{{ category[1].title }} <span class="pub-count-badge">{{ category_total }}</span></h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
 
@@ -59,3 +108,59 @@ author_profile: true
 {% endif %}
 </div>
 
+<p class="pub-no-results" id="pubNoResults">No publications match your search.</p>
+
+<script>
+(function () {
+  var input = document.getElementById('pubSearch');
+  var list  = document.getElementById('pubList');
+  var counter = document.getElementById('pubSearchCount');
+  var noResults = document.getElementById('pubNoResults');
+  if (!input || !list) return;
+
+  var items = Array.from(list.querySelectorAll('.list__item'));
+  var headings = Array.from(list.querySelectorAll('.pub-category-heading'));
+
+  function updateCounter(visible, total) {
+    if (input.value.trim() === '') {
+      counter.textContent = '';
+    } else {
+      counter.textContent = visible + ' of ' + total + ' shown';
+    }
+  }
+
+  function filter() {
+    var q = input.value.trim().toLowerCase();
+    var visible = 0;
+
+    items.forEach(function (item) {
+      var text = item.textContent.toLowerCase();
+      var match = q === '' || text.includes(q);
+      item.style.display = match ? '' : 'none';
+      if (match) visible++;
+    });
+
+    /* Hide category headings if all their items are hidden */
+    headings.forEach(function (heading) {
+      var hr = heading.nextElementSibling;
+      /* Find items between this heading and the next */
+      var anyVisible = false;
+      var next = hr ? hr.nextElementSibling : heading.nextElementSibling;
+      while (next && !next.classList.contains('pub-category-heading')) {
+        if (next.classList.contains('list__item') && next.style.display !== 'none') {
+          anyVisible = true;
+          break;
+        }
+        next = next.nextElementSibling;
+      }
+      heading.style.display = anyVisible || q === '' ? '' : 'none';
+      if (hr) hr.style.display = heading.style.display;
+    });
+
+    noResults.style.display = (visible === 0 && q !== '') ? 'block' : 'none';
+    updateCounter(visible, items.length);
+  }
+
+  input.addEventListener('input', filter);
+})();
+</script>
