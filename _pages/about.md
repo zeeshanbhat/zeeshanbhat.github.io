@@ -40,6 +40,44 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
   </div>
 </div>
 
+  /* ===== TYPING ANIMATION ===== */
+  .typed-wrap {
+    font-size: 1.12rem;
+    font-weight: 600;
+    color: #005E7A;
+    margin-bottom: 16px;
+    min-height: 1.6em;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .typed-prefix {
+    color: var(--global-text-color, #333);
+    font-weight: 400;
+  }
+
+  .typed-text {
+    color: #005E7A;
+    font-weight: 700;
+    border-bottom: 2px solid #005E7A;
+    padding-bottom: 1px;
+  }
+
+  .typed-cursor {
+    color: #005E7A;
+    font-weight: 300;
+    font-size: 1.2rem;
+    animation: blink 0.75s step-end infinite;
+    margin-left: 1px;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0; }
+  }
+
 <style>
   /* ===== STATS BAR ===== */
   .stats-bar {
@@ -526,6 +564,53 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
         newsBtn.textContent = expanded ? 'Show less ▴' : 'Show more news ▾';
       });
     }
+
+    /* Typing animation */
+    (function () {
+      var roles = [
+        'Structural Engineer',
+        'Earthquake Researcher',
+        'Experimental Scientist',
+        'Computational Modeller',
+        'Postdoctoral Fellow (Incoming)'
+      ];
+      var el = document.getElementById('typedText');
+      if (!el) return;
+
+      var roleIndex  = 0;
+      var charIndex  = 0;
+      var isDeleting = false;
+      var TYPE_SPEED   = 70;
+      var DELETE_SPEED = 40;
+      var PAUSE_END    = 1800;
+      var PAUSE_START  = 300;
+
+      function tick() {
+        var current = roles[roleIndex];
+        if (isDeleting) {
+          charIndex--;
+          el.textContent = current.slice(0, charIndex);
+          if (charIndex === 0) {
+            isDeleting = false;
+            roleIndex  = (roleIndex + 1) % roles.length;
+            setTimeout(tick, PAUSE_START);
+            return;
+          }
+          setTimeout(tick, DELETE_SPEED);
+        } else {
+          charIndex++;
+          el.textContent = current.slice(0, charIndex);
+          if (charIndex === current.length) {
+            isDeleting = true;
+            setTimeout(tick, PAUSE_END);
+            return;
+          }
+          setTimeout(tick, TYPE_SPEED);
+        }
+      }
+
+      setTimeout(tick, 600);
+    })();
 
   })();
 </script>
