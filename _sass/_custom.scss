@@ -407,3 +407,17 @@ h1, h2, h3, h4, h5, h6,
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
   letter-spacing: -0.3px;
 }
+
+
+/* ===== NAV COMPACT ON MOBILE ===== */
+@media (max-width: 768px) {
+  .masthead__menu-item a {
+    font-size: 0.78rem !important;
+    padding: 0 3px !important;
+  }
+
+  .masthead__menu-item--lg a {
+    font-size: 0.82rem !important;
+    padding-right: 8px !important;
+  }
+}
