@@ -527,52 +527,6 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
       });
     }
 
-    /* Typing animation */
-    (function () {
-      var roles = [
-        'Structural Engineer',
-        'Earthquake Researcher',
-        'Experimental Scientist',
-        'Computational Modeller',
-        'Postdoctoral Fellow (Incoming)'
-      ];
-      var el = document.getElementById('typedText');
-      if (!el) return;
-
-      var roleIndex  = 0;
-      var charIndex  = 0;
-      var isDeleting = false;
-      var TYPE_SPEED   = 70;
-      var DELETE_SPEED = 40;
-      var PAUSE_END    = 1800;
-      var PAUSE_START  = 300;
-
-      function tick() {
-        var current = roles[roleIndex];
-        if (isDeleting) {
-          charIndex--;
-          el.textContent = current.slice(0, charIndex);
-          if (charIndex === 0) {
-            isDeleting = false;
-            roleIndex  = (roleIndex + 1) % roles.length;
-            setTimeout(tick, PAUSE_START);
-            return;
-          }
-          setTimeout(tick, DELETE_SPEED);
-        } else {
-          charIndex++;
-          el.textContent = current.slice(0, charIndex);
-          if (charIndex === current.length) {
-            isDeleting = true;
-            setTimeout(tick, PAUSE_END);
-            return;
-          }
-          setTimeout(tick, TYPE_SPEED);
-        }
-      }
-
-      setTimeout(tick, 600);
-    })();
 
   })();
 </script>
