@@ -272,65 +272,31 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ===== NAV ACTIVE INDICATOR — teal pill ===== */
-.masthead__menu-item.selected a,
-.masthead__menu-item.selected a:hover {
-  color: #fff !important;
-  background: #005E7A !important;
-  border-bottom: none !important;
-  border-radius: 999px;
-  padding: 4px 12px;
-  pointer-events: none;
-  cursor: default;
-}
-
-/* Smooth hover on non-active nav items */
-.masthead__menu-item:not(.selected) a {
-  border-radius: 999px;
-  padding: 4px 12px;
-  transition: background 0.18s ease, color 0.18s ease;
-}
-
-.masthead__menu-item:not(.selected) a:hover {
-  background: rgba(0, 94, 122, 0.08) !important;
-  color: #005E7A !important;
-}
-
-/* ===== NAV COMPACT ON SMALLER SCREENS ===== */
-@media (max-width: 1100px) {
+/* ===== NAV ACTIVE INDICATOR — teal pill (desktop only) ===== */
+@media (min-width: 901px) {
   .masthead__menu-item.selected a,
-  .masthead__menu-item.selected a:hover,
+  .masthead__menu-item.selected a:hover {
+    color: #fff !important;
+    background: #005E7A !important;
+    border-bottom: none !important;
+    border-radius: 999px;
+    padding: 4px 12px;
+    pointer-events: none;
+    cursor: default;
+  }
+
   .masthead__menu-item:not(.selected) a {
-    padding: 3px 7px;
-    font-size: 0.82rem;
+    border-radius: 999px;
+    padding: 4px 12px;
+    transition: background 0.18s ease, color 0.18s ease;
+  }
+
+  .masthead__menu-item:not(.selected) a:hover {
+    background: rgba(0, 94, 122, 0.08) !important;
+    color: #005E7A !important;
   }
 }
 
-@media (max-width: 900px) {
-  .masthead__menu-item.selected a,
-  .masthead__menu-item.selected a:hover,
-  .masthead__menu-item:not(.selected) a {
-    padding: 2px 3px;
-    font-size: 0.84rem;
-    letter-spacing: 0px;
-  }
-}
-
-@media (max-width: 600px) {
-  .masthead__menu-item.selected a,
-  .masthead__menu-item.selected a:hover,
-  .masthead__menu-item:not(.selected) a {
-    padding: 1px 2px;
-    font-size: 0.98rem;
-    letter-spacing: -0.2px;
-  }
-
-  /* Reduce site title size on small screens to free up space */
-  .masthead__menu-item--lg a {
-    font-size: 0.82rem !important;
-    padding-right: 6px !important;
-  }
-}
 /* ===== PUBLICATION CATEGORY JUMP PILLS ===== */
 .publications-list .page__taxonomy {
   display: flex;
