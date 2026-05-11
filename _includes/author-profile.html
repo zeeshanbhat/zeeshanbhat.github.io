@@ -20,6 +20,114 @@
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
+    <!-- ===== SCHOLAR STATS BADGE ===== -->
+  {% if author.googlescholar %}
+  <div class="scholar-badge">
+    <div class="scholar-badge__row">
+      <span class="scholar-badge__icon"><i class="ai ai-google-scholar"></i></span>
+      <div class="scholar-badge__stats">
+        <div class="scholar-badge__item">
+          <span class="scholar-badge__num" id="scholarCitations">51</span>
+          <span class="scholar-badge__label">Citations</span>
+        </div>
+        <div class="scholar-badge__divider"></div>
+        <div class="scholar-badge__item">
+          <span class="scholar-badge__num">3</span>
+          <span class="scholar-badge__label">h-index</span>
+        </div>
+        <div class="scholar-badge__divider"></div>
+        <div class="scholar-badge__item">
+          <span class="scholar-badge__num">3</span>
+          <span class="scholar-badge__label">i10-index</span>
+        </div>
+      </div>
+    </div>
+    <a href="{{ author.googlescholar }}" target="_blank" rel="noopener" class="scholar-badge__btn">
+      View Google Scholar Profile
+    </a>
+  </div>
+  {% endif %}
+
+  <style>
+    .scholar-badge {
+      margin: 10px 0 14px;
+      border: 1px solid #E6EBF2;
+      border-radius: 10px;
+      padding: 12px 12px 10px;
+      background: var(--global-bg-color, #fff);
+      box-shadow: 0 3px 10px rgba(31,58,95,0.07);
+    }
+
+    .scholar-badge__row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .scholar-badge__icon {
+      font-size: 1.6rem;
+      color: #005E7A;
+      flex-shrink: 0;
+      line-height: 1;
+    }
+
+    .scholar-badge__stats {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      flex: 1;
+    }
+
+    .scholar-badge__item {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .scholar-badge__num {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #005E7A;
+      line-height: 1;
+    }
+
+    .scholar-badge__label {
+      font-size: 0.63rem;
+      color: #5F7FA3;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+      text-align: center;
+      margin-top: 3px;
+    }
+
+    .scholar-badge__divider {
+      width: 1px;
+      height: 28px;
+      background: #E6EBF2;
+      flex-shrink: 0;
+    }
+
+    .scholar-badge__btn {
+      display: block;
+      text-align: center;
+      background: #005E7A;
+      color: #fff !important;
+      padding: 7px 10px;
+      border-radius: 7px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .scholar-badge__btn:hover {
+      background: #00789b;
+      transform: translateY(-1px);
+    }
+  </style>
+  
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Connect</button>
     <ul class="author__urls social-icons">
