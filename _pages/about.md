@@ -314,6 +314,26 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
   body.layout--single.page-home h1.page__title {
     color: #005E7A !important;
   }
+
+    /* ===== NEWS TOGGLE BUTTON ===== */
+  .news-toggle-btn {
+    display: none;
+    background: transparent;
+    border: 1.5px solid #005E7A;
+    color: #005E7A;
+    padding: 7px 20px;
+    border-radius: 999px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 0.4px;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .news-toggle-btn:hover {
+    background: #005E7A;
+    color: #fff;
+  }
 </style>
 
 <!-- ===== RECENT NEWS ===== -->
