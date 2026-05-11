@@ -488,5 +488,24 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
     } else {
       counters.forEach(animateCounter);
     }
+    /* News Show more / less toggle */
+    var newsItems = document.querySelectorAll('.news-item');
+    var newsBtn   = document.getElementById('newsToggleBtn');
+    var SHOW      = 3;
+    if (newsItems.length > SHOW && newsBtn) {
+      newsBtn.style.display = 'inline-block';
+      var expanded = false;
+      newsItems.forEach(function (item, i) {
+        if (i >= SHOW) item.style.display = 'none';
+      });
+      newsBtn.addEventListener('click', function () {
+        expanded = !expanded;
+        newsItems.forEach(function (item, i) {
+          if (i >= SHOW) item.style.display = expanded ? '' : 'none';
+        });
+        newsBtn.textContent = expanded ? 'Show less ▴' : 'Show more news ▾';
+      });
+    }
+
   })();
 </script>
