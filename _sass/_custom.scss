@@ -411,14 +411,14 @@ h1, h2, h3, h4, h5, h6,
 
 /* ===== NAV COMPACT ON MOBILE ===== */
 @media (max-width: 768px) {
-  .masthead__menu-item a {
-    font-size: 0.98rem !important;
-    padding: 0 3px !important;
+  .greedy-nav a {
+    margin: 0 0.25rem !important;
+    font-size: 0.99rem !important;
+    padding: 0.4rem 0 !important;
   }
-
-  .masthead__menu-item--lg a {
-    font-size: 0.98rem !important;
-    padding-right: 8px !important;
+  
+  .masthead__menu-item--lg {
+    padding-right: 0.5em !important;
   }
 }
 
