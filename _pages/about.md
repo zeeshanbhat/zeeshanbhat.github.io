@@ -39,7 +39,9 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
     <span class="stats-bar__label">Funded Projects</span>
   </div>
 </div>
+</div>
 
+<style>
   /* ===== TYPING ANIMATION ===== */
   .typed-wrap {
     font-size: 1.12rem;
@@ -75,9 +77,9 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 
   @keyframes blink {
     0%, 100% { opacity: 1; }
-    50%       { opacity: 0; }
+    50% { opacity: 0; }
   }
-
+</style>
 <style>
   /* ===== STATS BAR ===== */
   .stats-bar {
