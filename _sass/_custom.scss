@@ -310,9 +310,25 @@ html {
   .masthead__menu-item.selected a,
   .masthead__menu-item.selected a:hover,
   .masthead__menu-item:not(.selected) a {
-    padding: 2px 5px;
+    padding: 2px 3px;
+    font-size: 0.84rem;
+    letter-spacing: 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .masthead__menu-item.selected a,
+  .masthead__menu-item.selected a:hover,
+  .masthead__menu-item:not(.selected) a {
+    padding: 1px 2px;
     font-size: 0.78rem;
-    letter-spacing: -0.1px;
+    letter-spacing: -0.2px;
+  }
+
+  /* Reduce site title size on small screens to free up space */
+  .masthead__menu-item--lg a {
+    font-size: 0.82rem !important;
+    padding-right: 6px !important;
   }
 }
 /* ===== PUBLICATION CATEGORY JUMP PILLS ===== */
