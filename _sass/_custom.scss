@@ -297,6 +297,28 @@ html {
   }
 }
 
+/* ===== NAV ACTIVE INDICATOR — left-border accent (mobile dropdown) ===== */
+.hidden-links .masthead__menu-item.selected a,
+.hidden-links .masthead__menu-item.selected a:hover {
+  color: #005E7A !important;
+  font-weight: 700;
+  border-left: 3px solid #005E7A !important;
+  padding-left: 17px !important;
+  background: rgba(0, 94, 122, 0.06) !important;
+  pointer-events: none;
+  cursor: default;
+}
+
+.hidden-links .masthead__menu-item:not(.selected) a {
+  border-left: 3px solid transparent;
+  transition: border-color 0.18s ease, background 0.18s ease;
+}
+
+.hidden-links .masthead__menu-item:not(.selected) a:hover {
+  border-left-color: rgba(0, 94, 122, 0.35) !important;
+}
+
+
 /* ===== PUBLICATION CATEGORY JUMP PILLS ===== */
 .publications-list .page__taxonomy {
   display: flex;
