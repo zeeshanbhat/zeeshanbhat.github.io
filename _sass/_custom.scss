@@ -489,15 +489,9 @@ h1, h2, h3, h4, h5, h6,
   white-space: nowrap;
 }
 
-/* ===== SUBTLE PROFILE PHOTO RING ===== */
+/* ===== MINIMAL PROFILE PHOTO STYLE ===== */
 .author__avatar img {
   border-radius: 50%;
   border: 2px solid #005E7A;
-  box-shadow: 0 0 8px rgba(0, 94, 122, 0.18);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.author__avatar img:hover {
-  transform: scale(1.02);
-  box-shadow: 0 0 12px rgba(0, 94, 122, 0.28);
+  box-shadow: 0 0 4px rgba(0, 94, 122, 0.12);
 }
