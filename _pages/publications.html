@@ -7,6 +7,104 @@ author_profile: true
 
 {% include base_path %}
 
+<!-- ===== SCHOLAR METRICS ===== -->
+<!-- UPDATE THESE VALUES from your Google Scholar profile (scholar.google.com) -->
+{% assign scholar_citations = "52" %}
+{% assign scholar_hindex    = "3" %}
+{% assign scholar_i10       = "3" %}
+
+<div class="scholar-metrics">
+  <div class="scholar-metrics__items">
+    <div class="scholar-metrics__item">
+      <span class="scholar-metrics__value">{{ scholar_citations }}</span>
+      <span class="scholar-metrics__label">Citations</span>
+    </div>
+    <div class="scholar-metrics__item">
+      <span class="scholar-metrics__value">{{ scholar_hindex }}</span>
+      <span class="scholar-metrics__label">h-index</span>
+    </div>
+    <div class="scholar-metrics__item">
+      <span class="scholar-metrics__value">{{ scholar_i10 }}</span>
+      <span class="scholar-metrics__label">i10-index</span>
+    </div>
+  </div>
+  <a href="{{ site.author.googlescholar }}" target="_blank" rel="noreferrer" class="scholar-metrics__link">
+    <i class="fas fa-graduation-cap"></i> View on Google Scholar
+  </a>
+</div>
+
+<style>
+  .scholar-metrics {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 1.6rem;
+    padding: 14px 20px;
+    border: 1px solid #dbe6f1;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #f7fafd 0%, #eef4fa 100%);
+  }
+
+  .scholar-metrics__items {
+    display: flex;
+    gap: 0;
+  }
+
+  .scholar-metrics__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 24px;
+    border-right: 1px solid #d0dce8;
+  }
+
+  .scholar-metrics__item:first-child {
+    padding-left: 0;
+  }
+
+  .scholar-metrics__item:last-child {
+    border-right: none;
+  }
+
+  .scholar-metrics__value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #005E7A;
+    line-height: 1;
+    margin-bottom: 3px;
+  }
+
+  .scholar-metrics__label {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #5F7FA3;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  .scholar-metrics__link {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #005E7A;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border: 1.5px solid #005E7A;
+    border-radius: 999px;
+    transition: background 0.18s, color 0.18s;
+    white-space: nowrap;
+  }
+
+  .scholar-metrics__link:hover {
+    background: #005E7A;
+    color: #fff;
+  }
+
+
 <!-- ===== SEARCH BAR ===== -->
 <div class="pub-search-wrap">
   <input
