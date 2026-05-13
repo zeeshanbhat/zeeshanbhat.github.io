@@ -310,120 +310,13 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
       gap: 10px;
     }
   }
-
-  /* ===== CAREER TIMELINE ===== */
-  .career-timeline {
-    position: relative;
-    margin: 14px 0 28px;
-  }
-
-  .career-timeline::before {
-    content: '';
-    position: absolute;
-    left: 96px;
-    top: 10px;
-    bottom: 10px;
-    width: 2px;
-    background: linear-gradient(180deg, #00b4d8 0%, #005E7A 50%, #E6EBF2 100%);
-    border-radius: 2px;
-  }
-
-  .career-item {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 20px;
-    position: relative;
-  }
-
-  .career-item:last-child {
-    margin-bottom: 0;
-  }
-
-  .career-item__year {
-    width: 98px;
-    flex-shrink: 0;
-    font-size: 0.73rem;
-    font-weight: 700;
-    color: #005E7A;
-    letter-spacing: 0.2px;
-    padding-top: 3px;
-    text-align: right;
-    padding-right: 20px;
-    line-height: 1.3;
-  }
-
-  .career-item__dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: #005E7A;
-    border: 2px solid #fff;
-    box-shadow: 0 0 0 2px #005E7A;
-    flex-shrink: 0;
-    margin-top: 3px;
-    position: relative;
-    z-index: 1;
-  }
-
-  .career-item--upcoming .career-item__dot {
-    background: #00b4d8;
-    box-shadow: 0 0 0 2px #00b4d8;
-  }
-
-  .career-item__dot--edu {
-    background: #fff;
-    box-shadow: 0 0 0 2px #005E7A;
-  }
-
-  .career-item__body {
-    padding-left: 16px;
-    flex: 1;
-  }
-
-  .career-item__title {
-    font-weight: 600;
-    font-size: 0.93rem;
-    color: var(--global-text-color, #222);
-    line-height: 1.3;
-  }
-
-  .career-item__org {
-    font-size: 0.83rem;
-    color: #5F7FA3;
-    margin-top: 2px;
-  }
-
-  .career-item__badge {
-    display: inline-block;
-    margin-top: 5px;
-    padding: 2px 9px;
-    border-radius: 999px;
-    font-size: 0.72rem;
-    font-weight: 700;
-    letter-spacing: 0.4px;
-  }
-
-  .career-item__badge--upcoming {
-    background: rgba(0, 180, 216, 0.12);
-    color: #0094b3;
-  }
-
-  .career-item__badge--current {
-    background: rgba(0, 94, 122, 0.1);
-    color: #005E7A;
-  }
-
-  @media (max-width: 520px) {
-    .career-timeline::before { left: 72px; }
-    .career-item__year { width: 74px; font-size: 0.68rem; padding-right: 14px; }
-  }
   
   body.layout--archive h1.page__title,
   body.layout--single.page-home h1.page__title {
     color: #005E7A !important;
   }
 
-  /* ===== NEWS TOGGLE BUTTON ===== */
+    /* ===== NEWS TOGGLE BUTTON ===== */
   .news-toggle-btn {
     display: none;
     background: transparent;
@@ -452,7 +345,7 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
   <div class="news-item">
     <div class="news-item__date">April 2026</div>
     <div class="news-item__text">
-      Awarded the <strong>Canada Impact + Research Training Award</strong>; joining Queen's University, Canada, as a Postdoctoral Fellow.
+      Awarded the <strong>Canada Impact + Research Training Award</strong>; joining Queen’s University, Canada, as a Postdoctoral Fellow.
     </div>
   </div>
 
@@ -495,57 +388,41 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
   <div class="about-hover-card"><span class="card-icon">🌿</span> Energy efficiency and climate resilience</div>
 </div>
 
-<h3 style="color:#005E7A;font-size:1.1rem;">Career</h3>
+  
+  
+<h3 style="color:#005E7A;font-size:1.1rem;">Education</h3>
 
-<div class="career-timeline">
-
-  <div class="career-item career-item--upcoming">
-    <div class="career-item__year">2026 –</div>
-    <div class="career-item__dot"></div>
-    <div class="career-item__body">
-      <div class="career-item__title">Postdoctoral Fellow</div>
-      <div class="career-item__org">Queen's University, Canada</div>
-      <span class="career-item__badge career-item__badge--upcoming">Upcoming</span>
-    </div>
+<div class="about-hover-card education-card">
+  <img src="/images/iitr_logo.png" alt="IIT Roorkee Logo" style="width:70px; height:70px;">
+  <div style="flex:1;">
+    <strong>Ph.D. in Structural and Earthquake Engineering</strong><br>
+    Indian Institute of Technology Roorkee, India
   </div>
-
-  <div class="career-item">
-    <div class="career-item__year">2025 –</div>
-    <div class="career-item__dot"></div>
-    <div class="career-item__body">
-      <div class="career-item__title">Research Associate</div>
-      <div class="career-item__org">IIT Roorkee, India</div>
-      <span class="career-item__badge career-item__badge--current">Current</span>
-    </div>
+  <div style="font-weight:600; color:#005E7A ;">
+    Jul 2018 – Mar 2025
   </div>
+</div>
 
-  <div class="career-item">
-    <div class="career-item__year">2018 – 2025</div>
-    <div class="career-item__dot career-item__dot--edu"></div>
-    <div class="career-item__body">
-      <div class="career-item__title">Ph.D., Structural &amp; Earthquake Engineering</div>
-      <div class="career-item__org">IIT Roorkee, India</div>
-    </div>
+<div class="about-hover-card education-card">
+  <img src="/images/nit_srinagar_logo.png" alt="NIT Srinagar Logo" style="width:70px; height:70px;">
+  <div style="flex:1;">
+    <strong>M.Tech. in Structural Engineering</strong><br>
+    National Institute of Technology Srinagar, India
   </div>
-
-  <div class="career-item">
-    <div class="career-item__year">2016 – 2018</div>
-    <div class="career-item__dot career-item__dot--edu"></div>
-    <div class="career-item__body">
-      <div class="career-item__title">M.Tech., Structural Engineering</div>
-      <div class="career-item__org">NIT Srinagar, India</div>
-    </div>
+  <div style="font-weight:600; color:#005E7A ;">
+    Jul 2016 – Jul 2018
   </div>
+</div>
 
-  <div class="career-item">
-    <div class="career-item__year">2012 – 2016</div>
-    <div class="career-item__dot career-item__dot--edu"></div>
-    <div class="career-item__body">
-      <div class="career-item__title">B.Tech., Civil Engineering</div>
-      <div class="career-item__org">NIT Srinagar, India</div>
-    </div>
+<div class="about-hover-card education-card">
+  <img src="/images/nit_srinagar_logo.png" alt="NIT Srinagar Logo" style="width:70px; height:70px;">
+  <div style="flex:1;">
+    <strong>B.Tech. in Civil Engineering</strong><br>
+    National Institute of Technology Srinagar, India
   </div>
-
+  <div style="font-weight:600; color:#005E7A ;">
+    Jul 2012 – Jun 2016
+  </div>
 </div>
 
 <div style="margin-top:28px; display:flex; gap:12px; flex-wrap:wrap;justify-content:center;">
@@ -630,7 +507,6 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
     } else {
       counters.forEach(animateCounter);
     }
-
     /* News Show more / less toggle */
     var newsItems = document.querySelectorAll('.news-item');
     var newsBtn   = document.getElementById('newsToggleBtn');
@@ -649,6 +525,7 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
         newsBtn.textContent = expanded ? 'Show less ▴' : 'Show more news ▾';
       });
     }
+
 
   })();
 </script>
