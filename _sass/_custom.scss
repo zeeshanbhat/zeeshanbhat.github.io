@@ -489,9 +489,8 @@ h1, h2, h3, h4, h5, h6,
   white-space: nowrap;
 }
 
-/* ===== MINIMAL PROFILE PHOTO STYLE ===== */
+/* ===== ULTRA SUBTLE PROFILE PHOTO STYLE ===== */
 .author__avatar img {
   border-radius: 50%;
-  border: 2px solid #005E7A;
-  box-shadow: 0 0 4px rgba(0, 94, 122, 0.12);
+  border: 1.5px solid rgba(0, 94, 122, 0.35);
 }
