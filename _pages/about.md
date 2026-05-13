@@ -18,89 +18,8 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
   </div>
 </div>
 
-<!-- ===== STATS BAR ===== -->
-<div class="stats-bar">
-  <div class="stats-bar__item">
-    <span class="stats-bar__number" data-target="10">0</span>
-    <span class="stats-bar__label">Publications</span>
-  </div>
-  <div class="stats-bar__item">
-    <span class="stats-bar__number" data-target="7">0</span>
-    <span class="stats-bar__label">Years of Research</span>
-  </div>
-  <div class="stats-bar__item">
-    <span class="stats-bar__number" data-target="14">0</span>
-    <span class="stats-bar__label">Full-Scale Tests</span>
-  </div>
-  <div class="stats-bar__item">
-    <span class="stats-bar__number" data-target="2">0</span>
-    <span class="stats-bar__label">Funded Projects</span>
-  </div>
-</div>
-
 <style>
  
-  /* ===== STATS BAR ===== */
-  .stats-bar {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0;
-    margin: 24px 0 28px;
-    border: 1px solid #E6EBF2;
-    border-radius: 14px;
-    overflow: hidden;
-    background: #fff;
-    box-shadow: 0 4px 16px rgba(31, 58, 95, 0.07);
-  }
-
-  .stats-bar__item {
-    flex: 1 1 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 12px;
-    border-right: 1px solid #E6EBF2;
-    transition: background 0.2s;
-  }
-
-  .stats-bar__item:last-child {
-    border-right: none;
-  }
-
-  .stats-bar__item:hover {
-    background: #f0f7fa;
-  }
-
-  .stats-bar__number {
-    font-size: 2rem;
-    font-weight: 700;
-    color: #005E7A;
-    line-height: 1;
-    margin-bottom: 4px;
-  }
-
-  .stats-bar__label {
-    font-size: 0.75rem;
-    color: #5F7FA3;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    text-align: center;
-  }
-
-  @media (max-width: 540px) {
-    .stats-bar {
-      flex-direction: row;
-    }
-    .stats-bar__item {
-      flex: 1 1 45%;
-      border-bottom: 1px solid #E6EBF2;
-    }
-    .stats-bar__item:nth-child(even) {
-      border-right: none;
-    }
-  }
-
   /* ===== RESEARCH INTEREST CARDS ===== */
   .about-card-grid {
     display: grid;
