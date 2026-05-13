@@ -11,11 +11,12 @@ author_profile: true
 
 <style>
   .experience-card {
+    font-size: 0.9em;
     background: var(--global-bg-color, #fff);
     color: var(--global-text-color, inherit);
     border: 1px solid var(--global-border-color, #000);
     border-radius: 8px;
-    padding: 16px;
+    padding: 14px;
     transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
   }
 
@@ -28,8 +29,8 @@ author_profile: true
   .experience-header {
     display: flex;
     align-items: center;
-    gap: 20px;
-    margin-bottom: 18px;
+    gap: 18px;
+    margin-bottom: 16px;
     flex-wrap: wrap;
   }
 
@@ -49,13 +50,13 @@ author_profile: true
   }
 
   .experience-duties li {
-    margin-bottom: 6px;
+    margin-bottom: 5px;
   }
 </style>
 
 <div class="experience-card">
   <div class="experience-header">
-    <img src="/images/iitr_logo.png" alt="IIT Roorkee Logo" style="width:70px; height:70px;">
+    <img src="/images/iitr_logo.png" alt="IIT Roorkee Logo" style="width:63px; height:63px;">
     <div style="flex:1; min-width:240px;">
       <strong class="experience-role">Research Associate</strong><br>
       Indian Institute of Technology Roorkee, India<br>
@@ -75,9 +76,9 @@ author_profile: true
   </ul>
 </div>
 
-<div class="experience-card" style="margin-top:16px;">
+<div class="experience-card" style="margin-top:14px;">
   <div class="experience-header">
-    <img src="/images/iitr_logo.png" alt="IIT Roorkee Logo" style="width:70px; height:70px;">
+    <img src="/images/iitr_logo.png" alt="IIT Roorkee Logo" style="width:63px; height:63px;">
     <div style="flex:1; min-width:240px;">
       <strong class="experience-role">Ph.D. Research Scholar</strong><br>
       Indian Institute of Technology Roorkee, India<br>
