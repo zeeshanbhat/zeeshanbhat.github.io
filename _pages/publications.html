@@ -155,6 +155,110 @@ author_profile: true
   }
 </style>
 
+<style>
+  .pub-category-box {
+    border: 1px solid #dbe6f1;
+    border-radius: 12px;
+    background: #fff;
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
+
+  .pub-category-box__header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 22px;
+    background: linear-gradient(135deg, #f7fafd 0%, #eef4fa 100%);
+    border-bottom: 1px solid #dbe6f1;
+    margin: 0;
+  }
+
+  .pub-category-box__title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #005E7A;
+    margin: 0;
+    letter-spacing: 0.2px;
+  }
+
+  .pub-count-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 22px;
+    height: 22px;
+    padding: 0 7px;
+    background: #005E7A;
+    color: #fff;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .pub-category-box__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pub-category-box__entry {
+    display: flex;
+    gap: 14px;
+    padding: 14px 22px;
+    border-bottom: 1px solid #eef2f6;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .pub-category-box__entry:last-child {
+    border-bottom: none;
+  }
+
+  .pub-entry-number {
+    flex-shrink: 0;
+    font-weight: 700;
+    color: #005E7A;
+    min-width: 1.6em;
+    text-align: right;
+    padding-top: 1px;
+  }
+
+  .pub-entry-body {
+    flex: 1;
+  }
+
+  .pub-entry-body p {
+    margin: 0 0 4px;
+  }
+
+  .pub-entry-body .pub-links {
+    margin-top: 4px;
+    font-size: 0.82rem;
+  }
+
+  .pub-entry-body .pub-links a {
+    margin-right: 8px;
+    color: #005E7A;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid #005E7A;
+    border-radius: 4px;
+    padding: 1px 7px;
+  }
+
+  .pub-entry-body .pub-links a:hover {
+    background: #005E7A;
+    color: #fff;
+  }
+
+  .substatus {
+    font-style: italic;
+    color: #888;
+  }
+</style>
+
 <div class="publications-list" id="pubList">
 {% if site.publication_category %}
   <nav class="page__taxonomy">
@@ -184,12 +288,42 @@ author_profile: true
     {% if category_total > 0 %}
       {% assign publication_number = category_total %}
       <div class="pub-category-group" data-category="{{ category[0] | slugify }}">
-        <h2 id="{{ category[0] | slugify }}" class="pub-category-heading">{{ category[1].title }} <span class="pub-count-badge">{{ category_total }}</span></h2><hr />
-        {% for post in site.publications reversed %}
-          {% if post.category != category[0] %}{% continue %}{% endif %}
-          {% include archive-single.html pub_number=publication_number %}
-          {% assign publication_number = publication_number | minus: 1 %}
-        {% endfor %}
+        <div class="pub-category-box">
+          <div class="pub-category-box__header">
+            <span class="pub-category-box__title" id="{{ category[0] | slugify }}">{{ category[1].title }}</span>
+            <span class="pub-count-badge">{{ category_total }}</span>
+          </div>
+          <ul class="pub-category-box__list">
+            {% for post in site.publications reversed %}
+              {% if post.category != category[0] %}{% continue %}{% endif %}
+              {% assign citation_formatted = post.citation %}
+              {% if citation_formatted %}
+                {% assign citation_formatted = citation_formatted | replace: "Bhat, Z. M.", "<strong>Bhat, Z. M.</strong>" %}
+                {% assign citation_formatted = citation_formatted | replace: "Bhat, Z.M.", "<strong>Bhat, Z.M.</strong>" %}
+                {% assign citation_formatted = citation_formatted | replace: "Z. M. Bhat", "<strong>Z. M. Bhat</strong>" %}
+              {% endif %}
+              <li class="pub-category-box__entry list__item">
+                <span class="pub-entry-number">{{ publication_number }}.</span>
+                <div class="pub-entry-body">
+                  {% if citation_formatted %}
+                    <p>{{ citation_formatted }}</p>
+                  {% else %}
+                    {% if post.substatus %}
+                      <p><span class="substatus">{{ post.substatus }}</span> {% if post.link %}<a href="{{ post.link }}">{{ post.title }}</a>{% else %}<a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>{% endif %}. <i>{{ post.venue }}</i>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}.</p>
+                    {% else %}
+                      <p>{% if post.link %}<a href="{{ post.link }}">{{ post.title }}</a>{% else %}<a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>{% endif %}. <i>{{ post.venue }}</i>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}.</p>
+                    {% endif %}
+                  {% endif %}
+                  <div class="pub-links">
+                    {% if post.paperurl %}<a href="{{ post.paperurl }}">[PDF]</a>{% endif %}
+                    {% if post.url %}<a href="{{ base_path }}{{ post.url }}">[Link]</a>{% endif %}
+                  </div>
+                </div>
+              </li>
+              {% assign publication_number = publication_number | minus: 1 %}
+            {% endfor %}
+          </ul>
+        </div>
       </div>
     {% endif %}
   {% endfor %}
@@ -214,7 +348,7 @@ author_profile: true
   if (!input || !list) return;
 
   var items = Array.from(list.querySelectorAll('.list__item'));
-  var headings = Array.from(list.querySelectorAll('.pub-category-heading'));
+  var groups = Array.from(list.querySelectorAll('.pub-category-group'));
 
   function updateCounter(visible, total) {
     if (input.value.trim() === '') {
@@ -235,20 +369,12 @@ author_profile: true
       if (match) visible++;
     });
 
-    /* Hide category headings if all their items are hidden */
-    headings.forEach(function (heading) {
-      var hr = heading.nextElementSibling;
-      var anyVisible = false;
-      var next = hr ? hr.nextElementSibling : heading.nextElementSibling;
-      while (next && !next.classList.contains('pub-category-heading')) {
-        if (next.classList.contains('list__item') && next.style.display !== 'none') {
-          anyVisible = true;
-          break;
-        }
-        next = next.nextElementSibling;
-      }
-      heading.style.display = anyVisible || q === '' ? '' : 'none';
-      if (hr) hr.style.display = heading.style.display;
+    /* Hide entire category box if all its entries are hidden */
+    groups.forEach(function (group) {
+      var anyVisible = Array.from(group.querySelectorAll('.list__item')).some(function (item) {
+        return item.style.display !== 'none';
+      });
+      group.style.display = (anyVisible || q === '') ? '' : 'none';
     });
 
     noResults.style.display = (visible === 0 && q !== '') ? 'block' : 'none';
