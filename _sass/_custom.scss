@@ -68,11 +68,25 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
+/* No hover on individual cards */
 .publications-list .list__item:hover,
 .publications-list .list__item:focus-within {
-  transform: translateY(-4px);
-  border-color: #005E7A;
-  box-shadow: 0 12px 26px rgba(0, 94, 122, 0.16);
+  transform: none;
+  border-color: #E6EBF2;
+  box-shadow: 0 4px 12px rgba(31, 58, 95, 0.06);
+}
+
+/* ===== PUBLICATION CATEGORY GROUP HOVER ===== */
+.pub-category-group {
+  border-radius: 14px;
+  padding: 0.75rem 0.75rem 0.25rem;
+  margin-bottom: 1.5rem;
+  transition: background 0.22s ease, box-shadow 0.22s ease;
+}
+
+.pub-category-group:hover {
+  background: rgba(0, 94, 122, 0.03);
+  box-shadow: 0 6px 28px rgba(0, 94, 122, 0.09);
 }
 
 .publications-list .archive__item-title {
@@ -247,15 +261,6 @@
   height: auto;
   background: #000;
   border-radius: 14px;
-}
-
-/* Global page title color (all pages) */
-.page__title,
-.page__title a,
-.page__title a:visited,
-.layout--archive .page__title,
-.layout--single .page__title {
-  color: #005E7A !important;
 }
 
 /* Global page title color (all pages) */
@@ -448,7 +453,7 @@ h1, h2, h3, h4, h5, h6,
 /* ===== CONTENT WIDTH (desktop only) ===== */
 @media (min-width: 769px) {
   .page__inner-wrap {
-    max-width: 80%;
+    max-width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
