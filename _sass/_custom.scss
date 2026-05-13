@@ -453,3 +453,24 @@ h1, h2, h3, h4, h5, h6,
     margin-right: auto;
   }
 }
+
+
+/* ===== PROFILE PHOTO GLOW RING ===== */
+@keyframes avatar-pulse {
+  0%   { box-shadow: 0 0 0 3px rgba(0, 94, 122, 0.55), 0 0 14px rgba(0, 94, 122, 0.25); }
+  50%  { box-shadow: 0 0 0 5px rgba(0, 94, 122, 0.25), 0 0 28px rgba(0, 94, 122, 0.45); }
+  100% { box-shadow: 0 0 0 3px rgba(0, 94, 122, 0.55), 0 0 14px rgba(0, 94, 122, 0.25); }
+}
+
+.author__avatar img {
+  border-radius: 50%;
+  border: 3px solid #005E7A;
+  animation: avatar-pulse 3s ease-in-out infinite;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.author__avatar img:hover {
+  transform: scale(1.04);
+  animation-play-state: paused;
+  box-shadow: 0 0 0 5px rgba(0, 94, 122, 0.4), 0 0 32px rgba(0, 94, 122, 0.5);
+}
