@@ -262,12 +262,17 @@ body.layout--single.page-teaching .page__title {
   justify-content: space-between;
   align-items: flex-start;
   gap: 1rem;
+  margin: -0.9rem -1rem 0.75rem -1rem;
+  padding: 8px 1rem;
+  background: #f0f6f9;
+  border-radius: 0 10px 0 0;
 }
 
 .teaching-card__title {
   margin: 0;
-  color: #003f52;
-  font-size: 0.9rem;
+  color: #1a4a5e;
+  font-size: 0.882rem;
+  line-height: 1.4;
 }
 
 .teaching-card__chips {
