@@ -177,9 +177,12 @@
   color: var(--global-text-color) !important;
 }
 
-/* Teaching page card title color */
+/* Teaching page card title typography matches research card headings */
 .teaching-card__title {
-  color: #005E7A !important;
+  color: #1a4a5e !important;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.2px;
 }
 
 /* Experimental highlights section */
