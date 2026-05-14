@@ -192,71 +192,7 @@ redirect_from:
     display: block;
   }
 
-  /* ===== POETRY CARD ===== */
-  .poetry-section {
-    margin-bottom: 2rem;
-  }
-
-  .poetry-card {
-    position: relative;
-    max-width: 560px;
-    margin: 0 auto;
-    background: linear-gradient(135deg, #f9fbfc 0%, #f0f6f9 100%);
-    border: 1px solid #d0e4ed;
-    border-radius: 16px;
-    padding: 32px 36px 28px;
-    box-shadow: 0 8px 28px rgba(0,94,122,0.09);
-  }
-
-  .poetry-card::before {
-    content: '\201C';
-    position: absolute;
-    top: -10px;
-    left: 22px;
-    font-size: 5rem;
-    color: #005E7A;
-    opacity: 0.15;
-    font-family: Georgia, serif;
-    line-height: 1;
-  }
-
-  .poetry-card__urdu {
-    font-style: italic;
-    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
-    font-weight: 500;
-    font-size: 1.02rem;
-    color: #1F3A5F;
-    line-height: 1.8;
-    margin-bottom: 14px;
-    border-left: 3px solid #005E7A;
-    padding-left: 16px;
-  }
-
-  .poetry-card__translation {
-    font-size: 0.88rem;
-    color: #5F7FA3;
-    line-height: 1.6;
-    margin-bottom: 16px;
-    font-style: italic;
-  }
-
-  .poetry-card__author {
-    text-align: right;
-    font-weight: 700;
-    font-size: 0.95rem;
-    color: #005E7A;
-  }
-
-  .poetry-card__author::before {
-    content: '— ';
-  }
-
-  .poetry-interests {
-    margin: 10px 0 0;
-    font-size: 0.92rem;
-    color: var(--global-text-color, #444);
-    line-height: 1.6;
-  }
+ 
 </style>
 
 <h2 class="hobby-heading">📷 Photography</h2>
@@ -297,23 +233,7 @@ redirect_from:
   <div class="book-item"><img src="/images/book5.jpg" alt="Book from personal reading list"></div>
 </div>
 
-<h2 class="hobby-heading">📝 Urdu Poetry</h2>
 
-<div class="poetry-section">
-  <p class="poetry-interests">A deep appreciation for Urdu poetry, especially the works of <strong>Faiz Ahmad Faiz</strong>, <strong>Mirza Ghalib</strong>, <strong>Allama Iqbal</strong>, and <strong>Ahmad Faraz</strong>.</p>
-
-  <div class="poetry-card">
-    <div class="poetry-card__urdu">
-      Shikwa-e-zulmat-e-shab se to kahin behtar tha,<br>
-      Apne hisse ki koi shama jalate jaate.
-    </div>
-    <div class="poetry-card__translation">
-      Rather than complaining about the darkness of the night,<br>
-      it would have been better to light a candle of your own.
-    </div>
-    <div class="poetry-card__author">Ahmad Faraz</div>
-  </div>
-</div>
 
 <script>
 (function () {
