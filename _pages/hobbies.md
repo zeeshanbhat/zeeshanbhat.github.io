@@ -11,7 +11,7 @@ redirect_from:
   /* ===== SECTION HEADINGS ===== */
   .hobby-heading {
     color: #005E7A;
-    font-size: 1.15rem;
+    font-size: 0.95 rem;
     font-weight: 700;
     margin: 2rem 0 1rem;
     display: flex;
