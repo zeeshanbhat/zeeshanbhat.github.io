@@ -29,23 +29,25 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
   }
 
   .about-hover-card {
-    background: var(--global-bg-color, #fff);
+    background: #fff;
     color: var(--global-text-color, inherit);
-    border: 1px solid var(--global-border-color, #E6EBF2);
+    border: 1px solid #e2eaf0;
+    border-left: 4px solid #005e7a;
+    border-radius: 0 10px 10px 0;
     padding: 14px 16px;
-    border-radius: 10px;
     font-weight: 400;
     font-family: var(--global-font-family, inherit);
-    transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+    box-shadow: 0 2px 8px rgba(0, 94, 122, 0.07);
+    transition: transform 0.22s ease, box-shadow 0.22s ease, border-left-color 0.22s ease;
     display: flex;
     align-items: center;
     gap: 10px;
   }
 
   .about-hover-card:hover {
-    transform: translateY(-3px);
-    border-color: #005e7a;
-    box-shadow: 0 8px 18px rgba(0, 94, 122, 0.16);
+    transform: translateX(4px);
+    border-left-color: #003f52;
+    box-shadow: 0 6px 20px rgba(0, 94, 122, 0.15);
   }
 
   .about-hover-card .card-icon {
@@ -264,7 +266,7 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
   <div class="news-item">
     <div class="news-item__date">April 2026</div>
     <div class="news-item__text">
-      Awarded the <strong>Canada Impact + Research Training Award</strong>; joining Queen’s University, Canada, as a Postdoctoral Fellow.
+      Awarded the <strong>Canada Impact + Research Training Award</strong>; joining Queen's University, Canada, as a Postdoctoral Fellow.
     </div>
   </div>
 
