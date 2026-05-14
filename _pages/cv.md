@@ -10,27 +10,10 @@ author_profile: true
 {% include base_path %}
 
 <style>
-  /* ── Experience timeline wrapper ── */
-  .experience-timeline {
-    position: relative;
-    padding-left: 28px;
-    margin-top: 8px;
-  }
 
-  .experience-timeline::before {
-    content: "";
-    position: absolute;
-    left: 8px;
-    top: 6px;
-    bottom: 0;
-    width: 2px;
-    background: linear-gradient(to bottom, #005e7a 60%, transparent 100%);
-    border-radius: 2px;
-  }
 
   /* ── Individual card ── */
   .experience-card {
-    position: relative;
     font-size: 0.9em;
     background: #fff;
     border: 1px solid #e2eaf0;
@@ -42,19 +25,6 @@ author_profile: true
     transition: transform 0.22s ease, box-shadow 0.22s ease, border-left-color 0.22s ease;
   }
 
-  /* timeline dot */
-  .experience-card::before {
-    content: "";
-    position: absolute;
-    left: -22px;
-    top: 20px;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: #005e7a;
-    border: 2px solid #fff;
-    box-shadow: 0 0 0 2px #005e7a;
-  }
 
   .experience-card:hover {
     transform: translateX(4px);
