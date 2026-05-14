@@ -11,18 +11,18 @@ redirect_from:
   /* ===== SECTION HEADINGS ===== */
   .hobby-heading {
     color: #005E7A;
-    font-size: 0.95 rem;
+    font-size: 0.855rem;
     font-weight: 700;
-    margin: 2rem 0 1rem;
+    margin: 1.8rem 0 0.9rem;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 9px;
   }
 
   .hobby-heading::after {
     content: '';
     flex: 1;
-    height: 2px;
+    height: 1.8px;
     background: linear-gradient(90deg, #005E7A22 0%, transparent 100%);
     border-radius: 2px;
   }

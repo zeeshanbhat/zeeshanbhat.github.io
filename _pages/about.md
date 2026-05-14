@@ -82,9 +82,15 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
   .education-card {
     display: flex;
     align-items: center;
-    gap: 20px;
-    margin-bottom: 16px;
-    padding: 14px;
+    gap: 18px;
+    margin-bottom: 14px;
+    padding: 13px;
+    font-size: 0.9rem;
+  }
+
+  .education-card img {
+    width: 63px !important;
+    height: 63px !important;
   }
 
   .download-cv-btn {
