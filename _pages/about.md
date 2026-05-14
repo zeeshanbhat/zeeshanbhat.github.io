@@ -20,14 +20,43 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 
 <style>
  
-  /* ===== RESEARCH INTEREST CARDS ===== */
+  /* ===== RESEARCH INTEREST CHIPS ===== */
   .about-card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
     margin: 14px 0 22px;
   }
 
+  .interest-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: #f0f6f9;
+    border: 1px solid #c6dde8;
+    border-radius: 999px;
+    padding: 7px 14px;
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: #1a4a5e;
+    white-space: nowrap;
+    transition: background 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    cursor: default;
+  }
+
+  .interest-chip:hover {
+    background: #e7f4f8;
+    border-color: #005e7a;
+    box-shadow: 0 3px 10px rgba(0, 94, 122, 0.12);
+  }
+
+  .interest-chip .card-icon {
+    font-size: 1rem;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+  /* ===== EDUCATION CARDS ===== */
   .about-hover-card {
     background: #fff;
     color: var(--global-text-color, inherit);
@@ -48,12 +77,6 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
     transform: translateX(4px);
     border-left-color: #003f52;
     box-shadow: 0 6px 20px rgba(0, 94, 122, 0.15);
-  }
-
-  .about-hover-card .card-icon {
-    font-size: 1.4rem;
-    flex-shrink: 0;
-    line-height: 1;
   }
 
   .education-card {
@@ -237,7 +260,7 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
     color: #005E7A !important;
   }
 
-    /* ===== NEWS TOGGLE BUTTON ===== */
+  /* ===== NEWS TOGGLE BUTTON ===== */
   .news-toggle-btn {
     display: none;
     background: transparent;
@@ -300,17 +323,15 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 <h3 style="color:#005E7A;font-size:1.1rem;">Research Interests</h3>
 
 <div class="about-card-grid">
-  <div class="about-hover-card"><span class="card-icon">🏗️</span> Large-scale experimental testing</div>
-  <div class="about-hover-card"><span class="card-icon">💻</span> Nonlinear structural modelling</div>
-  <div class="about-hover-card"><span class="card-icon">🌍</span> Seismic hazard, risk, and vulnerability assessment</div>
-  <div class="about-hover-card"><span class="card-icon">📈</span> Performance-based earthquake engineering</div>
-  <div class="about-hover-card"><span class="card-icon">🛡️</span> Resilience-based seismic design</div>
-  <div class="about-hover-card"><span class="card-icon">🧱</span> Non-structural elements</div>
-  <div class="about-hover-card"><span class="card-icon">🌿</span> Energy efficiency and climate resilience</div>
+  <span class="interest-chip"><span class="card-icon">🏗️</span> Large-scale experimental testing</span>
+  <span class="interest-chip"><span class="card-icon">💻</span> Nonlinear structural modelling</span>
+  <span class="interest-chip"><span class="card-icon">🌍</span> Seismic hazard, risk, and vulnerability assessment</span>
+  <span class="interest-chip"><span class="card-icon">📈</span> Performance-based earthquake engineering</span>
+  <span class="interest-chip"><span class="card-icon">🛡️</span> Resilience-based seismic design</span>
+  <span class="interest-chip"><span class="card-icon">🧱</span> Non-structural elements</span>
+  <span class="interest-chip"><span class="card-icon">🌿</span> Energy efficiency and climate resilience</span>
 </div>
 
-  
-  
 <h3 style="color:#005E7A;font-size:1.1rem;">Education</h3>
 
 <div class="about-hover-card education-card">
