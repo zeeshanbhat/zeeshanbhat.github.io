@@ -10,91 +10,186 @@ author_profile: true
 {% include base_path %}
 
 <style>
+  /* ── Experience timeline wrapper ── */
+  .experience-timeline {
+    position: relative;
+    padding-left: 28px;
+    margin-top: 8px;
+  }
+
+  .experience-timeline::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 6px;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, #005e7a 60%, transparent 100%);
+    border-radius: 2px;
+  }
+
+  /* ── Individual card ── */
   .experience-card {
+    position: relative;
     font-size: 0.9em;
-    background: var(--global-bg-color, #fff);
-    color: var(--global-text-color, inherit);
-    border: 1px solid var(--global-border-color, #000);
-    border-radius: 8px;
-    padding: 14px;
-    transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+    background: #fff;
+    border: 1px solid #e2eaf0;
+    border-left: 4px solid #005e7a;
+    border-radius: 0 10px 10px 0;
+    padding: 18px 20px 14px;
+    margin-bottom: 22px;
+    box-shadow: 0 2px 8px rgba(0, 94, 122, 0.07);
+    transition: transform 0.22s ease, box-shadow 0.22s ease, border-left-color 0.22s ease;
+  }
+
+  /* timeline dot */
+  .experience-card::before {
+    content: "";
+    position: absolute;
+    left: -22px;
+    top: 20px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #005e7a;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 2px #005e7a;
   }
 
   .experience-card:hover {
-    transform: translateY(-3px);
-    border-color: #005e7a;
-    box-shadow: 0 8px 18px rgba(0, 94, 122, 0.16);
+    transform: translateX(4px);
+    box-shadow: 0 6px 20px rgba(0, 94, 122, 0.15);
+    border-left-color: #003f52;
   }
 
+  /* ── Header row: logo + meta + badge ── */
   .experience-header {
     display: flex;
-    align-items: center;
-    gap: 18px;
-    margin-bottom: 16px;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 14px;
     flex-wrap: wrap;
   }
 
-  .experience-date {
-    font-weight: 600;
-    color: #005E7A;
-    white-space: nowrap;
+  .experience-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 6px;
+    border: 1px solid #e2eaf0;
+    padding: 3px;
+    flex-shrink: 0;
+    background: #f7fbfd;
   }
 
-  .experience-role,
+  .experience-meta {
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .experience-role {
+    display: block;
+    font-size: 1.05em;
+    font-weight: 700;
+    color: #003f52;
+    margin-bottom: 3px;
+  }
+
+  .experience-org {
+    font-weight: 600;
+    color: #005e7a;
+    margin-bottom: 4px;
+  }
+
+  .experience-supervisor,
+  .experience-project {
+    color: #555;
+    font-size: 0.92em;
+    margin-bottom: 2px;
+  }
+
+  /* ── Date badge ── */
+  .experience-date {
+    display: inline-block;
+    background: #e7f4f8;
+    color: #005e7a;
+    font-weight: 600;
+    font-size: 0.82em;
+    padding: 4px 10px;
+    border-radius: 20px;
+    white-space: nowrap;
+    align-self: flex-start;
+    border: 1px solid #b8dce8;
+  }
+
+  /* ── Duties section ── */
   .experience-duties-title {
-    color: #005E7A;
+    display: block;
+    font-size: 0.85em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #005e7a;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    border-bottom: 1px dashed #b8dce8;
   }
 
   .experience-duties {
     margin: 0;
+    padding-left: 18px;
   }
 
   .experience-duties li {
     margin-bottom: 5px;
+    color: #333;
+    line-height: 1.5;
+  }
+
+  .experience-duties li::marker {
+    color: #005e7a;
   }
 </style>
 
-<div class="experience-card">
-  <div class="experience-header">
-    <img src="/images/iitr_logo.png" alt="IIT Roorkee Logo" style="width:63px; height:63px;">
-    <div style="flex:1; min-width:240px;">
-      <strong class="experience-role">Research Associate</strong><br>
-      Indian Institute of Technology Roorkee, India<br>
-      <em>Supervisor:</em> Prof. Yogendra Singh<br>
-      <em>Project:</em> Enhancing Sustainability of RC Frame Buildings through Seismic Safety and Design Life Elongation Using GFRP Reinforcement
+<div class="experience-timeline">
+
+  <div class="experience-card">
+    <div class="experience-header">
+      <img class="experience-logo" src="/images/iitr_logo.png" alt="IIT Roorkee Logo">
+      <div class="experience-meta">
+        <strong class="experience-role">Research Associate</strong>
+        <div class="experience-org">Indian Institute of Technology Roorkee, India</div>
+        <div class="experience-supervisor"><em>Supervisor:</em> Prof. Yogendra Singh</div>
+        <div class="experience-project"><em>Project:</em> Enhancing Sustainability of RC Frame Buildings through Seismic Safety and Design Life Elongation Using GFRP Reinforcement</div>
+      </div>
+      <span class="experience-date">Jun 2025 – Present</span>
     </div>
-    <div class="experience-date">
-      Jun 2025 – Present
-    </div>
+    <strong class="experience-duties-title">Duties</strong>
+    <ul class="experience-duties">
+      <li>Conducting large-scale experimental testing of GFRP-reinforced members</li>
+      <li>Developing phenomenological models to simulate the nonlinear response of GFRP-reinforced concrete columns</li>
+      <li>Performing seismic risk and vulnerability assessment of GFRP-reinforced structures</li>
+    </ul>
   </div>
 
-  <strong class="experience-duties-title">Duties</strong>
-  <ul class="experience-duties">
-    <li>Conducting large-scale experimental testing of GFRP-reinforced members</li>
-    <li>Developing phenomenological models to simulate the nonlinear response of GFRP-reinforced concrete columns</li>
-    <li>Performing seismic risk and vulnerability assessment of GFRP-reinforced structures</li>
-  </ul>
-</div>
-
-<div class="experience-card" style="margin-top:14px;">
-  <div class="experience-header">
-    <img src="/images/iitr_logo.png" alt="IIT Roorkee Logo" style="width:63px; height:63px;">
-    <div style="flex:1; min-width:240px;">
-      <strong class="experience-role">Ph.D. Research Scholar</strong><br>
-      Indian Institute of Technology Roorkee, India<br>
-      <em>Supervisor:</em> Prof. Yogendra Singh<br>
-      <em>Thesis:</em> Experimental and Numerical Investigation of Seismic Behaviour of Masonry Infill Panels in RC Frame Buildings
+  <div class="experience-card">
+    <div class="experience-header">
+      <img class="experience-logo" src="/images/iitr_logo.png" alt="IIT Roorkee Logo">
+      <div class="experience-meta">
+        <strong class="experience-role">Ph.D. Research Scholar</strong>
+        <div class="experience-org">Indian Institute of Technology Roorkee, India</div>
+        <div class="experience-supervisor"><em>Supervisor:</em> Prof. Yogendra Singh</div>
+        <div class="experience-project"><em>Thesis:</em> Experimental and Numerical Investigation of Seismic Behaviour of Masonry Infill Panels in RC Frame Buildings</div>
+      </div>
+      <span class="experience-date">Jul 2018 – Mar 2025</span>
     </div>
-    <div class="experience-date">
-      Jul 2018 – Mar 2025
-    </div>
+    <strong class="experience-duties-title">Research Activities</strong>
+    <ul class="experience-duties">
+      <li>Conducted full-scale reversed cyclic experiments on masonry infill panels (in-plane and out-of-plane) in RC frames</li>
+      <li>Applied Digital Image Correlation (DIC) for full-field strain and displacement measurement during large-scale tests</li>
+      <li>Developed and calibrated nonlinear numerical models (diagonal strut, finite element) in OpenSees</li>
+      <li>Performed seismic fragility and risk assessment of RC frame buildings with masonry infills</li>
+    </ul>
   </div>
 
-  <strong class="experience-duties-title">Research Activities</strong>
-  <ul class="experience-duties">
-    <li>Conducted full-scale reversed cyclic experiments on masonry infill panels (in-plane and out-of-plane) in RC frames</li>
-    <li>Applied Digital Image Correlation (DIC) for full-field strain and displacement measurement during large-scale tests</li>
-    <li>Developed and calibrated nonlinear numerical models (diagonal strut, finite element) in OpenSees</li>
-    <li>Performed seismic fragility and risk assessment of RC frame buildings with masonry infills</li>
-  </ul>
 </div>
