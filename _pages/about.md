@@ -331,10 +331,10 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 <div class="about-card-grid">
   <span class="interest-chip"><span class="card-icon">🏗️</span> Large-scale experimental testing</span>
   <span class="interest-chip"><span class="card-icon">💻</span> Nonlinear structural modelling</span>
+  <span class="interest-chip"><span class="card-icon">🧱</span> Non-structural elements</span>
   <span class="interest-chip"><span class="card-icon">🌍</span> Seismic hazard, risk, and vulnerability assessment</span>
   <span class="interest-chip"><span class="card-icon">📈</span> Performance-based earthquake engineering</span>
   <span class="interest-chip"><span class="card-icon">🛡️</span> Resilience-based seismic design</span>
-  <span class="interest-chip"><span class="card-icon">🧱</span> Non-structural elements</span>
   <span class="interest-chip"><span class="card-icon">🌿</span> Energy efficiency and climate resilience</span>
 </div>
 
