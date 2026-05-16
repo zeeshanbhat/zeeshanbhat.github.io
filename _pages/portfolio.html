@@ -11,29 +11,44 @@ author_profile: true
 {% include base_path %}
 
 <section class="research-highlights-panel" aria-label="Experimental Research Highlights">
-  <div class="research-highlights-panel__eyebrow">EXPERIMENTAL RESEARCH HIGHLIGHTS</div>
+  <div class="research-highlights-panel__header">
+    <div>
+      <div class="research-highlights-panel__eyebrow">EXPERIMENTAL RESEARCH HIGHLIGHTS</div>
+      <h1 class="research-highlights-panel__title">Large-scale tests, full-field measurements, and seismic performance insights</h1>
+      <p class="research-highlights-panel__intro">
+        A visual snapshot of the experimental program that combines full-scale masonry infill testing with Digital Image Correlation to track damage evolution and validate resilient design strategies.
+      </p>
+    </div>
+    <div class="research-highlights-panel__badges" aria-label="Research highlight themes">
+      <span>Full-scale testing</span>
+      <span>Seismic response</span>
+      <span>DIC damage mapping</span>
+    </div>
+  </div>
 
   <div class="research-highlights-grid">
-    <section class="research-highlights-card">
+    <section class="research-highlights-card research-highlights-card--testing">
+      <div class="research-highlights-card__label">01 / Laboratory campaign</div>
       <h2 class="research-highlights-card__title">Full-Scale Experimental Testing</h2>
-      <hr class="research-highlights-card__rule">
       <div class="research-highlights-card__media">
-        <video controls autoplay muted loop playsinline preload="metadata">
+        <video controls autoplay muted loop playsinline preload="metadata" aria-label="Full-scale experimental testing video">
           <source src="{{ base_path }}/assets/videos/research-overview.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
+      <p class="research-highlights-card__caption">Capturing specimen behavior under realistic loading to connect observed damage with seismic demand.</p>
     </section>
 
-    <section class="research-highlights-card">
+    <section class="research-highlights-card research-highlights-card--dic">
+      <div class="research-highlights-card__label">02 / Measurement insight</div>
       <h2 class="research-highlights-card__title">Digital Image Correlation in Full-Scale Testing</h2>
-      <hr class="research-highlights-card__rule">
       <div class="research-highlights-card__media">
-        <video controls autoplay muted loop playsinline preload="metadata">
+        <video controls autoplay muted loop playsinline preload="metadata" aria-label="Digital Image Correlation full-scale testing video">
           <source src="{{ base_path }}/assets/videos/DIC.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
+      <p class="research-highlights-card__caption">Using full-field displacement and strain tracking to reveal crack initiation, propagation, and damage concentration.</p>
     </section>
   </div>
 </section>
