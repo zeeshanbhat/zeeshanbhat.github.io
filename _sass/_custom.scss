@@ -134,8 +134,7 @@
   padding: 0.78rem 1.2rem 0.82rem 1.75rem;
   overflow: hidden;
   border-radius: 10px 10px 0 0;
-  background: linear-gradient(135deg, #005e7a 0%, #087a95 58%, #e9f6fa 100%);
-  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.28);
+  background: transparent;
   font-size: 0.91rem;
   line-height: 1.35;
 }
@@ -143,20 +142,10 @@
 .research-list .archive__item-title::before {
   content: "";
   position: absolute;
-  inset: 0 auto 0 0;
-  width: 6px;
-  background: #f2b544;
-}
-
-.research-list .archive__item-title::after {
-  content: "";
-  position: absolute;
-  right: -2.5rem;
-  top: -3.5rem;
-  width: 8rem;
-  height: 8rem;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.18);
+  inset: 0 0 auto 0;
+  height: 4px;
+  background: #005e7a;
+  border-radius: 10px 10px 0 0;
 }
 
 .research-list .archive__item-title,
@@ -164,12 +153,7 @@
 .research-list .archive__item-title a:visited,
 .research-list .archive__item-title a:hover,
 .research-list .archive__item-title a:focus {
-  color: #fff !important;
-}
-
-.research-list .archive__item-title a {
-  position: relative;
-  z-index: 1;
+  color: #005e7a !important;
 }
 
 .research-list .archive__item-excerpt {
