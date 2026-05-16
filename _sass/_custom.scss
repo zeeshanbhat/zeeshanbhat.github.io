@@ -198,6 +198,8 @@
 
 /* Experimental highlights section */
 .research-highlights-panel {
+  position: relative;
+  isolation: isolate;
   max-width: 1120px;
   margin: 0 auto 2rem;
   border: 1px solid #e2eaf0;
@@ -308,9 +310,20 @@
 
 .research-highlights-card:hover,
 .research-highlights-card:focus-within {
-  transform: translateY(-4px);
-  border-color: #005e7a;
-  box-shadow: 0 10px 24px rgba(0, 94, 122, 0.15);
+  transform: translateY(-6px);
+  border-color: rgba(0, 94, 122, 0.38);
+  box-shadow: 0 20px 42px rgba(0, 62, 88, 0.18);
+}
+
+.research-highlights-card__label {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 0.65rem;
+  color: #f49c23;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
 }
 
 .research-highlights-card__label {
