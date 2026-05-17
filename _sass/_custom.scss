@@ -584,6 +584,24 @@ html {
   background: #00789b;
   border-color: #00789b;
 }
+
+/* ===== SCROLL REVEAL ===== */
+.reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.30s ease, transform 0.30s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal--delay-1 { transition-delay: 0.04s; }
+.reveal--delay-2 { transition-delay: 0.08s; }
+.reveal--delay-3 { transition-delay: 0.12s; }
+.reveal--delay-4 { transition-delay: 0.16s; }
+
 /* ===== INTER FONT ===== */
 body,
 p,
