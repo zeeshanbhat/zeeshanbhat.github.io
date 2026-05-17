@@ -110,6 +110,16 @@
   }
 }
 
+.research-projects-heading {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 1.35rem;
+}
+
+.research-projects-heading .research-highlights-panel__eyebrow {
+  margin: 0;
+}
+
 .research-list .list__item {
   margin-bottom: 0;
   padding-right: 0;
@@ -203,21 +213,11 @@
   max-width: 1120px;
   margin: 0 auto 2.35rem;
   overflow: hidden;
-  border: 1px solid rgba(0, 94, 122, 0.16);
-  border-radius: 24px;
+  border: 1px solid rgba(0, 94, 122, 0.18);
+  border-radius: 20px;
   background: #fff;
-  padding: clamp(1.2rem, 2.8vw, 2.25rem);
-  box-shadow: 0 18px 42px rgba(0, 62, 88, 0.11);
-}
-
-.research-highlights-panel::before {
-  content: "";
-  position: absolute;
-  inset: 12px;
-  z-index: -1;
-  border: 1px solid rgba(0, 94, 122, 0.08);
-  border-radius: 18px;
-  pointer-events: none;
+  padding: clamp(1rem, 2.2vw, 1.75rem);
+  box-shadow: 0 14px 34px rgba(0, 62, 88, 0.1);
 }
 
 .research-highlights-panel__header {
@@ -225,7 +225,7 @@
   grid-template-columns: minmax(0, 1fr);
   gap: 1rem;
   align-items: end;
-  margin-bottom: 1.35rem;
+  margin-bottom: 1.05rem;
 }
 
 @media (min-width: 860px) {
@@ -244,8 +244,8 @@
   align-items: center;
   gap: 0.45rem;
   width: fit-content;
-  margin: 0 0 0.75rem;
-  padding: 0.36rem 0.72rem;
+  margin: 0 0 0.65rem;
+  padding: 0.34rem 0.72rem;
   border: 1px solid rgba(0, 94, 122, 0.16);
   border-radius: 999px;
   background: #fff;
@@ -279,10 +279,10 @@
 
 .research-highlights-panel__intro {
   max-width: none;
-  margin: 0.65rem 0 0;
+  margin: 0.55rem 0 0;
   color: #4d6574 !important;
-  font-size: clamp(0.84rem, 1.35vw, 0.93rem);
-  line-height: 1.65;
+  font-size: clamp(0.82rem, 1.25vw, 0.91rem);
+  line-height: 1.55;
 }
 
 .research-highlights-panel__badges {
@@ -315,7 +315,7 @@
 .research-highlights-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: clamp(1rem, 2vw, 1.45rem);
+  gap: clamp(0.85rem, 1.7vw, 1.2rem);
 }
 
 @media (min-width: 760px) {
@@ -327,9 +327,9 @@
 .research-highlights-card {
   position: relative;
   overflow: hidden;
-  padding: 1.05rem;
+  padding: 0.9rem;
   border: 1px solid rgba(0, 94, 122, 0.15);
-  border-radius: 20px;
+  border-radius: 18px;
   background: #fff;
   box-shadow: 0 12px 30px rgba(0, 62, 88, 0.11);
   transition: transform 0.24s ease, box-shadow 0.24s ease, border-color 0.24s ease;
@@ -353,7 +353,7 @@
 .research-highlights-card__label {
   display: inline-flex;
   align-items: center;
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.5rem;
   color: #f49c23;
   font-size: 0.62rem;
   font-weight: 800;
@@ -362,8 +362,8 @@
 }
 
 .research-highlights-card__title {
-  min-height: 2.7rem;
-  margin: 0 0 0.9rem;
+  min-height: 2.35rem;
+  margin: 0 0 0.7rem;
   color: #005E7A !important;
   font-size: clamp(0.9rem, 1.4vw, 1.05rem);
   font-weight: 800;
@@ -378,7 +378,7 @@
 .research-highlights-card__media {
   position: relative;
   overflow: hidden;
-  border-radius: 16px;
+  border-radius: 14px;
   background: #071f29;
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12), 0 12px 24px rgba(0, 46, 63, 0.16);
 }
@@ -399,11 +399,11 @@
   height: auto;
   object-fit: contain;
   background: #000;
-  border-radius: 16px;
+  border-radius: 14px;
 }
 
 .research-highlights-card__caption {
-  margin: 0.85rem 0 0;
+  margin: 0.7rem 0 0;
   color: #506777 !important;
   font-size: 0.76rem;
   line-height: 1.5;
