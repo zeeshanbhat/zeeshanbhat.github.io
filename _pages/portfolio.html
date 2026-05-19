@@ -52,6 +52,24 @@ author_profile: true
   <div class="research-highlights-panel__eyebrow">DETAILED RESEARCH PROJECTS</div>
 </div>
 
+<div style="display:inline-flex;align-items:center;gap:10px;background:#f0f9f7;border:1.5px solid #00897b;border-radius:10px;padding:10px 16px;margin:0 0 18px;max-width:100%;">
+  <span style="position:relative;display:inline-block;width:10px;height:10px;flex-shrink:0;">
+    <span style="position:absolute;inset:0;background:#00897b;border-radius:50%;animation:pbee-pulse 1.6s ease-out infinite;opacity:0.5;"></span>
+    <span style="position:absolute;inset:1px;background:#00897b;border-radius:50%;"></span>
+  </span>
+  <span style="font-size:0.88rem;color:#004d40;line-height:1.4;">
+    <strong>Ongoing</strong> &mdash; Non-iterative procedure for comprehensive performance-based earthquake engineering &middot; <em>In collaboration with <a href="https://www.thorntontomasetti.com" target="_blank" rel="noopener" style="color:#00695c;">Thornton Tomasetti</a></em>
+  </span>
+</div>
+
+<style>
+  @keyframes pbee-pulse {
+    0%   { transform: scale(1);   opacity: 0.5; }
+    70%  { transform: scale(2.4); opacity: 0;   }
+    100% { transform: scale(2.4); opacity: 0;   }
+  }
+</style>
+
 <div class="research-list">
   {% for post in site.portfolio %}
     {% include archive-single.html %}
