@@ -418,6 +418,12 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
       form.addEventListener('submit', function (e) {
         e.preventDefault();
         if (!form.checkValidity()) { form.reportValidity(); return; }
+        var email = form.querySelector('input[type="email"]').value;
+        fetch('https://formspree.io/f/xeegvbvg', {
+          method: 'POST',
+          headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email: email, _subject: 'CV download request' })
+        }).catch(function () {});
         setModalState(false);
         window.open(cvPath, '_blank', 'noopener');
         form.reset();
