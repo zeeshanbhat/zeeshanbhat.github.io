@@ -341,7 +341,7 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 <h3 style="color:#005E7A;font-size:1.1rem;">Education</h3>
 
 <div class="about-hover-card education-card">
-  <img src="/images/iitr_logo.png" alt="IIT Roorkee Logo" style="width:70px; height:70px;">
+  <img src="/images/iitr_logo.png" alt="IIT Roorkee Logo" style="width:70px; height:70px;" loading="lazy">
   <div style="flex:1;">
     <strong>Ph.D. in Structural and Earthquake Engineering</strong><br>
     Indian Institute of Technology Roorkee, India
@@ -352,7 +352,7 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 </div>
 
 <div class="about-hover-card education-card">
-  <img src="/images/nit_srinagar_logo.png" alt="NIT Srinagar Logo" style="width:70px; height:70px;">
+  <img src="/images/nit_srinagar_logo.png" alt="NIT Srinagar Logo" style="width:70px; height:70px;" loading="lazy">
   <div style="flex:1;">
     <strong>M.Tech. in Structural Engineering</strong><br>
     National Institute of Technology Srinagar, India
@@ -363,7 +363,7 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 </div>
 
 <div class="about-hover-card education-card">
-  <img src="/images/nit_srinagar_logo.png" alt="NIT Srinagar Logo" style="width:70px; height:70px;">
+  <img src="/images/nit_srinagar_logo.png" alt="NIT Srinagar Logo" style="width:70px; height:70px;" loading="lazy">
   <div style="flex:1;">
     <strong>B.Tech. in Civil Engineering</strong><br>
     National Institute of Technology Srinagar, India
