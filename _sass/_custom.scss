@@ -470,28 +470,50 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ===== NAV ACTIVE INDICATOR — teal pill (desktop only) ===== */
+
+/* ===== NAV ACTIVE INDICATOR — animated underline (desktop only) ===== */
 @media (min-width: 901px) {
+  .masthead__menu-item a {
+    position: relative;
+    padding: 4px 2px !important;
+    background: none !important;
+    border-radius: 0 !important;
+    color: inherit;
+    transition: color 0.18s ease;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -2px;
+      height: 3px;
+      width: 0;
+      background: #005E7A;
+      border-radius: 2px;
+      transition: width 0.22s ease;
+    }
+
+    &:hover {
+      color: #005E7A !important;
+      background: none !important;
+
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+
   .masthead__menu-item.selected a,
   .masthead__menu-item.selected a:hover {
-    color: #fff !important;
-    background: #005E7A !important;
-    border-bottom: none !important;
-    border-radius: 999px;
-    padding: 4px 12px;
+    color: #005E7A !important;
+    background: none !important;
+    font-weight: 700;
     pointer-events: none;
     cursor: default;
-  }
 
-  .masthead__menu-item:not(.selected) a {
-    border-radius: 999px;
-    padding: 4px 12px;
-    transition: background 0.18s ease, color 0.18s ease;
-  }
-
-  .masthead__menu-item:not(.selected) a:hover {
-    background: rgba(0, 94, 122, 0.08) !important;
-    color: #005E7A !important;
+    &::after {
+      width: 100%;
+    }
   }
 }
 
