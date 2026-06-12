@@ -13,7 +13,7 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
 <div style="background:linear-gradient(135deg,#fff8ec 0%,#fff3e0 100%);border:2px solid #e8a020;border-radius:14px;padding:18px 22px;margin:20px 0;display:flex;gap:16px;align-items:flex-start;box-shadow:0 4px 14px rgba(232,160,32,0.12);">
   <span style="font-size:2rem;line-height:1;flex-shrink:0;">🎉</span>
   <div>
-    <div style="font-weight:700;font-size:1.08rem;color:#c45c00;margin-bottom:6px;">Canada Impact + Research Training Award (CITRA) </div>
+    <div style="font-weight:700;font-size:1.08rem;color:#c45c00;margin-bottom:6px;">Canada Impact + Research Training Award (CIRTA) </div>
     <div>I am honored to have been selected for the <a href="https://www.queensu.ca/gazette/stories/recruiting-world-s-top-research-talent" target="_blank" rel="noopener">NSERC-CIRTA Award</a> and will be joining <a href="https://smithengineering.queensu.ca/directory/faculty/amir-fam.html" target="_blank" rel="noopener">Prof. Amir Fam</a>'s research group at Queen's University, Canada, as a Postdoctoral Fellow. My research there will focus on developing energy-efficient and climate-resilient infrastructure, along with advancing seismic performance and design.</div>
   </div>
 </div>
