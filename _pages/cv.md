@@ -149,7 +149,7 @@ author_profile: true
         <div class="experience-supervisor"><em>Supervisor:</em> Prof. Yogendra Singh</div>
         <div class="experience-project"><em>Project:</em> Enhancing Sustainability of RC Frame Buildings through Seismic Safety and Design Life Elongation Using GFRP Reinforcement</div>
       </div>
-      <span class="experience-date">Jun 2025 – Present</span>
+      <span class="experience-date">Jun 2025 – June 2026</span>
     </div>
     <strong class="experience-duties-title">Duties</strong>
     <ul class="experience-duties">
