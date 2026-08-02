@@ -214,9 +214,10 @@ layout: archive
   <div class="contact-card contact-left">
     <h2 class="contact-title">Address</h2>
     <p class="contact-subtitle">
-      Dept. of Earthquake Engineering<br/>
-      Indian Institute of Technology Roorkee<br/>
-      Roorkee, Uttarakhand 247667, India
+      Dept. of Civil Engineering<br/>
+      Smith Engineering<br/>
+      Queen's University<br/>
+      Kingston, Ontario, Canada, K7L 3N6
     </p>
 
     <div class="map-embed">
