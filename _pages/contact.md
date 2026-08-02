@@ -215,8 +215,7 @@ layout: archive
     <h2 class="contact-title">Address</h2>
     <p class="contact-subtitle">
       Dept. of Civil Engineering<br/>
-      Smith Engineering<br/>
-      Queen's University<br/>
+      Smith Engineering, Queen's University<br/>
       Kingston, Ontario, Canada, K7L 3N6
     </p>
 
@@ -237,7 +236,7 @@ layout: archive
         <span class="meta-icon">📍</span>
         <div class="meta-text">
           <div class="meta-label">Location</div>
-          <div class="meta-value">IIT Roorkee, Uttarakhand 247667, India</div>
+          <div class="meta-value"> 58 University Ave, Kingston, ON K7L 3N9 </div>
         </div>
       </div>
 
