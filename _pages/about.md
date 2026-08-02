@@ -8,7 +8,7 @@ excerpt: "Structural & Earthquake Engineering | IIT Roorkee"
 author_profile: true
 ---
 
-I am a Research Associate in the Department of Earthquake Engineering at the Indian Institute of Technology (IIT) Roorkee, India, working under <a href="https://www.iitr.ac.in/~EQ/yogenfeq" target="_blank" rel="noopener">Prof. Yogendra Singh</a>. My research focuses on using both large-scale experimental and numerical approaches to better understand how structures behave during earthquakes, with the goal of enhancing their performance, safety, and resilience. Through this work, I aim to contribute to the development of safer and more resilient infrastructure in earthquake-prone regions.
+I am a <strong>CIRTA Postdoctoral Fellow</strong> in the Department of Civil Engineering at <a href="https://www.queensu.ca/" target="_blank" rel="noopener">Queen's University</a>, Kingston, Ontario, Canada, working under the supervision of <a href="https://smithengineering.queensu.ca/directory/faculty/amir-fam.html" target="_blank" rel="noopener">Prof. Amir Fam</a>. My research focuses on combining large-scale experimental investigations with advanced numerical modeling to better understand the behavior of structures under earthquake loading, with the goal of improving their performance, safety, and resilience. Through this work, I aim to contribute to the development of safer and more resilient infrastructure for earthquake-prone regions.
 
 <div style="background:linear-gradient(135deg,#fff8ec 0%,#fff3e0 100%);border:2px solid #e8a020;border-radius:14px;padding:18px 22px;margin:20px 0;display:flex;gap:16px;align-items:flex-start;box-shadow:0 4px 14px rgba(232,160,32,0.12);">
   <span style="font-size:2rem;line-height:1;flex-shrink:0;">🎉</span>
@@ -295,7 +295,7 @@ I am a Research Associate in the Department of Earthquake Engineering at the Ind
   <div class="news-item">
     <div class="news-item__date">April 2026</div>
     <div class="news-item__text">
-      Awarded the <strong>Canada Impact + Research Training Award</strong>; joining Queen's University, Canada, as a Postdoctoral Fellow.
+      Awarded the <strong>Canada Impact + Research Training Award</strong>.
     </div>
   </div>
 
