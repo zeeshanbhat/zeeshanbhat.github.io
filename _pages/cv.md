@@ -123,6 +123,23 @@ author_profile: true
 
 <div class="experience-timeline">
 
+
+  <div class="experience-card">
+    <div class="experience-header">
+      <img class="experience-logo" src="/images/queens_logo.png" alt="Queen's University Logo">
+      <div class="experience-meta">
+        <strong class="experience-role">CIRTA Postdoctoral Fellow</strong>
+        <div class="experience-org">Queen's University, Kingston, Canada</div>
+        <div class="experience-supervisor"><em>Supervisor:</em> Prof. Amir Fam</div>
+        <div class="experience-project"><em>Project:</em> </div>
+      </div>
+      <span class="experience-date">Aug 2026 – Present</span>
+    </div>
+    <strong class="experience-duties-title">Duties</strong>
+    <ul class="experience-duties">
+    </ul>
+  </div>
+
   <div class="experience-card">
     <div class="experience-header">
       <img class="experience-logo" src="/images/iitr_logo.png" alt="IIT Roorkee Logo">
