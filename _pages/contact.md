@@ -221,7 +221,7 @@ layout: archive
 
     <div class="map-embed">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.123!2d77.8963!3d29.8634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb35b7c000001%3A0x9e13c31fceb5e05b!2sIIT%20Roorkee%2C%20Roorkee%2C%20Uttarakhand%20247667!5e0!3m2!1sen!2sin!4v1"
+        src=""https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1079.123!2d-76.496336!3d44.226322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cd2ab0494436091:0xace7b8dc9cb4d3f5!2sEllis%20Hall%2C%2058%20University%20Ave%2C%20Kingston%2C%20ON%20K7L%203N9!5e0!3m2!1sen!2s"<iframe 
         width="100%"
         height="180"
         style="border:0; border-radius:10px;"
