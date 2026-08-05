@@ -246,7 +246,7 @@ layout: archive
         <div class="meta-text">
           <div class="meta-label">Email</div>
           <div class="meta-value">
-            <a href="mailto:zbhat@eq.iitr.ac.in">zbhat@eq.iitr.ac.in</a>
+            <a href="mailto:z.bhat@queensu.ca">z.bhat@queensu.ca</a>
           </div>
         </div>
       </div>
