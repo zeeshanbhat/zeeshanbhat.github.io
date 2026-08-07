@@ -296,7 +296,7 @@ I am an <strong>NSERC-CIRTA Postdoctoral Fellow</strong> in the Department of Ci
   <div class="news-item">
     <div class="news-item__date">April 2026</div>
     <div class="news-item__text">
-      Awarded the <strong>Canada Impact + Research Training Award</strong>.
+      Awarded the <strong>Canada Impact + Research Training Award</strong> by the Natural Sciences and Engineering Research Council of Canada (NSERC).
     </div>
   </div>
 
