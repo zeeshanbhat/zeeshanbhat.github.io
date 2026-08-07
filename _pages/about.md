@@ -13,8 +13,8 @@ I am an <strong>NSERC-CIRTA Postdoctoral Fellow</strong> in the Department of Ci
 <div style="background:linear-gradient(135deg,#fff8ec 0%,#fff3e0 100%);border:2px solid #e8a020;border-radius:14px;padding:18px 22px;margin:20px 0;display:flex;gap:16px;align-items:flex-start;box-shadow:0 4px 14px rgba(232,160,32,0.12);">
   <span style="font-size:2rem;line-height:1;flex-shrink:0;">🎉</span>
   <div>
-    <div style="font-weight:700;font-size:1.08rem;color:#c45c00;margin-bottom:6px;">Canada Impact + Research Training Award (CIRTA) </div>
-    <div> I am honoured to be a recipient of the <a href="https://www.queensu.ca/gazette/stories/recruiting-world-s-top-research-talent" target="_blank" rel="noopener">NSERC–Canada Impact + Research Training Award (CIRTA)</a>, which supports my postdoctoral research at Queen's University.
+    <div style="font-weight:700;font-size:1.08rem;color:#c45c00;margin-bottom:6px;">Canada Impact + Research Training Award</div>
+    <div> I am honoured to be a recipient of the <a href="https://www.queensu.ca/gazette/stories/recruiting-world-s-top-research-talent" target="_blank" rel="noopener"> Canada Impact + Research Training Award (CIRTA) </a>, funded by the Natural Sciences and Engineering Research Council of Canada (NSERC), which supports my postdoctoral research at Queen's University.
 </div>
   </div>
 </div>
